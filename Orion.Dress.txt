@@ -1,0 +1,10 @@
+Put on a set of equipment<br>
+<hr><br>
+<b>Orion.Dress</b>('setName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>setName</b> - string - set name. You can add a set in the Agents tab.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

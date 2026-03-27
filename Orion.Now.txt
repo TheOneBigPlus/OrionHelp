@@ -1,0 +1,5 @@
+Get the time since the assistant was launched.<br>
+<hr><br>
+<b>int Orion.Now</b>();<br>
+<hr><br>
+<b>Result:</b> integer - time since the start of Orion, in milliseconds.

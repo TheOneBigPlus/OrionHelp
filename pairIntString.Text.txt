@@ -1,0 +1,5 @@
+Get a string of a pair of values.<br>
+<hr><br>
+<b>String pairIntString.Text</b>();<br>
+<hr><br>
+<b>Result:</b> string - text of the pair.

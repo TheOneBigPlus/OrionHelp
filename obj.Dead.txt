@@ -1,0 +1,5 @@
+Object death check.<br>
+<hr><br>
+<b>bool obj.Dead</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is dead.

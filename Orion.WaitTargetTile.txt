@@ -1,0 +1,17 @@
+Set a target hook to the ground.<br>
+Previous hooks are automatically canceled.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WaitTargetTile</b>('tileFlags');<br>
+<b>Orion.WaitTargetTile</b>('tileFlags', x, y, z);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b><a href="search:TileFlags">tileFlags</a></b> - string<br>
+Can be <b>'lasttile'</b><br>
+<li><b>x</b> - integer - X coordinate<br>
+<li><b>y</b> - integer - Y coordinate<br>
+<li><b>z</b> - integer - Z coordinate<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

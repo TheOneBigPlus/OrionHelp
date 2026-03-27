@@ -1,0 +1,10 @@
+Load the script file (replacing of the current one).<br>
+<hr><br>
+<b>Orion.LoadScript</b>('filePath');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>filePath</b> - string - the path to the file.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

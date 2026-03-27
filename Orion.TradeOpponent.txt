@@ -1,0 +1,10 @@
+Get the serial number of the other character making the trade.<br>
+<hr><br>
+<b>String Orion.TradeOpponent</b>('serialOrIndex');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serialOrIndex</b> - string - trade window index. Starts from 0, or serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - character's serial number.

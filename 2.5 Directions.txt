@@ -1,0 +1,12 @@
+<h1>Character directions</h1>
+<hr>
+<ul style="margin-left: -20px">
+    <li><b>North</b> or <b>n</b> - direction 0 (128 while running).
+    <li><b>NorthEast</b> or <b>ne</b> - direction 1 (129 while running).
+    <li><b>East</b> or <b>e</b> - direction 2 (130 while running).
+    <li><b>SouthEast</b> or <b>se</b> - direction 3 (131 while running).
+    <li><b>South</b> or <b>s</b> - direction 4 (132 while running).
+    <li><b>SouthWest</b> or <b>sw</b> - direction 5 (133 while running).
+    <li><b>West</b> or <b>w</b> - direction 6 (134 while running).
+    <li><b>NorthWest</b> or <b>nw</b> - direction 7 (135 while running).
+</ul>

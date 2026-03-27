@@ -1,0 +1,10 @@
+Remove fake semi-transparent static object from the world map.<br>
+<hr><br>
+<b>Orion.RemoveFakeMapObject</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number from '0x00000000' to '0x0000FFFF' or numbers from 0 to 65535<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

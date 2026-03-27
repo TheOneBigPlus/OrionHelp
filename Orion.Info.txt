@@ -1,0 +1,13 @@
+Display information about an object in a text window or object inspector.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Info</b>();<br>
+<b>Orion.Info</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object<br>
+        <i>Default value</i>: <b>open a cursor target to specify an object manually</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

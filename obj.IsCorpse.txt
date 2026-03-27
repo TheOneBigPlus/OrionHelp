@@ -1,0 +1,5 @@
+Corpse check.<br>
+<hr><br>
+<b>bool obj.IsCorpse</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is a corpse.

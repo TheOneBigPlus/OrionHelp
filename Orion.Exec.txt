@@ -1,0 +1,17 @@
+Start execution of a new script (in a new thread independent of the current script).<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Exec</b>(functionName');<br>
+<b>Orion.Exec</b>(functionName', oneScriptRunning);<br>
+<b>Orion.Exec</b>(functionName', oneScriptRunning, argumentsList);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>functionName</b> - string - script name to run.<br>
+    <li><b>oneScriptRunning</b> - boolean - ture to run only one instance of this script.<br>
+        <i>Default value</i>: <b>false</b><br>
+    <li><b>argumentsList</b> - string list - script start arguments.<br>
+        <i>Default value</i>: <b>empty array</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

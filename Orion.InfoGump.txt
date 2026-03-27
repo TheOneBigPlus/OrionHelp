@@ -1,0 +1,14 @@
+Display information about a gump in the text window.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.InfoGump</b>();<br>
+<b>Orion.InfoGump</b>('index');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - string - gump index for information output.<br>
+        <b>'lastgump'</b> will display information about the last gump received<br>
+        <i>Default value</i>: <b>'lastgump'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

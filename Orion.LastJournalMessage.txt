@@ -1,0 +1,5 @@
+Get the latest journal message.<br>
+<hr><br>
+<b>JournalMessage Orion.LastJournalMessage</b>();<br>
+<hr><br>
+<b>Result:</b> class object <b>JournalMessage</b>, or null if the journal is empty.

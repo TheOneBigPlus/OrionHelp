@@ -1,0 +1,10 @@
+Check if the specified script is running.<br>
+<hr><br>
+<b>int Orion.ScriptRunning</b>('functionName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>functionName</b> - string - script name to check<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the number of running scripts with the specified name. If there is a paused script among the running scripts, it will return a negative value.

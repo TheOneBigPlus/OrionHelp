@@ -1,0 +1,5 @@
+List of all gump texts.<br>
+<hr><br>
+<b>StringList gump.TextList</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of all gump texts.

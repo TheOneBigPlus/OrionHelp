@@ -1,0 +1,5 @@
+Object direct visibility check.<br>
+<hr><br>
+<b>bool obj.InLOS</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is in line of sight.

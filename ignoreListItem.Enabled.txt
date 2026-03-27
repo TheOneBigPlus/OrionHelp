@@ -1,0 +1,5 @@
+The search ignore list item is enabled/disabled.<br>
+<hr><br>
+<b>bool ignoreListItem.Enabled</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - the state of the list item.

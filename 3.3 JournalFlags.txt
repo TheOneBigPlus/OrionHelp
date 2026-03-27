@@ -1,0 +1,19 @@
+<h1>Journal message flags</h1>
+<hr>
+<ul style="margin-left: -20px">
+    <li><b>normal</b> (value 0x00 for msg.Flags()) - non-specific
+    <li><b>my</b> or <b>self</b> (value 0x01 for msg.Flags()) - your message
+    <li><b>sys</b> or <b>system</b> (value 0x02 for msg.Flags()) - system message
+    <li><b>mobile</b> (value 0x04 for msg.Flags()) - a message from a character/monster
+    <li><b>item</b> (value 0x08 for msg.Flags()) - message from an item/corpse
+    <li><b>ignoreself</b> (value 0x10 for msg.Flags()) - ignore messages from yourself
+    <li><b>ignorefriends</b> (value 0x40 for msg.Flags()) - ignore messages from friends
+    <li><b>ignoreenemies</b> (value 0x80 for msg.Flags()) - ignore messages from enemies
+    <li><b>party</b> (value 0x100 for msg.Flags()) - party message
+    <li><b>guild</b> (value 0x200 for msg.Flags()) - guild message
+    <li><b>alliance</b> (value 0x400 for msg.Flags()) - alliance message
+    <li><b>globalchat</b> (value 0x800 for msg.Flags()) - global chat message
+    <li><b>gmchat</b> (value 0x1000 for msg.Flags()) - GM chat
+    <li><b>name</b> (value 0x2000 for msg.Flags()) - object name text
+    <li><b>cast</b> (value 0x4000 for msg.Flags()) - casts
+</ul>

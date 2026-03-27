@@ -1,0 +1,5 @@
+Check if your character has a yellow health bar.<br>
+<hr><br>
+<b>bool Player.YellowHits</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if you have a yellow health bar.

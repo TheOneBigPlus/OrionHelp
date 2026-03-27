@@ -1,0 +1,5 @@
+Dialog name.<br>
+<hr><br>
+<b>String dialog.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string - the name of the dialog.

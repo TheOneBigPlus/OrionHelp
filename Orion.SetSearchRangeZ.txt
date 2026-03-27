@@ -1,0 +1,11 @@
+Set limits for searching by Z coordinate.<br>
+<hr><br>
+<b>Orion.SetSearchRangeZ</b>(minZ, maxZ);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b>minZ</b> - integer - minimum Z coordinate<br>
+<li><b>maxZ</b> - integer - maximum Z coordinate<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

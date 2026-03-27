@@ -1,0 +1,5 @@
+Check if any assistant macro is currently running.<br>
+<hr><br>
+<b>bool Orion.MacroIsPlaying</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if a macro is running.

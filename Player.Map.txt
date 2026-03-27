@@ -1,0 +1,5 @@
+Get the index of the facet/map the player is on.<br>
+<hr><br>
+<b>int Player.Map</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player map index.

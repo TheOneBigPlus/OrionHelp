@@ -1,0 +1,10 @@
+Choose gump.<br>
+<hr><br>
+<b>bool gump.Select</b>(hook);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>hook</b> - class object <b>GumpHookObject</b> to select gump<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if gump is successfully selected.

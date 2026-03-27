@@ -1,0 +1,17 @@
+Get object bitflags.<br>
+<hr><br>
+<b>int obj.Flags</b>();<br>
+<hr><br>
+Flags:
+<ul style="margin-left: -20px">
+    <li><b>0x01</b> (1) - frozen
+    <li><b>0x02</b> (1) - unknown
+    <li><b>0x04</b> (1) - poisoned or flying (for clients 7.0.0.0+)
+    <li><b>0x08</b> (1) - yellow hits
+    <li><b>0x10</b> (1) - ignore characters
+    <li><b>0x20</b> (1) - locked
+    <li><b>0x40</b> (1) - war mode
+    <li><b>0x80</b> (1) - hidden
+</ul>
+<hr><br>
+<b>Result:</b> integer - object bitflags.

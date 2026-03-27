@@ -1,0 +1,14 @@
+Calculate distance to an object OR a coordinate<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.GetDistance</b>('serial');<br>
+<b>int Orion.GetDistance</b>(x, y);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object<br>
+    <li><b>x</b> - integer - X coordinate in the world<br>
+    <li><b>y</b> - integer - Y coordinate in the world<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - tile distance to the object/coord.

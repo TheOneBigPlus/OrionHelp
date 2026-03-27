@@ -1,0 +1,17 @@
+Set a hook for entering text into chat. The sent message will be completely intercepted by the assistant.<br>
+<b>Attention!</b> If the hook retires by timeout, the sent message will go to the world.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.InputText</b>();<br>
+<b>String Orion.InputText</b>(maxDelay);<br>
+<b>String Orion.InputText</b>(maxDelay, 'message');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>maxDelay</b> - integer - maximum latency in milliseconds<br>
+        <i>Default value</i>: <b>60000</b><br>
+    <li><b>message</b> - string - message displayed when hook is activated<br>
+        <i>Default value</i>: <b>'Input the message...'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - intercepted message or empty line (if timeout is reached).

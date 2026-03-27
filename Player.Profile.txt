@@ -1,0 +1,5 @@
+Get your character's profile text.<br>
+<hr><br>
+<b>String Player.Profile</b>();<br>
+<hr><br>
+<b>Result:</b> string - player profile text.

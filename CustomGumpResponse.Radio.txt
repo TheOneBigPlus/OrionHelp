@@ -1,0 +1,10 @@
+The state of the specified radio of the responded custom gump.<br>
+<hr><br>
+<b>bool CustomGumpResponse.CheckBox</b>(serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - serial number of the item<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - the state of the radio with the specified serial number.

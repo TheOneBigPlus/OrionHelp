@@ -1,0 +1,5 @@
+Checking for a Cancel button in a dialog.<br>
+<hr><br>
+<b>bool dialog.HaveCancel</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the button is present.

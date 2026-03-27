@@ -1,0 +1,16 @@
+Get/change the target value of the new client’s system targeting.<br>
+<hr><br>
+Getting value:<br><br>
+<b>String Orion.TargetSystemSerial</b>();<br>
+<hr><br>
+<b>Result:</b> string - The serial number of the target<br>
+<hr><br>
+Change value:<br><br>
+<b>Orion.TargetSystemSerial</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

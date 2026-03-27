@@ -1,0 +1,10 @@
+Play a sound.<br>
+<hr><br>
+<b>Orion.Sound</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - sound index (can be viewed in UOFiddler)<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

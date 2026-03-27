@@ -1,0 +1,5 @@
+Get your character's skin color.<br>
+<hr><br>
+<b>String Player.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - player color.

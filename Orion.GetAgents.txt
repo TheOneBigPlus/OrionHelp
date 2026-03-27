@@ -1,0 +1,14 @@
+Get a list of the specified agents.<br>
+<hr><br>
+Call variants:<br><br>
+<b>StringList Orion.GetAgents</b>('agentType');<br>
+<b>StringList Orion.GetAgents</b>('agentType', 'mode');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>agentType</b> - string - Can be 'autoloot', 'scavenger', 'organizer'<br>
+    <li><b>mode</b> - string - Can be 'started', 'stopped', 'all'<br>
+        <i>Default value</i>: <b>'all'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string list

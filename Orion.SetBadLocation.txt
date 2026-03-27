@@ -1,0 +1,17 @@
+Mark coordinates as impassable. The impassable flag is automatically removed after 15 minutes.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetBadLocation</b>(x, y);<br>
+<b>Orion.SetBadLocation</b>(x, y, timer);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - X coordinate in the world.<br>
+    <li><b>y</b> - integer - Y coordinate in the world.<br>
+    <li><b>timer</b> - integer - point time to live.<br>
+    If 0 is specified then the point is removed immediately.<br>
+    If -1 is specified then the point will not be deleted until its timer is changed.<br>
+    <i>Default value</i>: <b>15*60*1000</b>;<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

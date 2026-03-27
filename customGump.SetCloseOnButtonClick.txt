@@ -1,0 +1,11 @@
+Make the custom gump automatically close when the button is selected.<br>
+By default, custom gumps are not closed when buttons are selected (as server-side does).<br>
+<hr><br>
+<b>customGump.SetCloseOnButtonClick</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - state true/false<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

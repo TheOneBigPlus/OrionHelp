@@ -1,0 +1,10 @@
+Set message text.<br>
+<hr><br>
+<b>msg.SetText</b>('newText');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>newText</b> - string - new message text<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

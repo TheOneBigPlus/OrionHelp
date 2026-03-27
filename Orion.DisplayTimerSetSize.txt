@@ -1,0 +1,14 @@
+Set size for display timer.<br><br>
+For rectangular timers, both width and height are used.<br>
+For linear, only the width is used (regardless of the verticality of the timer).<br>
+<hr><br>
+<b>Orion.DisplayTimerSetSize</b>('id', width, height);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer ID<br>
+    <li><b>width</b> - integer - new display timer width<br>
+    <li><b>height</b> - integer - new display timer height<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,14 @@
+Attempt to take a step in a specified direction.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.Step</b>('direction');<br>
+<b>bool Orion.Step</b>('direction', run);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:Directions">direction</a></b> - string<br>
+    <li><b>run</b> - boolean - true for running<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if an attempt is made.

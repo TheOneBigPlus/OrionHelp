@@ -1,0 +1,5 @@
+Comment on the shop list item.<br>
+<hr><br>
+<b>String shopListItem.Comment</b>();<br>
+<hr><br>
+<b>Result:</b> string - comment on the shop list item.

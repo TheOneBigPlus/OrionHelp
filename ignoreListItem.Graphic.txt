@@ -1,0 +1,5 @@
+Graphic of the ignore list item<br>
+<hr><br>
+<b>String ignoreListItem.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - list item graphic.

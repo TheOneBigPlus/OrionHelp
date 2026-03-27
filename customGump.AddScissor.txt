@@ -1,0 +1,27 @@
+Add drawing bounding area to custom gump.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddScissor</b>(state);<br>
+<b>customGump.AddScissor</b>(state, baseX, baseY, x, y, width, height);<br>
+<b>customGump.AddScissor</b>(state, baseX, baseY, x, y, width, height, serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - integer - state, 0 - off, 1 - on<br>
+    <li><b>baseX</b> - integer - base X coordinate the parent element in the gump<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>baseY</b> - integer - base Y coordinate the parent element in the gump<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>x</b> - integer - X coordinate<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>y</b> - integer - Y coordinate<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>width</b> - integer - width<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>height</b> - integer - height<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>serial</b> - integer - item serial number<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

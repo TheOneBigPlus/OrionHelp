@@ -1,0 +1,13 @@
+Get friends list in one line.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.FriendListToString</b>();<br>
+<b>String Orion.FriendListToString</b>('separator');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>separator</b> - string - the delimiter used to split the serial numbers<br>
+        <i>Default value</i>: <b>'|'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - friends serial numbers, condensed to one line.

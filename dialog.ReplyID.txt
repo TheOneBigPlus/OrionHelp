@@ -1,0 +1,5 @@
+Dialog response code.<br>
+<hr><br>
+<b>int dialog.ReplyID</b>();<br>
+<hr><br>
+<b>Result:</b> integer - 0 - the dialogue was canceled, 1 - there was a confirmation of the answer.

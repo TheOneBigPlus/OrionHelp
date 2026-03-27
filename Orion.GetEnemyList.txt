@@ -1,0 +1,13 @@
+Get enemy list.<br>
+<hr><br>
+Call variants:<br><br>
+<b>StringList Orion.GetEnemyList</b>();<br>
+<b>StringList Orion.GetEnemyList</b>(names);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>names</b> - boolean - true to get names, false to get serial numbers<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string list - list of enemy names/serials

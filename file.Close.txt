@@ -1,0 +1,5 @@
+Close file.<br>
+<hr><br>
+<b>file.Close</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

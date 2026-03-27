@@ -1,0 +1,10 @@
+Clear search ignore list.<br>
+<hr><br>
+<b>Orion.ClearIgnoreList</b>('listName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - list name.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

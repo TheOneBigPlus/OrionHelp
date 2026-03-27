@@ -1,0 +1,5 @@
+Close text window.<br>
+<hr><br>
+<b>TextWindow.Close</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

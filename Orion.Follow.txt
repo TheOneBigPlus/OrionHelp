@@ -1,0 +1,14 @@
+Start/stop following a character.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Follow</b>('serial');<br>
+<b>Orion.Follow</b>('serial', enabled);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the other character serial number<br>
+    <li><b>enabled</b> - boolean - following action. True if you want to follow.  False if you want to stop<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

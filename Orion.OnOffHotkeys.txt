@@ -1,0 +1,16 @@
+Switch global hotkey usage.<br>
+<hr><br>
+Getting value:<br><br>
+<b>bool Orion.OnOffHotkeys</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if hotkeys are activated.<br>
+<hr><br>
+Changing value:<br><br>
+<b>Orion.OnOffHotkeys</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - true to enable<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

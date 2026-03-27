@@ -1,0 +1,15 @@
+Grab an item.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.DragItem</b>('serial');<br>
+<b>Orion.DragItem</b>('serial', count);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+    <li><b>count</b> - integer - how many items to take.<br>
+        0 - take all<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

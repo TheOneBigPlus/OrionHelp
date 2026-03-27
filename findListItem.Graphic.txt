@@ -1,0 +1,5 @@
+Search list item graphics.<br>
+<hr><br>
+<b>String findListItem.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - search list item graphics.

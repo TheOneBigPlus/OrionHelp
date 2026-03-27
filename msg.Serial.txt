@@ -1,0 +1,5 @@
+Serial number of the object that output the text.<br>
+<hr><br>
+<b>String msg.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - serial number.

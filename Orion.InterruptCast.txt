@@ -1,0 +1,6 @@
+Interrupt spell casting by grabbing a random piece of equipment on the character.<br>
+Attention! If the character is naked, the interruption will not occur.<br>
+<hr><br>
+<b>Orion.InterruptCast</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,10 @@
+Send GET request HTTP(S).<br>
+<hr><br>
+<b>String Orion.HttpGet</b>('request');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>request</b> - string - GET request.<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - response text.

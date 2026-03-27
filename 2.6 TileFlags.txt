@@ -1,0 +1,16 @@
+<h1>Tile search flags</h1>
+<hr>
+Tile search flags are a more convenient filter when searching for tiles.
+<ul style="margin-left: -20px">
+    <li><b>mine</b> - search only tiles that you can dig.
+    <li><b>crag</b> - search only crag tiles (automatically found when searching <b>'mine'</b>).
+    <li><b>cave</b> - search only cave tiles (automatically found when searching <b>'mine'</b>).
+    <li><b>rock</b> - search only rock tiles (automatically found when searching <b>'mine'</b>).
+    <li><b>tree</b> - search only trees.
+    <li><b>water</b> - search only water tiles.
+    <li><b>land</b> - include land tiles in the search.
+    <li><b>any</b> - searches for any static tiles.
+</ul>
+<hr><br>
+TileFlags can be combined from regular tile indices.<br>
+Example: TileFlags = '0x0654|0x03FD|0x78AE'

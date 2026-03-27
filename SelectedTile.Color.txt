@@ -1,0 +1,5 @@
+Get the color of the selected tile/object.<br>
+<hr><br>
+<b>String SelectedTile.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - color of the selected tile/object.

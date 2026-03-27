@@ -1,0 +1,5 @@
+Get an object's Race.<br>
+<hr><br>
+<b>int obj.Race</b>();<br>
+<hr><br>
+<b>Result:</b> integer - Race of the object.

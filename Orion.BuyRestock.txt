@@ -1,0 +1,22 @@
+Proceed to purchase items to restock.<br>
+It only works if Graphic, Color and Count items are specified in the list.<br>
+Before buying directly, he checks for items in the player’s backpack, if replenishment is not required, the purchase is not initialized.<br>
+If the list appears, but there were no items suitable for purchase, the function returns immediately.<br>
+If the list does not appear, the function will wait for the specified time (Timeout if shop is not recv).<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.BuyRestock</b>('shopListName');<br>
+<b>Orion.BuyRestock</b>('shopListName', 'vendorName');<br>
+<b>Orion.BuyRestock</b>('shopListName', 'vendorName', shopDelay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>shopListName</b> - string - shopping list name.<br>
+    <li><b>vendorName</b> - string - name of the vendor from whom we buy the goods.<br>
+        <i>Default value</i>: <b>the name is not pronounced</b><br>
+    <li><b>shopDelay</b> - string - general delay in the purchase of goods.<br>
+        If 0 is specified, the delay is calculated automatically based on the quantity of goods and the Shop delay for 1 stack field on the Shop tab<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

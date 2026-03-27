@@ -1,0 +1,5 @@
+Shop list name.<br>
+<hr><br>
+<b>String shopList.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string - list name.

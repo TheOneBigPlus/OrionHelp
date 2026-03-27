@@ -1,0 +1,5 @@
+List of indices of selected radio from response to custom gump.<br>
+<hr><br>
+<b>IntList CustomGumpResponse.Radios</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>int</b> - list of indices of the selected radio.

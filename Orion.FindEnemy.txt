@@ -1,0 +1,19 @@
+Find an enemy.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.FindEnemy</b>();<br>
+<b>String Orion.FindEnemy</b>('flags');<br>
+<b>String Orion.FindEnemy</b>('flags', 'distance');<br>
+<b>String Orion.FindEnemy</b>('flags', 'distance', 'notoriety');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:FindFlags">flags</a></b> - string<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string<br>
+        <i>Default value</i>: <b>'finddistance'</b><br>
+    <li><b><a href="search: Notoriety">notoriety</a></b> - string<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - serial number of the enemy found.

@@ -1,0 +1,33 @@
+Add a color mixing effect to a custom gump, everything that will be added after this element will be displayed taking into account the selected parameters.<br><br>
+The sFactor and dFactor parameters will most likely be replaced with string constants in the future.<br><br>
+Current values:
+<ul style="margin-left: -20px">
+    <li><b>0</b> - src alpha</li>
+    <li><b>1</b> - one minus src alpha</li>
+    <li><b>2</b> - src color</li>
+    <li><b>3</b> - one minus src color</li>
+    <li><b>4</b> - dst alpha</li>
+    <li><b>5</b> - one minus dst alpha</li>
+    <li><b>6</b> - dst color</li>
+    <li><b>7</b> - one minus dst color</li>
+    <li><b>8</b> - one</li>
+    <li><b>9</b> - zero</li>
+</ul>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddBlending</b>(state);<br>
+<b>customGump.AddBlending</b>(state, sFactor, dFactor);<br>
+<b>customGump.AddBlending</b>(state, sFactor, dFactor, serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - integer - state, 0 - off, 1 - on<br>
+    <li><b>sFactor</b> - integer - blending mode for pixels of the source image<br>
+        <i>Default value</i>: <b>1</b><br>
+    <li><b>dFactor</b> - integer - the blend mode for the pixels of the dest image<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>serial</b> - integer - item serial number<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

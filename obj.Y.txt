@@ -1,0 +1,5 @@
+Get the Y coordinate of an object.<br>
+<hr><br>
+<b>int obj.Y</b>();<br>
+<hr><br>
+<b>Result:</b> integer - Y coordinate of the object.

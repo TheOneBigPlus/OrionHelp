@@ -1,0 +1,5 @@
+Close menu.<br>
+<hr><br>
+<b>menu.Close</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

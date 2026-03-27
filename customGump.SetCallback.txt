@@ -1,0 +1,11 @@
+Set a callback function to respond to a custom gump.<br>
+Can be as simple as a function name <b>'myFunc'</b> and function with parameters <b>"myFunc 1 'text with spaces' 55"</b>.<br>
+<hr><br>
+<b>customGump.SetCallback</b>(callbackFunctionName);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>callbackFunctionName</b> - string - the name of the callback function<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,13 @@
+Add a menu hook (wait for a menu)<br>
+<hr><br>
+<b>Orion.WaitMenu</b>('prompt', 'choice');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>prompt</b> - string - title or part of a menu title<br>
+    <li><b>choice</b> - string - name or part of the name of the menu item to select<br>
+        <b>'random'</b> - selects a random item in the menu.<br>
+        <b>'cancel'</b> - the menu is closed.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,20 @@
+Set limits for search by coordinate area.<br>
+Use the starting X/Y/Z combined with the end X/Y/Z to create a region (box shape) to search within.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetSearchArea</b>(startX, startY, endX, endY);<br>
+<b>Orion.SetSearchArea</b>(startX, startY, startZ, endX, endY, endZ);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>startX</b> - integer<br>
+    <li><b>startY</b> - integer<br>
+    <li><b>startZ</b> - integer<br>
+        <i>Default value</i>: <b>current limit on Z coordinate</b><br>
+    <li><b>endX</b> - integer<br>
+    <li><b>endY</b> - integer<br>
+    <li><b>endZ</b> - integer<br>
+        <i>Default value</i>: <b>current limit on Z coordinate</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

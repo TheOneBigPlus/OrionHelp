@@ -1,0 +1,5 @@
+Gump identifier.<br>
+<hr><br>
+<b>String gump.ID</b>();<br>
+<hr><br>
+<b>Result:</b> string - gump identifier.

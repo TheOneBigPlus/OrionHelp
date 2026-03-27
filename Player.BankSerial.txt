@@ -1,0 +1,6 @@
+Get your character's bank serial number.<br>
+The bank serial number can only be obtained if the bank has been opened at least once during the current session.<br>
+<hr><br>
+<b>String Player.BankSerial</b>();<br>
+<hr><br>
+<b>Result:</b> string

@@ -1,0 +1,5 @@
+Graphic for a shop list item.<br>
+<hr><br>
+<b>String shopListItem.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - shop list item graphic.

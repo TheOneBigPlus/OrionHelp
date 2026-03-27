@@ -1,0 +1,17 @@
+Get a server dialog for entering text.<br>
+<hr><br>
+Call variants:<br><br>
+<b>TextDialogObject Orion.GetTextDialog</b>('name');<br>
+<b>TextDialogObject Orion.GetTextDialog</b>('serial', 'id', 'name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - the name of the dialog<br>
+        For <b>'any'</b> or an empty string - this parameter is ignored<br>
+    <li><b>serial</b> - string - serial number of the dialog<br>
+        For <b>'any'</b> - this parameter is ignored<br>
+    <li><b>id</b> - string - dialog id<br>
+        For <b>'any'</b> - this parameter is ignored<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>TextDialogObject</b>, or null if object creation failed/no dialog.

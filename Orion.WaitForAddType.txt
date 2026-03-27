@@ -1,0 +1,18 @@
+Delete the previous alias of an object, open a target to specify a new one manually, and wait for the selection (or timeout).<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.WaitForAddType</b>('typeName');<br>
+<b>int Orion.WaitForAddType</b>('typeName', 'delay');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>typeName</b> - string - alias type name<br>
+    <li><b>delay</b> - string - maximum wait time. See <a href="searchend:.wait">Wait</a> for information on string constants<br>
+        <i>Default value</i>: <b>'60000'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> integer<br>
+0 - cancelled / timed out<br>
+1 - selected a game object<br>
+2 - selected a static object<br>
+3 - selected a land tile<br>

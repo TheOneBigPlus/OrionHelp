@@ -1,0 +1,14 @@
+Get a global array from shared memory.<br>
+<hr><br>
+Call variants:<br><br>
+<b>list Shared.GetArray</b>('name');<br>
+<b>list Shared.GetArray</b>('name', defaultValue);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - global array name<br>
+    <li><b>defaultValue</b> - array, default if the array was not added to shared memory<br>
+        <i>Default value</i>: <b>void</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> an array from shared memory.

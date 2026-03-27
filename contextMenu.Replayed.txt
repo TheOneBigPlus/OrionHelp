@@ -1,0 +1,5 @@
+Checking for a response to the context menu.<br>
+<hr><br>
+<b>bool contextMenu.Replayed</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if this context menu has already been answered.

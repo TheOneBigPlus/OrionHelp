@@ -1,0 +1,28 @@
+Set a target hook on an object, by type<br>
+Previous hooks are automatically canceled.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WaitTargetType</b>('graphic');<br>
+<b>Orion.WaitTargetType</b>('graphic', 'color', 'container');<br>
+<b>Orion.WaitTargetType</b>('graphic', 'color', 'container', 'flags');<br>
+<b>Orion.WaitTargetType</b>('graphic', 'color', 'container', 'flags', recurse);<br>
+<b>Orion.WaitTargetType</b>('graphic', 'color', 'container', 'flags', recurse, 'ignoreLists');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        For value <b>'any'</b> - this field is ignored<br>
+    <li><b>color</b> - string - color to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        For value <b>'any'</b> - this field is ignored<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>container</b> - string - the serial or alias of the container to search<br>
+        <i>Default value</i>: <b>'self'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string - search flags<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>recurse</b> - boolean - true if you want to search pre-opened subcontainers<br>
+        <i>Default value</i>: <b>true</b><br>
+    <li><b>ignoreLists</b> - string - ignore list names. Can be combined with pipes: | such as ('list1|list2')<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

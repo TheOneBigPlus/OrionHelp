@@ -1,0 +1,14 @@
+Add an action to a macro.<br>
+<hr><br>
+Call variants:<br><br>
+<b>macro.AddAction</b>('action');<br>
+<b>macro.AddAction</b>('action', 'subAction');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>action</b> - string - name of the action or group of actions (from the list of macros in the client)<br>
+    <li><b>subAction</b> - string - the name of the action in the group (from the list of macros in the client) or the text for the speech.<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

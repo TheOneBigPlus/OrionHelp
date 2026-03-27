@@ -1,0 +1,5 @@
+Clear friends list.<br>
+<hr><br>
+<b>Orion.ClearFriendList</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

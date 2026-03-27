@@ -1,0 +1,10 @@
+Remove friend alias.<br>
+<hr><br>
+<b>Orion.RemoveFriend</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - friend serial number to remove from memory<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

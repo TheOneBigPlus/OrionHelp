@@ -1,0 +1,22 @@
+Add a fake semi-transparent static object to the world map.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddFakeMapObject</b>('serial', 'graphic', 'color', x, y, z);<br>
+<b>Orion.AddFakeMapObject</b>('serial', 'graphic', 'color', x, y, z, map);<br>
+<b>Orion.AddFakeMapObject</b>('serial', 'graphic', 'color', x, y, z, timeToLive, map);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number from '0x00000000' to '0x0000FFFF' or numbers from 0 to 65535<br>
+    <li><b>graphic</b> - string - object graphics<br>
+    <li><b>color</b> - string - object color<br>
+    <li><b>x</b> - integer - the X coordinate of the object in the world<br>
+    <li><b>y</b> - integer - the Y coordinate of the object in the world<br>
+    <li><b>z</b> - integer - the Z coordinate of the object in the world<br>
+    <li><b>timeToLive</b> - integer - object lifetime, milliseconds<br>
+        <i>Default value</i>: <b>until manually removed (0)</b><br>
+    <li><b>map</b> - integer - the number of the map on which the object will be placed<br>
+        <i>Default value</i>: <b>current map</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,17 @@
+Update text parameters in script shortcut gump.<br>
+<hr><br>
+Call variants:<br><br>
+<b>CustomGumpResponse.UpdateFastCallGumpText</b>('color');<br>
+<b>CustomGumpResponse.UpdateFastCallGumpText</b>('color', 'text');<br>
+<b>CustomGumpResponse.UpdateFastCallGumpText</b>('color', 'text', serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>color</b> - string - text color<br>
+    <li><b>text</b> - string - text<br>
+        <i>Default value</i>: <b>empty string</b><br>
+    <li><b>serial</b> - integer - gump serial number to update text<br>
+        <i>Default value</i>: <b>use serial number from response</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

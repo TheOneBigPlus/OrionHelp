@@ -1,0 +1,16 @@
+Show statusbar gump in client.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.ShowStatusbar</b>('serial', x, y);<br>
+<b>Orion.ShowStatusbar</b>('serial', x, y, minimized);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object to which the statusbar is linked<br>
+    <li><b>x</b> - integer - X coordinate on the screen where gump will be displayed<br>
+    <li><b>y</b> - integer - Y coordinate on the screen where gump will be displayed<br>
+    <li><b>minimized</b> - boolean - false for the expanded version of the status bar<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

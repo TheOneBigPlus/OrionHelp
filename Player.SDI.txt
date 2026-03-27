@@ -1,0 +1,5 @@
+Get your character's Spell Damage Increase stat.<br>
+<hr><br>
+<b>int Player.SDI</b>();<br>
+<hr><br>
+<b>Result:</b> integer - your Spell Damage Increase value.

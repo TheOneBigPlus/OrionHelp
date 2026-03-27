@@ -1,0 +1,5 @@
+List of ignore list items.<br>
+<hr><br>
+<b>IgnoreListItemList ignoreList.Items</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>IgnoreListItem</b> - a list of items in the current ignore list

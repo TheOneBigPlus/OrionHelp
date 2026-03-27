@@ -1,0 +1,11 @@
+Add a global variable to shared memory.<br>
+<hr><br>
+<b>Shared.AddVar</b>('name', value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b>name</b> - string - global variable name<br>
+<li><b>value</b> - variable, the value of a global variable<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

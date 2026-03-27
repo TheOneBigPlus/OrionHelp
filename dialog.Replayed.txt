@@ -1,0 +1,5 @@
+Check whether the dialog has been answered.<br>
+<hr><br>
+<b>bool dialog.Replayed</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the dialog has already been answered.

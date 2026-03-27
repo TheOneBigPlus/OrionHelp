@@ -1,0 +1,16 @@
+Change state to <b>Ignored</b> of given object(s).<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Ignore</b>('serial');<br>
+<b>Orion.Ignore</b>('serial', state);<br>
+<b>Orion.Ignore</b>(serials, state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+    <li><b>serials</b> - string list - list of object serial numbers<br>
+    <li><b>state</b> - boolean - true if the object should be ignored<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

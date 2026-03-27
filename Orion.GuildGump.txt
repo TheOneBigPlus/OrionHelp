@@ -1,0 +1,5 @@
+Server guild gump request.<br>
+<hr><br>
+<b>Orion.GuildGump</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

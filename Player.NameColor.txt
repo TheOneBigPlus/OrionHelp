@@ -1,0 +1,5 @@
+Get the color of your character's name.<br>
+<hr><br>
+<b>String Player.NameColor</b>();<br>
+<hr><br>
+<b>Result:</b> string - the color of your character's name, 0x0000 if the color was not received from the server.

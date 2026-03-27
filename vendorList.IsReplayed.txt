@@ -1,0 +1,5 @@
+Check if the current list has been answered or not.<br>
+<hr><br>
+<b>bool vendorListItem.IsReplayed</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - the list is answered (the exchange took place/the gump was closed).

@@ -1,0 +1,10 @@
+Get properties for serial.<br>
+<hr><br>
+<b>String Orion.GetProperties</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the alias of the object to obtain properties<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - propertiea os specified serial or empty string.

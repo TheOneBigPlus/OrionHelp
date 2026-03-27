@@ -1,0 +1,14 @@
+Target an object.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.TargetObject</b>('serial');<br>
+<b>Orion.TargetObject</b>('serial', relativeTargetDistance);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string or string list - serial number (or numbers) of objects on which to set a hook<br>
+    <li><b>relativeTargetDistance</b> - integer - distance for pointing the target at the tile relative to the specified character, depending on its direction<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

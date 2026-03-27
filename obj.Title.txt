@@ -1,0 +1,5 @@
+Get the title of the object.<br>
+<hr><br>
+<b>String obj.Title</b>();<br>
+<hr><br>
+<b>Result:</b> string - object title.

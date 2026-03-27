@@ -1,0 +1,36 @@
+Set text display options for an element.<br>
+The previous element must be slider or minmaxbuttons.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.SetTextParameters</b>(state, position);<br>
+<b>customGump.SetTextParameters</b>(state, position, color);<br>
+<b>customGump.SetTextParameters</b>(state, position, color, font);<br>
+<b>customGump.SetTextParameters</b>(state, position, color, font, width);<br>
+<b>customGump.SetTextParameters</b>(state, position, color, font, width, align);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - integer - state, 0 - do not display text, 1 - display text<br>
+    <li><b>position</b> - string - text display position:<br>
+    <ul style="margin-left: 0px">
+        <li><b>top</b> - from above<br>
+        <li><b>bottom</b> - from below<br>
+        <li><b>left</b> - on left<br>
+        <li><b>right</b> - on right<br>
+        <li><b>topcenter</b> - from top, centered<br>
+        <li><b>bottomcenter</b> - from below, centered<br>
+        <li><b>leftcenter</b> - on left, centered<br>
+        <li><b>rightcenter</b> - on right, centered<br>
+    </ul>
+</ul>
+    <li><b>color</b> - string - text color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>font</b> - integer - font<br>
+        <i>Default value</i>: <b>depending on the emulated client version</b><br>
+    <li><b>width</b> - integer - width<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>align</b> - integer - text alignment<br>
+        <i>Default value</i>: <b>'left'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

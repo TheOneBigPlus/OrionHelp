@@ -1,0 +1,5 @@
+Read the file contents.<br>
+<hr><br>
+<b>String file.ReadAll</b>();<br>
+<hr><br>
+<b>Result:</b> string - reading result.

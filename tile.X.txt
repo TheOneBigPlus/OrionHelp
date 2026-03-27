@@ -1,0 +1,5 @@
+Get a tile's X coordinate.<br>
+<hr><br>
+<b>int tile.X</b>();<br>
+<hr><br>
+<b>Result:</b> integer - X coordinate

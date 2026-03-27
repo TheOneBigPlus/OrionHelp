@@ -1,0 +1,5 @@
+Get object graphic.<br>
+<hr><br>
+<b>String obj.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - object graphic code.

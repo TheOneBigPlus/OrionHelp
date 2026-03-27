@@ -1,0 +1,17 @@
+Set a target hook on the ground, relative to the character.<br>
+Previous hooks are automatically canceled.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WaitTargetTileRelative</b>('tileFlags');<br>
+<b>Orion.WaitTargetTileRelative</b>('tileFlags', x, y, z);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:TileFlags">tileFlags</a></b> - string - tiles flags for search<br>
+        Can be <b>'lasttile'</b><br>
+    <li><b>x</b> - integer - X coordinate relative to the character<br>
+    <li><b>y</b> - integer - Y coordinate relative to the character<br>
+    <li><b>z</b> - integer - Z coordinate relative to the character<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

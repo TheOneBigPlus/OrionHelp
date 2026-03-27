@@ -1,0 +1,10 @@
+Get the value of an Orion assistant option.<br>
+<hr><br>
+<b>String Orion.OAOptionGet</b>('option');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:AssistantOptions">option</a></b> - string - option name<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - option value (for boolean data types - "0" or "1").

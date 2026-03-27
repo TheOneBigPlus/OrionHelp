@@ -1,0 +1,14 @@
+Set the light level.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetLight</b>(state);<br>
+<b>Orion.SetLight</b>(state, value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - true to turn on the light filter<br>
+    <li><b>value</b> - integer - light level from 0 to 31<br>
+        <i>Default value</i>: <b>current lighting level from the server</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

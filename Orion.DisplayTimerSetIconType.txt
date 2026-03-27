@@ -1,0 +1,11 @@
+Set display timer icon type.<br>
+<hr><br>
+<b>Orion.DisplayTimerSetIconType</b>('id', 'type');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer id<br>
+    <li><b>type</b> - string - icon type, possible values: 'item', 'gump'<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

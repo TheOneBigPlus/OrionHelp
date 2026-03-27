@@ -1,0 +1,11 @@
+Rename a mount object.<br>
+<hr><br>
+<b>Orion.RenameMount</b>('serial', 'newName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+    <li><b>newName</b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

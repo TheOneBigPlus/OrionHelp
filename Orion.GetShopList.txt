@@ -1,0 +1,10 @@
+Get/create a shopping list<br>
+<hr><br>
+<b>ShopListObject Orion.GetShopList</b>('listName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>delay</b> - string - shopping list name<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>ShopListObject</b>, or null if it does not exist

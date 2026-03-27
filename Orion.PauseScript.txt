@@ -1,0 +1,19 @@
+Pause script execution.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.PauseScript</b>();<br>
+<b>Orion.PauseScript</b>('name');<br>
+<b>Orion.PauseScript</b>('name', 'exceptScripts');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - script name to pause.<br>
+        <b>'all'</b> - pause all running scripts<br>
+        <i>Default value</i>: <b>pauses the current script</b><br>
+    <li><b>exceptScripts</b> - string - functions to keep running.  Use this in combination with the 'all' flag.<br>
+        The names of the scripts are a case-sensitive string, with pipe separation: | <br>
+        Example: <i>Orion.PauseScript('all', 'Heal|Loot|CheckMana');</i><br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

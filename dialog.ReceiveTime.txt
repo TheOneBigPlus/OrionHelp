@@ -1,0 +1,5 @@
+Dialogue time.<br>
+<hr><br>
+<b>int dialog.ReceiveTime</b>();<br>
+<hr><br>
+<b>Result:</b> integer - the time since the start of the program, when the dialog came.

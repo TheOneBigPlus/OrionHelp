@@ -1,0 +1,5 @@
+Get the journal message that precedes the current message.<br>
+<hr><br>
+<b>JournalMessage msg.PrevMessage</b>();<br>
+<hr><br>
+<b>Result:</b> class object <b>JournalMessage</b>, or null if there is nothing in front of this message.

@@ -1,0 +1,10 @@
+Change the state of the character's movement blocking option.<br>
+<hr><br>
+<b>Orion.BlockMoving</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - new option state, true to block movement.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

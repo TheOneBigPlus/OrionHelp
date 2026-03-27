@@ -1,0 +1,13 @@
+Get scripts list.<br>
+<hr><br>
+Call variants:<br><br>
+<b>StringList Orion.GetScripts</b>();<br>
+<b>StringList Orion.GetScripts</b>('mode');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>mode</b> - string - Can be 'started', 'paused', 'all'<br>
+        <i>Default value</i>: <b>'all'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string list of scripts

@@ -1,0 +1,5 @@
+Dialog serial number.<br>
+<hr><br>
+<b>String dialog.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - serial number of the dialogue.

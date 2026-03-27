@@ -1,0 +1,25 @@
+Count the total number of items by type<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.Count</b>('graphic');<br>
+<b>int Orion.Count</b>('graphic', 'color');<br>
+<b>int Orion.Count</b>('graphic', 'color', 'container');<br>
+<b>int Orion.Count</b>('graphic', 'color', 'container', 'distance');<br>
+<b>int Orion.Count</b>('graphic', 'color', 'container', 'distance', recurse);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic(s) to search. Can be combined with a pipe: | such as ('0x0123|0x0456')<br>
+        Value <b>'any'</b> - this parameter is ignored<br>
+    <li><b>color</b> - string - color to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        Value <b>'any'</b> - this parameter is ignored<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>container</b> - string - serial of the container to search<br>
+        <i>Default value</i>: <b>'self'</b><br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string - search distance<br>
+        <i>Default value</i>: <b>'finddistance'</b><br>
+    <li><b>recurse</b> - boolean - true will search pre-opened subcontainers<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the total number of items found (the sum of all stacks).

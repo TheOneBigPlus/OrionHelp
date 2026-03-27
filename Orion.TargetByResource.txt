@@ -1,0 +1,11 @@
+Use a tool on a resource (3D client macro).<br>
+<hr><br>
+<b>Orion.TargetByResource</b>('resource', 'serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>resource</b> - string - resource type, can be: 'ore', 'sand', 'wood', 'graves', 'red mushrooms'<br>
+    <li><b>serial</b> - string - serial number of the tool to use<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

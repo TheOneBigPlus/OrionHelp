@@ -1,0 +1,14 @@
+Display a message in the system chat.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Print</b>('text');<br>
+<b>Orion.Print</b>('color', 'text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - output text.<br>
+    <li><b>color</b> - string - message color.<br>
+        <i>Default value</i>: <b>'any'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get the coordinates of the pointer on the world map (if the gump is open).<br>
+<hr><br>
+<b>PositionObject Orion.GetWorldMapPointerPosition</b>();<br>
+<hr><br>
+<b>Result:</b> class object <b>PositionObject</b> - coordinates of the world map gump pointer.

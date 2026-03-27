@@ -1,0 +1,5 @@
+Answer button index.<br>
+<hr><br>
+<b>int menu.ReplyID</b>();<br>
+<hr><br>
+<b>Result:</b> integer - the index of the button that was answered for this menu.

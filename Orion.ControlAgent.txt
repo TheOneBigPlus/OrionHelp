@@ -1,0 +1,12 @@
+Management an agent.<br>
+<hr><br>
+<b>bool Orion.ControlAgent</b>('agentType', 'name', 'action');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>agentType</b> - string - agent type. Can be: 'autoloot', 'scavenger', 'organizer'<br>
+    <li><b>name</b> - string - name of the agent<br>
+    <li><b>action</b> - string - Can be: 'start', 'stop', 'toggle'<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the specified agent was found.

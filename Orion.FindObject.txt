@@ -1,0 +1,12 @@
+Get an object.<br>
+<hr><br>
+<b>GameObject Orion.FindObject</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - ID of the object to search. You can use "_info" in-game to obtain a serial.<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <a href="search:obj."><b>GameObject</b></a>, or <b>null</b> if the object with the specified serial number is not found.
+<br><br>
+Tip: Assign a variable to manipulate the object, such as:  "var myObject = Orion.FindObject('0x00000000'); <br>

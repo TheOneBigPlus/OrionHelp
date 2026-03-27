@@ -1,0 +1,13 @@
+Remove all fake semi-transparent static objects from the world map.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.ClearFakeMapObjects</b>();<br>
+<b>Orion.ClearFakeMapObjects</b>(map);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>map</b> - integer - the number of the map on which the object placed<br>
+        <i>Default value</i>: <b>current map</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

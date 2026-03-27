@@ -1,0 +1,13 @@
+Get the current time.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.Time</b>();<br>
+<b>String Orion.Time</b>('format');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>format</b> - string - time output format<br>
+        <i>Default value</i>: <b>'hh:mm:ss.zzz'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - current time in the specified format.

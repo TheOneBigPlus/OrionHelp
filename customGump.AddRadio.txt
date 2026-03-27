@@ -1,0 +1,27 @@
+Add radio button to custom gump.<br>
+Radio buttons can be grouped using the <b>AddGroup</b> function.<br>
+Only one radio button can be selected at a time in each group (do not create multiple radio buttons with state = 1).<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddRadio</b>(serial, x, y, 'graphic', 'graphicSelected', 'graphicChecked', state, 'color');<br>
+<b>customGump.AddRadio</b>(serial, x, y, 'graphic', 'graphicSelected', 'graphicChecked', state, 'color', 'text');<br>
+<b>customGump.AddRadio</b>(serial, x, y, 'graphic', 'graphicSelected', 'graphicChecked', state, 'color', 'text', 'textColor');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - item serial number<br>
+    <li><b>x</b> - integer - X coordinate<br>
+    <li><b>y</b> - integer - Y coordinate<br>
+    <li><b>graphic</b> - string - image number in normal state<br>
+    <li><b>graphicSelected</b> - string - number of the image in the selected state (mouse over the element)<br>
+    <li><b>graphicChecked</b> - string - image number in the checked state<br>
+    <li><b>state</b> - integer - state, 0 - unchecked, 1 - checked<br>
+    <li><b>color</b> - string - radio button color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>text</b> - string - radio button text<br>
+        <i>Default value</i>: <b>empty string</b><br>
+    <li><b>textColor</b> - string - radio button text color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

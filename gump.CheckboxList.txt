@@ -1,0 +1,5 @@
+List of a gump's checkboxes.<br>
+<hr><br>
+<b>StringList gump.CheckboxList</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of gump's checkboxes

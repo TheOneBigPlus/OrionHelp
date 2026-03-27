@@ -1,0 +1,14 @@
+Equip an item by type from the players backpack and pouches (with the recursive search option enabled).<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.EquipT</b>('graphic');<br>
+<b>Orion.EquipT</b>('graphic', 'color');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic of item to search<br>
+    <li><b>color</b> - string - color of item to search<br>
+        <i>Default value</i>: <b>'any'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

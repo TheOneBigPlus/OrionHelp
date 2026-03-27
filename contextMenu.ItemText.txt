@@ -1,0 +1,10 @@
+Context menu item text.<br>
+<hr><br>
+<b>String contextMenu.ItemText</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+	<li><b>index</b> - integer - context menu item index;<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - context menu item text.

@@ -1,0 +1,5 @@
+Take a screenshot.<br>
+<hr><br>
+<b>Orion.Screenshot</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

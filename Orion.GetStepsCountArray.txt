@@ -1,0 +1,25 @@
+Checking the possibility of passage to the specified range of coordinates.<br>
+<hr><br>
+Call variants:<br><br>
+<b>StepsCounterObjectList Orion.GetStepsCountArray</b>(startX, startY, endX, endY);<br>
+<b>StepsCounterObjectList Orion.GetStepsCountArray</b>(startX, startY, startZ, endX, endY, endZ);<br>
+<b>StepsCounterObjectList Orion.GetStepsCountArray</b>(startX, startY, startZ, endX, endY, endZ, openDoor);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>startX</b> - integer - starting X coordinate of the zone<br>
+    <li><b>startY</b> - integer - starting Y coordinate of the zone<br>
+    <li><b>startZ</b> - integer - starting Z coordinate of the zone<br>
+        <i>Default value</i>: <b>255</b><br>
+    <li><b>endX</b> - integer - target X coordinate of the zone<br>
+    <li><b>endY</b> - integer - target Y coordinate of the zone<br>
+    <li><b>endZ</b> - integer - target Z coordinate of the zone<br>
+        <i>Default value</i>: <b>255</b><br>
+    <li><b>openDoor</b> - integer - door opening mode<br>
+        <b>0</b> - do not open<br>
+        <b>1</b> - always open<br>
+        <b>2</b> - only depending on client Auto Open Doors option<br>
+        <i>Default value</i>: <b>2</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> array of objects <b>StepsCounterObject</b>, for each tile for which a route was attempted.

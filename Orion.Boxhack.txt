@@ -1,0 +1,10 @@
+Block automatic closing of the container (manually - by right-clicking it closes).<br>
+<hr><br>
+<b>Orion.Boxhack</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - lock container serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

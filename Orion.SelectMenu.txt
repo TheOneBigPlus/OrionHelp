@@ -1,0 +1,11 @@
+Make a selection in a menu.<br>
+<hr><br>
+<b>Orion.SelectMenu</b>('name', 'itemName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - menu name<br>
+    <li><b>itemName</b> - string - name of item to select<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,11 @@
+Resize text window.<br>
+<hr><br>
+<b>TextWindow.SetSize</b>(width, height);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>width</b> - integer - new width<br>
+    <li><b>height</b> - integer - new height<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

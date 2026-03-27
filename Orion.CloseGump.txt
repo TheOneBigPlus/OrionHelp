@@ -1,0 +1,17 @@
+Close the gump in the client.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.CloseGump</b>('type');<br>
+<b>bool Orion.CloseGump</b>('type', 'serial');<br>
+<b>bool Orion.CloseGump</b>('type', 'serial', 'id');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:GumpType">type</a></b> - string - gump type<br>
+    <li><b>serial</b> - string - gump serial number (only needed for interaction with gumps that have a serial number, for example: containers, statusbars, paperdolls, etc.)<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>id</b> - string - gump identifier (needed only for interacting with gumps that have an identifier, for example: server gumps, trade gump)<br>
+        <i>Default value</i>: <b>'any'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

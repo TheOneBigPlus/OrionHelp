@@ -1,0 +1,5 @@
+Property name.<br>
+<hr><br>
+<b>String findItemProperty.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string - property name.

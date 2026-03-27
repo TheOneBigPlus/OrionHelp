@@ -1,0 +1,5 @@
+Check whether the purchase/sale of goods is currently underway.<br>
+<hr><br>
+<b>bool Orion.IsShopping</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if there is a buy/sell in progress

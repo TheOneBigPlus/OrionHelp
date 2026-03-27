@@ -1,0 +1,19 @@
+Target an object based on a <i>list</i> of object types<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.TargetTypeList</b>('findListName');<br>
+<b>Orion.TargetTypeList</b>('findListName', 'container', 'flags');<br>
+<b>Orion.TargetTypeList</b>('findListName', 'container', 'flags', recurse);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>findListName</b> - string - The name of the list. For example, navigate to the Lists=>Find tab<br>
+    <li><b>container</b> - string - the serial or alias of the container to search<br>
+        <i>Default value</i>: <b>'self'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string - search flags<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>recurse</b> - boolean - true if you want to search in pre-opened subcontainers<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

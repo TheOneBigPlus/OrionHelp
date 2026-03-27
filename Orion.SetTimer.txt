@@ -1,0 +1,14 @@
+Create or change a timer. If the timer does not exist, it will be created. If the timer exists, it will reset it to 0<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetTimer</b>('name');<br>
+<b>Orion.SetTimer</b>('name', delay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - timer name.<br>
+    <li><b>delay</b> - integer - start timer value in milliseconds<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

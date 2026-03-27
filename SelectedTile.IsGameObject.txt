@@ -1,0 +1,5 @@
+Check if the selected tile is a game object.<br>
+<hr><br>
+<b>bool SelectedTile.IsGameObject</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the selected tile is a game object.

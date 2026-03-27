@@ -1,0 +1,5 @@
+Get tile count.<br>
+<hr><br>
+<b>int staticTiledata.Count</b>();<br>
+<hr><br>
+<b>Result:</b> integer - tile count.

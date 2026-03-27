@@ -1,0 +1,5 @@
+Checking your character's combat state.<br>
+<hr><br>
+<b>bool Player.WarMode</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if you are in war mode.

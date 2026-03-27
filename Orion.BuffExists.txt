@@ -1,0 +1,10 @@
+Check for buff/debuff.<br>
+<hr><br>
+<b>bool Orion.BuffExists</b>('nameOrGraphic');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>nameOrGraphic</b> - string - the name or graphic of the gamp buff/debuff<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if a buff/debuff is on the character.

@@ -1,0 +1,5 @@
+Get the Y coordinate of the selected land tile<br>
+<hr><br>
+<b>int SelectedTile.LandY</b>();<br>
+<hr><br>
+<b>Result:</b> integer - Y coordinate of the selected land tile.

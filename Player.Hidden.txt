@@ -1,0 +1,5 @@
+Check if your character is hidden.<br>
+<hr><br>
+<b>bool Player.Hidden</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the player is hidden

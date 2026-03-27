@@ -1,0 +1,10 @@
+Change the quantity to buy/sell. 0 - do not buy/sell everything.<br>
+<hr><br>
+<b>shopListItem.SetCount</b>(value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - integer - new count<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

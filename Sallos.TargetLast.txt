@@ -1,0 +1,5 @@
+Set the target to the last selected entity in the client (tile or object).<br>
+<hr><br>
+<b>Sallos.TargetLast</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,13 @@
+Bandage up.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.BandageSelf</b>();<br>
+<b>Orion.BandageSelf</b>('color');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>color</b> - string - bandage color to search<br>
+<i>Default value</i>: <b>'any'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

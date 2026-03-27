@@ -1,0 +1,20 @@
+Set options for the LoS (Line of Sight) algorithm.<br>
+<hr><br>
+<b>Orion.SetLOSOptions</b>('options');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>options</b> - string - options for the algorithm LoS<br>
+        Available options:<br>
+        <b>'sphere'</b> - LoS function for the Sphere emulator<br>
+        <b>'sphereadvanced'</b> - LoS function for Sphere emulator (C and above)<br>
+        <b>'runuo'</b> - LoS function for emulator RunUO/ServUO (installed by default)<br>
+        <b>'pol'</b> - LoS function for emulator POL<br>
+        <b>'spherecheckcorners'</b> - Option for Sphere emulator only, check angles<br>
+        <b>'polusenoshoot'</b> - Option for POL emulator only, using flag No Shoot<br>
+        <b>'pollosthroughtwindows'</b> - Option only for POL emulator, visible through windows.<br>
+        <b>'ignoredestpos'</b> - Option to ignore endpoint when calculating LoS.<br>
+</ul>
+<hr><br>
+Allowed to combine flags: Orion.SetLOSOptions('pol|pollosthroughtwindows');<br><br>
+<b>Result:</b> does not return a value.

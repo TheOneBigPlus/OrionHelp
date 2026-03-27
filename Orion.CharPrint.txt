@@ -1,0 +1,12 @@
+Display a message over the character.<br>
+<hr><br>
+<b>Orion.CharPrint</b>('serial', 'color', 'text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the serial number of the character to display the message for.<br>
+    <li><b>color</b> - string - message color.<br>
+    <li><b>text</b> - string - message text.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

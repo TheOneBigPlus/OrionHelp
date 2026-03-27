@@ -1,0 +1,18 @@
+Play a macro in the client.<br>
+<b>Attention!</b> Only 1 macro can be played in the client at a time!<br>
+Subsequent requests cancel the current macro.
+<hr><br>
+Call variants:<br><br>
+<b>macro.Play</b>();<br>
+<b>macro.Play</b>(waitWhileMacroPlaying);<br>
+<b>macro.Play</b>(waitWhileMacroPlaying, delay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>waitWhileMacroPlaying</b> - boolean - wait for the macro to complete.<br>
+        <i>Default value</i>: <b>false</b><br>
+    <li><b>delay</b> - integer - macro timeout in milliseconds.<br>
+        <i>Default value</i>: <b>100500</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

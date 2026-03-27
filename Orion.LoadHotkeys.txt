@@ -1,0 +1,10 @@
+Load a set of hotkeys (from the Hotkeys folder in the root of the assistant).<br>
+<hr><br>
+<b>bool Orion.LoadHotkeys</b>('fileName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>fileName</b> - string - the path to the file<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the file is loaded.

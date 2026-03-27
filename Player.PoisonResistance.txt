@@ -1,0 +1,5 @@
+Get your character's Poison Resistance stat<br>
+<hr><br>
+<b>int Player.PoisonResistance</b>();<br>
+<hr><br>
+<b>Result:</b> integer - your poison resistance value

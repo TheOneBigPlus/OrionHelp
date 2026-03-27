@@ -1,0 +1,12 @@
+Add a wait hook for a context menu.<br>
+<hr><br>
+<b>Orion.WaitContextMenuID</b>('serial', itemIndex);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the serial number of the context menu to wait for<br>
+        '0' - ignore serial number check<br>
+    <li><b>itemIndex</b> - integer - menu item identifier (can be recognized by the InfoContextMenu function)<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

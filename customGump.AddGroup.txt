@@ -1,0 +1,10 @@
+Add a group of radio buttons to a custom gump.<br>
+<hr><br>
+<b>customGump.AddGroup</b>(group);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>group</b> - integer - group number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

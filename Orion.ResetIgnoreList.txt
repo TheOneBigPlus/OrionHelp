@@ -1,0 +1,5 @@
+Reset used ignore list.<br>
+<hr><br>
+<b>Orion.ResetIgnoreList</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get the color of an objects name.<br>
+<hr><br>
+<b>String obj.NameColor</b>();<br>
+<hr><br>
+<b>Result:</b> string - the color of the object name.  Returns 0x0000 if the color was not received from the server.

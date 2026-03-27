@@ -1,0 +1,5 @@
+Checking the activity of prompt.<br>
+<hr><br>
+<b>bool Orion.PromptExists</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if prompt is active.

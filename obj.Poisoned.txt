@@ -1,0 +1,5 @@
+Check if an object is poisoned.<br>
+<hr><br>
+<b>bool obj.Poisoned</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is poisoned.

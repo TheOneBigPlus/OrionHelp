@@ -1,0 +1,5 @@
+Clear the list of impassable coordinates.<br>
+<hr><br>
+<b>Orion.ClearBadLocations</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get your character's full name.<br>
+<hr><br>
+<b>String Player.FullName</b>();<br>
+<hr><br>
+<b>Result:</b> string - player’s full name.

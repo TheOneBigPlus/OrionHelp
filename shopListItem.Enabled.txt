@@ -1,0 +1,5 @@
+The need to buy/sell an item in the list of goods.<br>
+<hr><br>
+<b>bool shopListItem.Enabled</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - the need to buy/sell an item in the list of goods.

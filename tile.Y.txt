@@ -1,0 +1,5 @@
+Get a tile's Y coordinate.<br>
+<hr><br>
+<b>int tile.Y</b>();<br>
+<hr><br>
+<b>Result:</b> integer - Y coordinate.

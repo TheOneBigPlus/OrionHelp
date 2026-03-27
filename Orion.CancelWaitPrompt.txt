@@ -1,0 +1,5 @@
+Remove all hooks for prompts.<br>
+<hr><br>
+<b>Orion.CancelWaitPrompt</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get your character's cold resistance.<br>
+<hr><br>
+<b>int Player.ColdResistance</b>();<br>
+<hr><br>
+<b>Result:</b> integer - players cold resistance value

@@ -1,0 +1,5 @@
+Get the index of the map (facet) on which the object is located.<br>
+<hr><br>
+<b>int obj.Map</b>();<br>
+<hr><br>
+<b>Result:</b> integer - object map index.

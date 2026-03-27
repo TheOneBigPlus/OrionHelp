@@ -1,0 +1,5 @@
+Get the index of the light source of a tile.<br>
+<hr><br>
+<b>int staticTiledata.LightIndex</b>();<br>
+<hr><br>
+<b>Result:</b> integer - index of the tile's light source.

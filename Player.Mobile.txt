@@ -1,0 +1,5 @@
+Animation check of your character.<br>
+<hr><br>
+<b>bool Player.Mobile</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if you are animated.

@@ -1,0 +1,5 @@
+Get your character's total Fire Resistance value.<br>
+<hr><br>
+<b>int Player.FireResistance</b>();<br>
+<hr><br>
+<b>Result:</b> integer - fire resistance

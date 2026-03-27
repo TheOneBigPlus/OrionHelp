@@ -1,0 +1,16 @@
+Get or change the Fast Rotation option.<br>
+<hr><br>
+Getting value:<br>
+<b>bool Orion.OptionFastRotation</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the option is enabled.<br>
+<hr><br>
+Changing value:<br>
+<b>Orion.OptionFastRotation</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - <i>true</i> to enable the option<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

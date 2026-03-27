@@ -1,0 +1,5 @@
+Get the coordinates (X, Y) of the quest arrow, where the arrow was last pointed.<br>
+<hr><br>
+<b>PositionObject Orion.QuestArrowPosition</b>();<br>
+<hr><br>
+<b>Result:</b> class object <b>PositionObject</b>, the coordinates of the quest arrow, or null if the object could not be created.

@@ -1,0 +1,5 @@
+Price to buy/sell. 0 - do not use the price filter.<br>
+<hr><br>
+<b>int shopListItem.Price</b>();<br>
+<hr><br>
+<b>Result:</b> integer - price to buy/sell.

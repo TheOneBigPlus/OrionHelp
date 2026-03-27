@@ -1,0 +1,12 @@
+Checking the remaining buff/debuff duration.<br>
+<hr><br>
+<b>int Orion.BuffTimeRemaining</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - names or graphics of the buff/debuff picture to check<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - milliseconds remaining.<br>
+If there is no buff, returns <b>0</b>.<br>
+If there is a buff with no timer, returns <b>-1</b>.

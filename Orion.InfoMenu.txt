@@ -1,0 +1,14 @@
+Display information about the menu content from the server in the text window.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.InfoMenu</b>();<br>
+<b>Orion.InfoMenu</b>('index');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - string - menu index for information output.<br>
+        <b>'lastmenu'</b> will display information about the last menu received<br>
+        <i>Default value</i>: <b>'lastmenu'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

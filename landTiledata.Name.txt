@@ -1,0 +1,5 @@
+Get tile name.<br>
+<hr><br>
+<b>String landTiledata.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string - tile name.

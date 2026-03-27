@@ -1,0 +1,5 @@
+Stop playing the assistant macro, if there is one running.<br>
+<hr><br>
+<b>Orion.StopMacro</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

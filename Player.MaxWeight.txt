@@ -1,0 +1,5 @@
+Get your character's maximum weight.<br>
+<hr><br>
+<b>int Player.MaxWeight</b>();<br>
+<hr><br>
+<b>Result:</b> integer - maximum player weight.

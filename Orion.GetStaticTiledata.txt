@@ -1,0 +1,10 @@
+Get a static tiledata for the specified tile.<br>
+<hr><br>
+<b>StaticTiledataObject Orion.GetStaticTiledata</b>('graphic');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - tile graphics<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>StaticTiledataObject</b>, or null if there is no static tiledata for this tile.

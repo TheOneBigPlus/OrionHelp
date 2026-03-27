@@ -1,0 +1,15 @@
+Set a hook for a target on an object.<br>
+Previous hooks are automatically canceled.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WaitTargetObject</b>('serial');<br>
+<b>Orion.WaitTargetObject</b>('serial', relativeTargetDistance);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string or string list - serial number(s) of objects on which to set a hook<br>
+    <li><b>relativeTargetDistance</b> - integer - distance for targeting relative to the specified object, depending on its direction<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

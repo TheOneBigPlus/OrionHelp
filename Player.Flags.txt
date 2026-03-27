@@ -1,0 +1,17 @@
+Get your character's bitflags.<br>
+<hr><br>
+<b>int Player.Flags</b>();<br>
+<hr><br>
+List of flags:
+<ul style="margin-left: -20px">
+    <li><b>0x01</b> - frozen
+    <li><b>0x02</b> - unknown
+    <li><b>0x04</b> - poisoned or flying (for clients 7.0.0.0+)
+    <li><b>0x08</b> - yellow hits
+    <li><b>0x10</b> - ignore characters
+    <li><b>0x20</b> - locked
+    <li><b>0x40</b> - war mode
+    <li><b>0x80</b> - hidden
+</ul>
+<hr><br>
+<b>Result:</b> integer - player bitflags.

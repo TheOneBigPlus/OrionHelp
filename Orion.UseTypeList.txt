@@ -1,0 +1,17 @@
+Search a list and use an item by type (graphic).<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.UseTypeList</b>('listName');<br>
+<b>bool Orion.UseTypeList</b>('listName', 'container');<br>
+<b>bool Orion.UseTypeList</b>('listName', 'container', recurse);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - search list name<br>
+    <li><b>container</b> - string - the serial or alias of the container to search<br>
+        <i>Default value</i>: <b>'self'</b><br>
+    <li><b>recurse</b> - boolean - true if you want to search pre-opened subcontainers<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the object is found and activated

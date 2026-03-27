@@ -1,0 +1,5 @@
+Number of context menu items.<br>
+<hr><br>
+<b>int contextMenu.ItemsCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - number of context menu items.

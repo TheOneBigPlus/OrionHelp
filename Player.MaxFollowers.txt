@@ -1,0 +1,5 @@
+Get the maximum number of your character's pets.<br>
+<hr><br>
+<b>int Player.MaxFollowers</b>();<br>
+<hr><br>
+<b>Result:</b> integer - maximum number of player pets.

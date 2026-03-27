@@ -1,0 +1,15 @@
+Set a hook for the next come bailist.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.BuyHook</b>('shopListName');<br>
+<b>Orion.BuyHook</b>('shopListName', shopDelay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>shopListName</b> - string - shopping list name.<br>
+    <li><b>shopDelay</b> - string - general delay in the purchase of goods.<br>
+        If 0 is specified, the delay is calculated automatically based on the quantity of goods and the Shop delay for 1 stack field on the Shop tab<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

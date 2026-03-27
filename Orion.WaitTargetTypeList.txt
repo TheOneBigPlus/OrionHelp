@@ -1,0 +1,20 @@
+Set a target hook on an object from a list, by type<br>
+Previous hooks are automatically canceled.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WaitTargetTypeList</b>('findListName');<br>
+<b>Orion.WaitTargetTypeList</b>('findListName', 'container', 'flags');<br>
+<b>Orion.WaitTargetTypeList</b>('findListName', 'container', 'flags', recurse);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>findListName</b> - string - search list name<br>
+    <li><b>container</b> - string - the serial or alias of the container to search<br>
+        <i>Default value</i>: <b>'self'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string - search flags<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>recurse</b> - boolean - true if you want to search pre-opened subcontainers<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

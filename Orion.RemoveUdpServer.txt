@@ -1,0 +1,10 @@
+Stop and remove UDP server.<br>
+<hr><br>
+<b>Orion.RemoveUdpServer</b>('serverName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serverName</b> - string - server name.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

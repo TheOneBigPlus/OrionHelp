@@ -1,0 +1,23 @@
+Send a key press to the client (triggering of the client's macros and the assistant's hotkeys without window focus).<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.KeyPress</b>('key');<br>
+<b>bool Orion.KeyPress</b>('key', ctrl);<br>
+<b>bool Orion.KeyPress</b>('key', ctrl, alt);<br>
+<b>bool Orion.KeyPress</b>('key', ctrl, alt, shift);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>key</b> - a string or an integer. A set of characters to press (for example Orion.KeyPress('asd') - will <i>alternately</i> press a, s, d)<br>
+        or the number of the button to press (for non-printable buttons, such as F1. Example: Orion.KeyPress(112) will press F1)<br>
+    <li><b>ctrl</b> - boolean - hold Ctrl<br>
+        <i>Default value</i>: <b>false</b><br>
+    <li><b>alt</b> - boolean - hold Alt<br>
+        <i>Default value</i>: <b>false</b><br>
+    <li><b>shift</b> - boolean - hold Shift<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.
+<br><br>
+Google results for keboard keycodes: <a href="https://www.google.com/search?q=keyboard+keycodes&oq=keyboard+keycodes">here</a>

@@ -1,0 +1,17 @@
+Drop the item under your feet.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.DropHere</b>();<br>
+<b>Orion.DropHere</b>('serial');<br>
+<b>Orion.DropHere</b>('serial', count);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - item serial number<br>
+        <i>Default value</i>: <b>opens a target to specify an item manually</b><br>
+    <li><b>count</b> - integer - how many items to drop away.<br>
+        0 - drop all<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

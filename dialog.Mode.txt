@@ -1,0 +1,5 @@
+Dialogue mode.<br>
+<hr><br>
+<b>int dialog.Mode</b>();<br>
+<hr><br>
+<b>Result:</b> integer - 1 - input string, 2 - input numbers.

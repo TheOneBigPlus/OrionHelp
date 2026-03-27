@@ -1,0 +1,5 @@
+Check for object profile.<br>
+<hr><br>
+<b>bool obj.ProfileReceived</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object received profile information.

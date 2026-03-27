@@ -1,0 +1,19 @@
+<h1>Timer Positions</h1>
+<hr>
+Specify the position of your displayed timers.<br>
+<br>
+<ul style="margin-left: -20px">
+    <li><b>Left</b> - on the left side of the game window
+    <li><b>Right</b> - on the right side of the game window
+    <li><b>Top</b> - at the top of the game window
+    <li><b>Bottom</b> - at the bottom of the game window
+    <li><b>LeftTop</b> - in the upper left corner of the game window
+    <li><b>RightTop</b> - in the upper right corner of the game window
+    <li><b>LeftBottom</b> - in the lower left corner of the game window
+    <li><b>RightBottom</b> - in the lower right corner of the game window
+    <li><b>AboveChar</b> - over the character
+    <li><b>UnderChar</b> - under the character
+    <li><b>Custom</b> - user custom position
+</ul>
+<hr>
+For <b>Custom</b>, the real coordinates of the display timer is set. All other types are offset.

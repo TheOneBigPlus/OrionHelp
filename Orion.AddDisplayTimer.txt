@@ -1,0 +1,37 @@
+Draw a display timer in the client window.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddDisplayTimer</b>('id', timer);<br>
+<b>Orion.AddDisplayTimer</b>('id', timer, 'position');<br>
+<b>Orion.AddDisplayTimer</b>('id', timer, 'position', 'shape');<br>
+<b>Orion.AddDisplayTimer</b>('id', timer, 'position', 'shape', 'name');<br>
+<b>Orion.AddDisplayTimer</b>('id', timer, 'position', 'shape', 'name', x, y);<br>
+<b>Orion.AddDisplayTimer</b>('id', timer, 'position', 'shape', 'name', x, y, 'textColor');<br>
+<b>Orion.AddDisplayTimer</b>('id', timer, 'position', 'shape', 'name', x, y, 'textColor', font);<br>
+<b>Orion.AddDisplayTimer</b>('id', timer, 'position', 'shape', 'name', x, y, 'textColor', font, 'backgroundColor');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer id<br>
+    <li><b>timer</b> - integer - timer duration in milliseconds<br>
+    <li><b><a href="search:DisplayTimerPosition">position</a></b> - string - timer position<br>
+        <i>Default value</i>: <b>'RightTop'</b><br>
+    <li><b><a href="search:DisplayTimerShape">shape</a></b> - string - timer shape<br>
+        <i>Default value</i>: <b>'Circle|Bar'</b><br>
+    <li><b>name</b> - string - timer name<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>x</b> - integer - X coordinate offset on screen<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>y</b> - integer - Y coordinate offset on screen<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>textColor</b> - string - text color (header and countdown)<br>
+        For value <b>'any'</b> - default color is used<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>font</b> - integer - font number for text<br>
+        If indicated -1 - standard font is used<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>backgroundColor</b> - string - timer background color in format 0x<font color="red">RR</font><font color="green">GG</font><font color="blue">BB</font><font color="gray">AA</font><br>
+        <i>Default value</i>: <b>'0xFFFFFFFE'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

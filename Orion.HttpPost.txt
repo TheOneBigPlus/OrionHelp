@@ -1,0 +1,11 @@
+Send POST request HTTP(S).<br>
+<hr><br>
+<b>String Orion.HttpPost</b>('request', 'data');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>request</b> - string - POST request.<br>
+    <li><b>data</b> - string - data for POST request.<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - response text.

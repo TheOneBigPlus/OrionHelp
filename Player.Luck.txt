@@ -1,0 +1,5 @@
+Get character's Luck amount.<br>
+<hr><br>
+<b>int Player.Luck</b>();<br>
+<hr><br>
+<b>Result:</b> integer - amount of player luck.

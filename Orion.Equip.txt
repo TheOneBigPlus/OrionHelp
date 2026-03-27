@@ -1,0 +1,10 @@
+Equip an item.<br>
+<hr><br>
+<b>Orion.Equip</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the serial number of the item to be worn<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Reset <b>Ignored</b> state from all objects.<br>
+<hr><br>
+<b>Orion.IgnoreReset</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

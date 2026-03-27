@@ -1,0 +1,15 @@
+Relogin to the specified server with the specified character<br>
+<hr><br>
+<b>Orion.Relogin</b>();<br>
+<b>Orion.Relogin</b>('characterName');<br>
+<b>Orion.Relogin</b>('characterName', 'serverName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>characterName</b> - string - character name to enter<br>
+        <i>Default value</i>: <b>'last'</b><br>
+    <li><b>serverName</b> - string - server name to enter<br>
+        <i>Default value</i>: <b>'last'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,28 @@
+Check for a message in the journal.<br>
+<hr><br>
+Call variants:<br><br>
+<b>JournalMessage Orion.InJournal</b>('pattern');<br>
+<b>JournalMessage Orion.InJournal</b>('pattern', 'flags');<br>
+<b>JournalMessage Orion.InJournal</b>('pattern', 'flags', 'serial');<br>
+<b>JournalMessage Orion.InJournal</b>('pattern', 'flags', 'serial', 'color');<br>
+<b>JournalMessage Orion.InJournal</b>('pattern', 'flags', 'serial', 'color', startTime);<br>
+<b>JournalMessage Orion.InJournal</b>('pattern', 'flags', 'serial', 'color', startTime, endTime);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>pattern</b> - string - text pattern.<br>
+    <li><b><a href="search:JournalFlags">flags</a></b> - string - journal filter flags.  For example: <b>sys</b><br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>serial</b> - string - the serial number of the character who spoke.<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>color</b> - string - message color.<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>startTime</b> - integer - initial search time, in milliseconds. Can be obtained by function <b>Orion.Now()</b><br>
+        If 0 is specified, this parameter is ignored during the search.<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>endTime</b> - integer - the final search time, in milliseconds. Can be obtained by function <b>Orion.Now()</b><br>
+        If 0 is specified, this parameter is ignored during the search.<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>JournalMessage</b> or null if nothing was found.

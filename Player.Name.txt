@@ -1,0 +1,5 @@
+Get the name of your character.<br>
+<hr><br>
+<b>String Player.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string

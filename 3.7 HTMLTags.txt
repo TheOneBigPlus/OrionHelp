@@ -1,0 +1,47 @@
+<h1>HTML Markup Tags</h1>
+<hr><br>
+Available tags of HTML markup used in UO<br>
+<br>
+<ul style="margin-left: -20px">
+
+    <li><b>basefont</b> - Text string parameters. Attributes:<br>
+    <ul style="margin-left: 0px">
+        <li><b><a href="search: ColorsForCustomGump">color</a></b> - Text color<br>
+        <li><b>size</b> - Font size<br>
+        <li><b>big</b> - Large font size<br>
+        <li><b>small</b> - Small font size<br>
+        <li><b>face</b> - Font type, for example <b>UO_Runic_12pt</b> or <b>UO_Gargish_20pt</b><br>
+    </ul>
+
+    <li><b>a</b> - An external link. Attributes:<br>
+    <ul style="margin-left: 0px">
+        <li><b>href</b> - Link text<br>
+        <li><b>name</b> - Link name, not used, internal parameter<br>
+        <li><b>int</b> - Not used, internal parameter<br>
+    </ul>
+
+    <li><b>img</b> - An external image. Attributes:<br>
+    <ul style="margin-left: 0px">
+        <li><b>src</b> - Link text, maybe: "tile:0x1234" to draw a static tile, "gump:0x1234" for draw a gump, or a real link to a web resource with an image<br>
+        <li><b>color</b> - Color in the game palette format (for example 0x0021). Used only for tile/gump pictures.<br>
+        <li><b>align</b> - text alignment, can be: <b>left</b>, <b>center</b>, <b>right</b><br>
+        <li><b>width</b> - Image width, if not specified - the width of the original image is used<br>
+        <li><b>height</b> - Image height, if not specified - the height of the original image is used<br>
+    </ul>
+
+    <li><b>strong</b> - Bold font<br>
+    <li><b>center</b> - Centered text<br>
+    <li><b>big</b> - Large font size<br>
+    <li><b>small</b> - Small font size<br>
+    <li><b>div</b> - A block element. Attribute: <b>align</b> - text alignment, can be: <b>left</b>, <b>center</b>, <b>right</b><br>
+    <li><b>bq</b> - Indented text<br>
+    <li><b>br</b> - Wrap text to next line<br>
+    <li><b>hr</b> - Horizontal line<br>
+    <li><b>em</b> - Probably not working...<br>
+    <li><b>h1</b>, <b>h2</b>, <b>h3</b>, <b>h4</b>, <b>h5</b>, <b>h6</b> - Headers<br>
+    <li><b>b</b> - Bold font<br>
+    <li><b>i</b> - Italic text<br>
+    <li><b>u</b> - Underlined text<br>
+    <li><b>p</b> - Paragraph. Attribute: <b>align</b> - text alignment, can be: <b>left</b>, <b>center</b>, <b>right</b><br>
+    <li><b>u</b> - Underlined text<br>
+</ul>

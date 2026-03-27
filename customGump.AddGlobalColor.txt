@@ -1,0 +1,17 @@
+Add global ARGB color to custom gump. Everything added after this element will also be colored.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddGlobalColor</b>(state);<br>
+<b>customGump.AddGlobalColor</b>(state, 'color');<br>
+<b>customGump.AddGlobalColor</b>(state, 'color', serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - integer - state, 0 - off, 1 - on<br>
+    <li><b><a href="search: ColorsForCustomGump">color</a></b> - string - color in format '#AARRGGBB'<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>serial</b> - integer - item serial number<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

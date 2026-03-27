@@ -1,0 +1,9 @@
+Get target type.<br>
+<hr><br>
+<b>int Orion.GetTargetType</b>();<br>
+<hr><br>
+<b>Result:</b> integer<br>
+0 - if there is no target<br>
+1 - if the neutral target<br>
+2 - harmful<br>
+3 - helpful

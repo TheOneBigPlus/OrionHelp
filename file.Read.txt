@@ -1,0 +1,5 @@
+Read the word of the file (before the space).<br>
+<hr><br>
+<b>String file.Read</b>();<br>
+<hr><br>
+<b>Result:</b> string - reading result.

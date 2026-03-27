@@ -1,0 +1,5 @@
+Get server connection status.<br>
+<hr><br>
+<b>bool Orion.Connected</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if connected to the server.

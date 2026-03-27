@@ -1,0 +1,5 @@
+Get a list of group members.<br>
+<hr><br>
+<b>StringList Orion.PartyMembers</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of serial numbers of group members (excluding your character).

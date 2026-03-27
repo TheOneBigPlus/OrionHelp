@@ -1,0 +1,12 @@
+<h1>Character Notoriety</h1>
+<hr>
+A list of the notoriety that the characters may have (for search functions).
+<ul style="margin-left: -20px">
+    <li><b>innocent/blue</b> (1)
+    <li><b>friendly/green</b> (2)
+    <li><b>gray</b> (3)
+    <li><b>criminal</b> (4)
+    <li><b>enemy/orange</b> (5)
+    <li><b>murderer/red</b> (6)
+    <li><b>invulnerable/yellow</b> (7)
+</ul>

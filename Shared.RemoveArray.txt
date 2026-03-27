@@ -1,0 +1,10 @@
+Remove the global array from shared memory.<br>
+<hr><br>
+<b>Shared.RemoveArray</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - global array name<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

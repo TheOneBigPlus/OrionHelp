@@ -1,0 +1,5 @@
+Get the index number of a pair of values.<br>
+<hr><br>
+<b>int pairIntInt.Index</b>();<br>
+<hr><br>
+<b>Result:</b> integer - index of the pair.

@@ -1,0 +1,5 @@
+Number of buffs/debuffs per player.<br>
+<hr><br>
+<b>int Orion.BuffsCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - number of buffs/debuffs applied per player.

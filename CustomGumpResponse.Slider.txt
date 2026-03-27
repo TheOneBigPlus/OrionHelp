@@ -1,0 +1,10 @@
+The value of the specified slider of the answered custom gump.<br>
+<hr><br>
+<b>int CustomGumpResponse.Slider</b>(serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - serial number of the item<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the slider value with the specified serial number.

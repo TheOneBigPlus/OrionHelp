@@ -1,0 +1,5 @@
+Get your character's stat limit.<br>
+<hr><br>
+<b>int Player.StatsCap</b>();<br>
+<hr><br>
+<b>Result:</b> integer - your stat cap (maximum)

@@ -1,0 +1,5 @@
+Get the coordinate Y.<br>
+<hr><br>
+<b>int coord.Y</b>();<br>
+<hr><br>
+<b>Result:</b> integer - Y coordinate.

@@ -1,0 +1,6 @@
+Check whether an object is human.<br>
+Check <b>Graphic</b> on 0x0190-0x0193, 0x00B7-0x00BA, 0x025D-0x0260, 0x029A-0x029B, 0x02B6-0x02B7, 0x03DB, 0x03DF, 0x03E2<br>
+<hr><br>
+<b>bool obj.IsHuman</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is in the human group.

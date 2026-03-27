@@ -1,0 +1,13 @@
+Delete file from disk.<br>
+<hr><br>
+Call variants:<br><br>
+<b>file.Remove</b>();<br>
+<b>file.Remove</b>('filePath');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>filePath</b> - string - path to file to delete.<br>
+        <i>Default value</i>: <b>deletes the current file, automatically closes it before deleting</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

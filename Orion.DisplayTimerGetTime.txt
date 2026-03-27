@@ -1,0 +1,10 @@
+Get the remaining lifetime of the display timer.<br>
+<hr><br>
+<b>int Orion.DisplayTimerGetTime</b>('id');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer ID<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the remainder of the timer display time (in milliseconds). If -1 is returned, then there is no timer in the client.

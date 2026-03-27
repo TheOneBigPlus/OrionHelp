@@ -1,0 +1,10 @@
+Delete display timer.<br>
+<hr><br>
+<b>Orion.RemoveDisplayTimer</b>('id');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+	<li><b>id</b> - string - display timer ID or 'all' for clear timers list<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

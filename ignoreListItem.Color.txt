@@ -1,0 +1,5 @@
+Ignore list item color.<br>
+<hr><br>
+<b>String ignoreListItem.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - the color of the item.

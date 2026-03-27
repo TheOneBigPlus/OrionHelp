@@ -1,0 +1,5 @@
+List of gump's radio buttons<br>
+<hr><br>
+<b>StringList gump.RadioList</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of gump's radio buttons

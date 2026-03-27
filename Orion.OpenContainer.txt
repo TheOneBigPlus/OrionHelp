@@ -1,0 +1,17 @@
+Open a container<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.OpenContainer</b>('serial');<br>
+<b>bool Orion.OpenContainer</b>('serial', 'delay');<br>
+<b>bool Orion.OpenContainer</b>('serial', 'delay', 'errorTextPattern');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - container serial number<br>
+    <li><b>delay</b> - string - the maximum wait time for the container to open, in milliseconds. See <a href="searchend:.wait">Wait</a> for information on string constants<br>
+        <i>Default value</i>: <b>'600'</b><br>
+    <li><b>errorTextPattern</b> - string - error text. When this text is received from the server, the wait is interrupted<br>
+        <i>Default value</i>: <b>'reach that|too away'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the container is successfully opened.

@@ -1,0 +1,6 @@
+Custom gump response code.<br>
+<hr><br>
+<b>int CustomGumpResponse.ReturnCode</b>();<br>
+<hr><br>
+<b>Result:</b> integer - unsigned custom gump response code<br>
+0 - the gump was closed with the right mouse button (if no button with serial number 0 is provided).

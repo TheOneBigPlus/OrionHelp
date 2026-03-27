@@ -1,0 +1,10 @@
+Change minimum property value.<br>
+<hr><br>
+<b>findItemProperty.SetMinValue</b>(value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - integer - new minimum value<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

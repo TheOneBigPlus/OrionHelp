@@ -1,0 +1,37 @@
+<h1>Find Flags</h1>
+<hr>
+List of flags that can be used in search functions to offload writing script logic.
+<ul style="margin-left: -20px">
+    <li><b>fast</b> - the search stops at the first object found
+    <li><b>near</b> - search for the nearest object to the character
+    <li><b>mobile</b> - search only animated creatures
+    <li><b>item</b> - search only inanimate objects
+    <li><b>human</b> - search only humanoid creatures, types: 0x0190-0x0193, 0x00B7-0x00BA, 0x025D-0x0260, 0x029A-0x029B, 0x02B6-0x02B7, 0x03DB, 0x03DF, 0x03E2
+    <li><b>nothuman</b> - search only not humanoid creatures
+    <li><b>live</b> - search only living mobiles
+    <li><b>dead</b> - search for only dead creatures, types: 0x0192-0x0193, 0x025F-0x0260, 0x02B6-0x02B7
+    <li><b>injured</b> - search for the object with the least amount of HP (works only for FindFriend/FindEnemy)
+    <li><b>next</b> - search for the next object (works only for FindFriend/FindEnemy)
+    <li><b>ignorefriends</b> - ignore friends
+    <li><b>ignoreenemies</b> - ignore enemies
+    <li><b>ignoreself</b> - ignore self
+    <li><b>inlos</b> - line of sight check
+    <li><b>notinlos</b> - item is not in line of sight
+    <li><b>nearmouse</b> - search for nearest object to current selected tile in the world (where mouse)
+    <li><b>recurse</b> - search containers within containers
+    <li><b>locked</b> - only locked items
+    <li><b>unlocked</b> - only unlocked items
+    <li><b>canchangename</b> - only objects that can change their name (when searching for mobile)
+    <li><b>notblockedontile</b> - only objects that are on tiles that are walkable
+    <li><b>notcanchangename</b> - only objects that can not change their name (when searching for mobile)
+</ul>
+<hr><br>
+When using <b>human</b>, <b>nothuman</b>, <b>live</b> or <b>dead</b>, the <b>mobile</b> flag is set automatically.<br>
+When using <b>next</b>, the <b>fast</b> flag is set automatically.<br>
+<hr>
+Parameter <b>distance</b> (search distance):<br>
+In addition to numerical values, it can take string constants: <b>finddistance</b>, <b>usedistance</b>, <b>opencorpsedistance</b>.
+<br><br>
+If the distance indicates 'xyz: 1, 2, 3' - the search is performed only in the specified coordinates.<br>
+-1 is used to ignore the axis for x, y, the z axis can be omitted permanently.<br>
+For example, a search on X and Z: "xyz: 1504, -1, 30" (search at x=1504 and z=30) or "xyz: 772" - search for items for which X is 772.

@@ -1,0 +1,14 @@
+Change text color + enable the option to change text if it is disabled.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetFontColor</b>(state);<br>
+<b>Orion.SetFontColor</b>(state, 'color');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - true for the option to replace text color.<br>
+    <li><b>color</b> - string - text color.<br>
+        <i>Default value</i>: <b>'0x02B2'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

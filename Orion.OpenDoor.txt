@@ -1,0 +1,11 @@
+Open a door.<br>
+<hr><br>
+<b>Orion.OpenDoor</b>(byDoubleClick);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>byDoubleClick</b> - boolean - open doors by doubleclick or standard package.<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

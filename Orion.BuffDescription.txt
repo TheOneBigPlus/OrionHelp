@@ -1,0 +1,11 @@
+Buff/debuff description.<br>
+<hr><br>
+<b>String Orion.BuffDescription</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - names or graphics of the buff/debuff picture to check<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - buff description.<br>
+If no buff will return<b>""</b>.<br>

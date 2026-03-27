@@ -1,0 +1,5 @@
+Request the status of friends within sight.<br>
+<hr><br>
+<b>Orion.GetFriendsStatus</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

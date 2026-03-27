@@ -1,0 +1,14 @@
+Play a .WAV file.<br>
+If the file name is specified without a path, it will search for the file in the Orion root folder.<br><br>
+The path should either use double backslashes \\ or single forward slashes /<br>
+Example 1: Orion.PlayWav('C:\\Sounds\\alert.wav');<br>
+Example 2: Orion.PlayWav('C:/Sounds/alert.wav');<br>
+<hr><br>
+<b>Orion.PlayWav</b>('filePath');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>filePath</b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,10 @@
+Say a phrase in Emote chat (AKA colon + space).<br>
+<hr><br>
+<b>Orion.SayEmote</b>('text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - message text to send.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

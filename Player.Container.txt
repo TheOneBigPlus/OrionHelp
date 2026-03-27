@@ -1,0 +1,5 @@
+Get your character's container serial number (the container that the player is in).<br>
+<hr><br>
+<b>String Player.Container</b>();<br>
+<hr><br>
+<b>Result:</b> string - The player’s container serial number (usually land is '0xFFFFFFFF').

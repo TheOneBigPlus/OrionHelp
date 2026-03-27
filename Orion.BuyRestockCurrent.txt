@@ -1,0 +1,17 @@
+Buy the current buylist in restocking mode, if it exists and hasn't been answered yet.<br>
+Only works if Graphic, Color and Count items are specified in the list.<br>
+Before buying directly, he checks for items in the player’s backpack, if replenishment is not required, the purchase is not initialized.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.BuyRestockCurrent</b>('shopListName');<br>
+<b>Orion.BuyRestockCurrent</b>('shopListName', shopDelay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>shopListName</b> - string - name of the shopping list.<br>
+    <li><b>shopDelay</b> - string - general delay in the purchase of goods.<br>
+        If 0 is specified, the delay is calculated automatically based on the quantity of goods and the Shop delay for 1 stack field on the Shop tab<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Check if an object is animated.<br>
+<hr><br>
+<b>bool obj.Mobile</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is animated.

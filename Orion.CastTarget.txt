@@ -1,0 +1,12 @@
+Cast a spell using the new targeting system.<br>
+For the correct operation, the new targeting system must be supported by the server.<br>
+<hr><br>
+<b>Orion.CastTarget</b>('nameOrIndex', 'serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>nameOrIndex</b> - string - spell name or number<br>
+    <li><b>serial</b> - string - spell cast serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

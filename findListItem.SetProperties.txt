@@ -1,0 +1,10 @@
+Change the list of properties of a search list item.<br>
+<hr><br>
+<b>findListItem.SetProperties</b>(findPropertyList);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>findPropertyList</b> - array <b>FindItemProperty</b> - new property list<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

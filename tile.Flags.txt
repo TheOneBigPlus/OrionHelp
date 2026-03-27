@@ -1,0 +1,5 @@
+Tile flags. 64 bit value.<br>
+<hr><br>
+<b>int64 tile.Flags</b>();<br>
+<hr><br>
+<b>Result:</b> 64 bit integer, tile <a href="search:TiledataFlags">flags</a>.

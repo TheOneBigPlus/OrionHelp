@@ -1,0 +1,5 @@
+Get the texture graphics of a land tile.<br>
+<hr><br>
+<b>String landTiledata.TextureId</b>();<br>
+<hr><br>
+<b>Result:</b> string - the graphics of the texture of the ground tile, or '0x0000' if there is no ground texture.

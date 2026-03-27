@@ -1,0 +1,24 @@
+Add object alias.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddObject</b>('objectName');<br>
+<b>Orion.AddObject</b>('objectName', 'typeValue');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>objectName</b> - string - object alias name<br>
+    <li><b>typeValue</b> - string - object serial number<br>
+        <i>Default value</i>: <b>call of target for manual indication of the object in the client</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.
+<br><br>
+Reserved <b>objectName</b> to change global client/assistant variables:
+<ul style="margin-left: -20px">
+    <li><b>lasttarget</b><br>
+    <li><b>harmtarget</b><br>
+    <li><b>helptarget</b><br>
+    <li><b>lastattack</b><br>
+    <li><b>newtargetsystem</b><br>
+    <li><b>laststatus</b><br>
+</ul>

@@ -1,0 +1,14 @@
+Get the value of a global variable from shared memory.<br>
+<hr><br>
+Call variants:<br><br>
+<b>var Shared.GetVar</b>('name');<br>
+<b>var Shared.GetVar</b>('name', defaultValue);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - global variable name<br>
+    <li><b>defaultValue</b> - variable, default value if the variable has not been added to shared memory<br>
+        <i>Default value</i>: <b>void</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> the value of the variable from the shared memory.

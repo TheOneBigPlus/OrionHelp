@@ -1,0 +1,20 @@
+Get a list of tiles in the specified range of coordinates (rectangle).<br>
+<hr><br>
+Call variants:<br><br>
+<b>TileObjectList Orion.GetTilesInRect</b>('tileFlags', startX, startY, endX, endY);<br>
+<b>TileObjectList Orion.GetTilesInRect</b>('tileFlags', startX, startY, startZ, endX, endY, endZ);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:TileFlags">tileFlags</a></b> - string - tiles flags for search<br>
+    <li><b>startX</b> - integer - the initial X coordinate to start searching for tiles<br>
+    <li><b>startY</b> - integer - the initial Y coordinate to start searching for tiles<br>
+    <li><b>startZ</b> - integer - the initial Z coordinate to start searching for tiles<br>
+        <i>Default value</i>: <b>255</b><br>
+    <li><b>endX</b> - integer - the final X coordinate you want to search for tiles<br>
+    <li><b>endY</b> - integer - the final Y coordinate you want to search for tiles<br>
+    <li><b>endZ</b> - integer - the final Z coordinate you want to search for tiles<br>
+        <i>Default value</i>: <b>255</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> array <b>TileObject</b> - list of found tiles.

@@ -1,0 +1,5 @@
+Check for an answer to this gump.<br>
+<hr><br>
+<b>bool gump.Replayed</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if this gump has already been answered.

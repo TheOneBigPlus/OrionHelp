@@ -1,0 +1,86 @@
+<h1>Welcome to the script module for OrionUO!</h1>
+<hr>
+Used script engine: <a href="https://doc.qt.io/qt-5/qtscript-attribution-javascriptcore.html">JavaScript</a>
+<hr>
+WARNING!<br>
+<label style="color:red;">Be careful when using protected include files (*.jsp and *.oajsp) received from unfamiliar people.</label><br>
+<label style="color:red;">Such files can harm your computer and character.</label>
+<hr>
+Available classes:
+<ul style="margin-left: -20px">
+    <li><a href="search:Orion.">Orion</a> - the main class through which interaction with the world takes place.
+    <li><a href="search:Player.">Player</a> - player class, used for faster access to player properties.
+    <li><a href="search:SelectedTile.">SelectedTile</a> - the tile class in the world above which the mouse cursor is located.
+    <li><a href="search:TextWindow.">TextWindow</a> - Assistant text window class.
+    <li><a href="search:Abyss.">Abyss</a> - class for working with robes/cloaks that have spell charges. For The Abyss server only.
+    <li><a href="search:obj.">GameObject</a> - game object class (item/corpse/living creature).
+    <li><a href="search:msg.">JournalMessage</a> - journal message class.
+    <li><a href="search:coord.">PositionObject</a> - coordinate class (X, Y, Z).
+    <li><a href="search:gump.">GumpObject</a> - class of the gump object received from the server.
+    <li><a href="search:menu.">MenuObject</a> - the class of the menu object received from the server.
+    <li><a href="search:hook.">GumpHookObject</a> - class hooks for gumps.
+    <li><a href="search:macro.">ClientMacroObject</a> - class for creating and playing client macros.
+    <li><a href="search:tile.">TileObject</a> - map tile object class (land, buildings).
+    <li><a href="search:file.">File</a> - class for reading/writing files.
+    <li><a href="search:findList.">FindList</a> - GameObject search list class.
+    <li><a href="search:findListItem.">FindListItem</a> - FindList search list item class.
+    <li><a href="search:findItemProperty.">FindItemProperty</a> - the item property class used in FindListItem.
+    <li><a href="search:ignoreList.">IgnoreList</a> - ignore list class when searching for GameObjects.
+    <li><a href="search:ignoreListItem.">IgnoreListItem</a> - ignore iist element class when searching for IgnoreList.
+    <li><a href="search:shopList.">ShopList</a> - shopping list class.
+    <li><a href="search:shopListItem.">ShopListItem</a> - ShopList item list class.
+    <li><a href="search:stepCounter.">StepCounterObject</a> - the class of the step counter to a tile.
+    <li><a href="search:dialog.">TextDialog</a> - class of the text dialog object received from the server.
+    <li><a href="search:Shared.">Shared</a> - the class of the object through which shared memory is managed.
+    <li><a href="search:Sallos.">Sallos</a> - class that implements some of the functionality of the Sallos client.
+    <li><a href="search:customGump.">CustomGump</a> - a class to work with Custom Gumps.
+    <li><a href="search:CustomGumpResponse.">CustomGumpResponse</a> - a class for Custom Gump responses. Accessible only from the custom gump callback function.
+    <li><a href="search:pairIntInt.">PairIntInt</a> - class is an integer-integer value pair.
+    <li><a href="search:pairIntString.">PairIntString</a> - class is an integer-string value pair.
+    <li><a href="search:landTiledata.">LandTiledataObject</a> - a class with meta information about a land tile.
+    <li><a href="search:staticTiledata.">StaticTiledataObject</a> - a class with meta information about a static tile.
+    <li><a href="search:vendorList.">VendorList</a> - vendor list class.
+    <li><a href="search:vendorListItem.">VendorListItem</a> - VendorList item list class.
+</ul>
+<hr>
+Global classes (always available - you do not need to create anything additional to use them):
+<br><br>
+<b>Orion</b>, <b>Player</b>, <b>TextWindow</b>, <b>SelectedTile</b>, <b>Abyss</b>, <b>Shared</b>, <b>Sallos</b>
+<br><br>
+The global class <b>CustomGumpResponse</b> is only available when the callback is automatically called for this gump.
+<br>
+<hr>
+The <i>include</i> system:
+<br><br>
+At the top of a script file, write <b>//#include path/to/file</b><br>
+If the syntax is correct, the line will be highlighted in <label style="color:red;">red</label>.
+<br><br>
+Includes are taken into account when loading/saving/reloading the current script file and when starting a new script if changes have been made to the code (the code itself is not saved, it is recommended to manually save the files).
+<br><br>
+There are two possible search systems for the include module:<br>
+1 - Search <i>relative</i> to the current file being processed (includes may also contain links to other includes. The search path in the first step is calculated relative to the current module being processed).<br>
+2 - Search by the <i>direct path</i> specified in the line (if a relative path is specified, instead of the direct path, the file can be found if it lies in the folder where the application was launched from).
+<br><br>
+The same module (along the same path) is connected only 1 time.<br>
+If the file is not found, a corresponding message will be displayed in the game’s system chat (when saving the script).
+<br><br>
+An example of including a module in a relative path (from a folder with the current script):<br>
+<b><label style="color:red;">//#include common.oajs</label></b>
+<br><br>
+An example of including a module in a relative path (from folder includes):<br>
+<b><label style="color:red;">//#include includes/common.oajs</label></b>
+<br><br>
+An example of including a module in a relative path (the directory above where the folder is located includes):<br>
+<b><label style="color:red;">//#include ../includes/common.oajs</label></b>
+<br><br>
+An example of including a module in a direct way:<br>
+<b><label style="color:red;">//#include E:/OrionScripts/includes/common.oajs</label></b>
+<br>
+<hr>
+Implemented support for secure includes.<br>
+In the context menu of the script editor, you can select the <b>Make protected include file</b> item, and select the file you want to protect.<br>
+A file will be created with the extension <b>*.jsp</b> or <b>*.oajsp</b><br>
+This file can be used as a include:<br>
+<b><label style="color:red;">//#include common.oajsp</label></b>
+<br><br>
+<br>

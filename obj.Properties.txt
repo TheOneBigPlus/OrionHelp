@@ -1,0 +1,6 @@
+Get an object's properties.<br>
+These are the same properties that show in the tooltip popup.<br>
+<hr><br>
+<b>String obj.Properties</b>();<br>
+<hr><br>
+<b>Result:</b> string - object properties.

@@ -1,0 +1,11 @@
+Change the value of the specified client option.<br>
+<hr><br>
+<b>Orion.ClientOptionSet</b>('option', value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search: ClientOptions">option</a></b> - string - option name<br>
+    <li><b>value</b> - integer - value to set<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

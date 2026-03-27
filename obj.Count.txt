@@ -1,0 +1,5 @@
+Get the object count.<br>
+<hr><br>
+<b>int obj.Count</b>();<br>
+<hr><br>
+<b>Result:</b> integer - object count.

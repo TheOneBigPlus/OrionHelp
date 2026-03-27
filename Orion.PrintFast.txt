@@ -1,0 +1,13 @@
+Display a message over a character and fast remove it.<br>
+<hr><br>
+<b>Orion.PrintFast</b>('serial', 'color', font, 'text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the serial number of the character<br>
+    <li><b>color</b> - string - message color.<br>
+    <li><b>font</b> - integer - message font.<br>
+    <li><b>text</b> - string - message text.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

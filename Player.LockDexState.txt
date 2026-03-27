@@ -1,0 +1,5 @@
+Get your character's dexterity growth status.<br>
+<hr><br>
+<b>int Player.LockDexState</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player dexterity growth state.

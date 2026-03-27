@@ -1,0 +1,10 @@
+Change the ignore list item graphic.<br>
+<hr><br>
+<b>ignoreListItem.SetGraphic</b>('value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - string - new graphic<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

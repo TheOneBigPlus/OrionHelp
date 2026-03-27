@@ -1,0 +1,24 @@
+Add spoiler to custom gump.<br>
+Spoilers work in test mode, they work correctly only with vertical arrangement of elements (when collapsing/expanding, they shift everything that was added after them on the current page, for correct operation minimized=1 should always be).<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddSpoiler</b>(serial, x, y, minimized, 'graphic', 'graphicSelected', 'graphicPressed', 'openedGraphic', 'openedGraphicSelected', 'openedGraphicPressed');<br>
+<b>customGump.AddSpoiler</b>(serial, x, y, minimized, 'graphic', 'graphicSelected', 'graphicPressed', 'openedGraphic', 'openedGraphicSelected', 'openedGraphicPressed', 'color');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - item serial number<br>
+    <li><b>x</b> - integer - X coordinate<br>
+    <li><b>y</b> - integer - Y coordinate<br>
+    <li><b>minimized</b> - integer - 0 - expanded, 1 - collapsed<br>
+    <li><b>graphic</b> - string - image number in normal state<br>
+    <li><b>graphicSelected</b> - string - number of the image in the selected state (mouse over the element)<br>
+    <li><b>graphicPressed</b> - string - image number in the pressed state<br>
+    <li><b>openedGraphic</b> - string - image number in normal state when the spoiler is expanded<br>
+    <li><b>openedGraphicSelected</b> - string - number of the image in the selected state (mouse over the element) when the spoiler is expanded<br>
+    <li><b>openedGraphicPressed</b> - string - image number in the pressed state when the spoiler is expanded<br>
+    <li><b>color</b> - string - spoiler image color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

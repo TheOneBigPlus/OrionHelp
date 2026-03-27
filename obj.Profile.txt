@@ -1,0 +1,5 @@
+Get object profile text.<br>
+<hr><br>
+<b>String obj.Profile</b>();<br>
+<hr><br>
+<b>Result:</b> string - object profile text.

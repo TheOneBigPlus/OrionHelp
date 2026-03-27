@@ -1,0 +1,10 @@
+The ID of the context menu item.<br>
+<hr><br>
+<b>int contextMenu.ItemID</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+	<li><b>index</b> - integer - context menu item index;<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - context menu item ID.

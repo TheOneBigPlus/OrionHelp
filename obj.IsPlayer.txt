@@ -1,0 +1,5 @@
+Check if the object is your character<br>
+<hr><br>
+<b>bool obj.IsPlayer</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is your player character.

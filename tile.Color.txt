@@ -1,0 +1,5 @@
+Tile color.<br>
+<hr><br>
+<b>String tile.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - tile color.

@@ -1,0 +1,5 @@
+List of items in a shop list.<br>
+<hr><br>
+<b>ShopListItemList shopList.Items</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>ShopListItem</b> - list of items in the current shop list.

@@ -1,0 +1,13 @@
+Equip the item from the character’s hand.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.EquipDraggedItem</b>();<br>
+<b>Orion.EquipDraggedItem</b>('container');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>container</b> - string - container serial number<br>
+        <i>Default value</i>: <b>'self'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

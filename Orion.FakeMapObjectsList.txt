@@ -1,0 +1,13 @@
+Get all fake semi-transparent static objects added to the world map.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.FakeMapObjectsList</b>();<br>
+<b>Orion.FakeMapObjectsList</b>(map);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>map</b> - integer - the ID of the map/facet<br>
+        <i>Default value</i>: <b>current map</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string list - serial numbers of added fake objects.

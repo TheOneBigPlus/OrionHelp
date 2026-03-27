@@ -1,0 +1,6 @@
+Synchronization with the server.<br>
+Can be used once every few seconds.<br>
+<hr><br>
+<b>Orion.Resend</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

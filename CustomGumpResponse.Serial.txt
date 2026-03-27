@@ -1,0 +1,5 @@
+Serial number of the answered custom gump.<br>
+<hr><br>
+<b>int CustomGumpResponse.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> integer - unsigned, custom gump serial number.

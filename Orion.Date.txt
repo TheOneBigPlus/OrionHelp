@@ -1,0 +1,13 @@
+Get current date.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.Date</b>();<br>
+<b>String Orion.Date</b>('format');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>format</b> - string - date format<br>
+        <i>Default value</i>: <b>'dd.MM.yyyy'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - current date in the specified format.

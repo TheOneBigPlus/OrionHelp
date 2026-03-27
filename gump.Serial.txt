@@ -1,0 +1,5 @@
+Gump serial number.<br>
+<hr><br>
+<b>String gump.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - gump serial number.

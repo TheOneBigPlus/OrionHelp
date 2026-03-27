@@ -1,0 +1,20 @@
+Set the area for playing sounds.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetAllowedSoundsArea</b>(state);<br>
+<b>Orion.SetAllowedSoundsArea</b>(state, startX, startY, endX, endY);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - option state on/off<br>
+    <li><b>startX</b> - integer - starting X coordinate of the region<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>startY</b> - integer - starting Y coordinate of the region<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>endX</b> - integer - end X coordinate of the region<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>endY</b> - integer - end Y coordinate of the region<br>
+        <i>Default value</i>: <b>-1</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

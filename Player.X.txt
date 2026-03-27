@@ -1,0 +1,5 @@
+Get your character's X coordinate.<br>
+<hr><br>
+<b>int Player.X</b>();<br>
+<hr><br>
+<b>Result:</b> integer - X coordinate of the player.

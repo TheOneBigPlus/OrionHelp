@@ -1,0 +1,5 @@
+Get the serial number of the object's container.<br>
+<hr><br>
+<b>String obj.Container</b>();<br>
+<hr><br>
+<b>Result:</b> string - container serial number.

@@ -1,0 +1,16 @@
+Use a skill.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.UseSkill</b>('skillNameOrIndex');<br>
+<b>Orion.UseSkill</b>('skillNameOrIndex', 'targetSerial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>skillNameOrIndex</b> - string<br>
+    <li><b>targetSerial</b> - string - skill target serial number<br>
+        <i>Default</i>: <b>Open a target, to target manually</b><br>
+    <li><b>relativeTargetDistance</b> - integer - tile distance from character<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get the type of the selected gump.<br>
+<hr><br>
+<b>String SelectedTile.GumpType</b>();<br>
+<hr><br>
+<b>Result:</b> string - the type of the selected gump.

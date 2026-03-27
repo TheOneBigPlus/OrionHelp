@@ -1,0 +1,14 @@
+Wait while there is line-of-sight in the client.<br>
+If the client does not have a target, immediately return true.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.WaitWhileTargeting</b>();<br>
+<b>bool Orion.WaitWhileTargeting</b>('delay');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>delay</b> - string - maximum latency in milliseconds. See <a href="searchend:.wait">Wait</a> for information on string constants<br>
+        <i>Default value</i>: <b>60000</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if there is no target.

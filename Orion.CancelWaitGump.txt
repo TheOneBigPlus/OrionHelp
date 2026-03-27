@@ -1,0 +1,5 @@
+Delete all installed gump hooks.<br>
+<hr><br>
+<b>Orion.CancelWaitGump</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

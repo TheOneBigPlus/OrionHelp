@@ -1,0 +1,10 @@
+Get gump text.<br>
+<hr><br>
+<b>String gump.Text</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - text index<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - gump text.

@@ -1,0 +1,5 @@
+Get the amount pets your character has (unshrunk/in the world).<br>
+<hr><br>
+<b>int Player.Followers</b>();<br>
+<hr><br>
+<b>Result:</b> integer - number of player pets.

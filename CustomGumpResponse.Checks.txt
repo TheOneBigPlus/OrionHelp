@@ -1,0 +1,5 @@
+List of indices selected by checkbox from custom gump response.<br>
+<hr><br>
+<b>IntList CustomGumpResponse.Checks</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>int</b> - list of indices selected by checkbox.

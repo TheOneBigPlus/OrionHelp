@@ -1,0 +1,5 @@
+Get your character's Lower Mana Cost stat.<br>
+<hr><br>
+<b>int Player.LMC</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player Lower Mana Cost.

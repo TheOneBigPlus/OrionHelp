@@ -1,0 +1,10 @@
+Print text to text window.<br>
+<hr><br>
+<b>TextWindow.Print</b>('text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

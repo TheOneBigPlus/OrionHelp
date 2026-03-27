@@ -1,0 +1,12 @@
+Get the current timer value.<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.Timer</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - timer name<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - The time, in milliseconds, elapsed since the timer was created.<br>
+If the timer was not created, it will return -1.

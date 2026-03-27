@@ -1,0 +1,5 @@
+List of pairs for minmaxbuttons from custom gump answer.<br>
+<hr><br>
+<b>PairIntIntList CustomGumpResponse.MinMaxButtons</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>PairIntInt</b> - list of index-value pairs of custom gump minmaxbuttons.

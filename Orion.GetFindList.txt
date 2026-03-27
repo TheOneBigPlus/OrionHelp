@@ -1,0 +1,10 @@
+Get/create a search list<br>
+<hr><br>
+<b>FindList Orion.GetFindList</b>('listName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - search list name<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>FindList</b>

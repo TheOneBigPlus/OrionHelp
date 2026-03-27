@@ -1,0 +1,5 @@
+Get the direction of the object.<br>
+<hr><br>
+<b>int obj.Direction</b>();<br>
+<hr><br>
+<b>Result:</b> integer - <a href="search:Directions">direction</a> of the object.

@@ -1,0 +1,16 @@
+Wait for a gump to open/refresh.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.WaitForGump</b>();<br>
+<b>bool Orion.WaitForGump</b>(delay);<br>
+<b>bool Orion.WaitForGump</b>(delay, waitNewGump);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>delay</b> - integer - maximum time to wait, in milliseconds.<br>
+        <i>Default value</i>: <b>1000</b><br>
+    <li><b>waitNewGump</b> - boolean - true to wait for a new gump (if false, it will work if the last gump was not closed)<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if a gump opens

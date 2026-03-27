@@ -1,0 +1,22 @@
+Get the value of a skill<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.SkillValue</b>('skillNameOrIndex');<br>
+<b>int Orion.SkillValue</b>('skillNameOrIndex', 'type');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>skillNameOrIndex</b> - string - skill name or index<br>
+    <li><b>type</b> - string - output type. Can be:
+    <ul style="margin-left: -20px;list-style-type: circle;">
+        <li><b>real</b><br>
+        <li><b>base</b><br>
+        <li><b>cap</b> - upper limit of skill<br>
+        <li><b>lock</b> - locked growth state<br>
+        <li><b>delta</b> - delta (up/down) growth state<br>
+        <li><i>Default value</i>: <b>'real'</b><br>
+    </ul>
+</ul>
+<hr><br>
+Real integer values are returned, for example, 56.2 will return as 562, and 100.0 as 1000.<br><br>
+<b>Result:</b> integer - value depending on <b>type</b>.

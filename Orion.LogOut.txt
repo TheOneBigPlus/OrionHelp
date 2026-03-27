@@ -1,0 +1,5 @@
+Quit the game (without closing the client - exit to the start screen).<br>
+<hr><br>
+<b>Orion.LogOut</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

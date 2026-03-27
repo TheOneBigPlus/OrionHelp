@@ -1,0 +1,5 @@
+Number of unanswered text input dialogs.<br>
+<hr><br>
+<b>int Orion.TextDialogCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - the number of unanswered text input dialogs.

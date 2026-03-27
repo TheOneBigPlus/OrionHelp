@@ -1,0 +1,28 @@
+Search for items in the search list from the specified container, taking into account flags, distance and notoriety.<br>
+<hr><br>
+Call variants:<br><br>
+<b>StringList Orion.FindList</b>('listName');<br>
+<b>StringList Orion.FindList</b>('listName', 'container');<br>
+<b>StringList Orion.FindList</b>('listName', 'container', 'flags');<br>
+<b>StringList Orion.FindList</b>('listName', 'container', 'flags', 'distance');<br>
+<b>StringList Orion.FindList</b>('listName', 'container', 'flags', 'distance', 'notoriety');<br>
+<b>StringList Orion.FindList</b>('listName', 'container', 'flags', 'distance', 'notoriety', recurse);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - May contain several search lists delimited by pipes: |<br>
+        <i>May contain ignore lists separated from the search list by <b>|ignoreLists|</b><br>
+        <i>For example: <b>find1|find2|find3|ignoreLists|ignore1|ignore2</b><br>
+    <li><b>container</b> - string - the serial or alias of the container to search<br>
+        <i>Default value</i>: <b>'backpack'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string<br>
+        <i>Default value</i>: <b>'finddistance'</b><br>
+    <li><b><a href="search: Notoriety">notoriety</a></b> - string<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>recurse</b> - boolean - true if you want to search pre-opened subcontainers<br>
+    <i>Default value</i>: <b>The value of the "Recurse containers search" option, found in the Main tab in the Orion Assistant</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string list - serial numbers of found objects.

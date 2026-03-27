@@ -1,0 +1,11 @@
+Toggle direction of timer animation.<br>
+<hr><br>
+<b>Orion.DisplayTimerSetReversed</b>('id', reversed);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer ID<br>
+    <li><b>reversed</b> - boolean - true if the timer should be animated in the opposite direction<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

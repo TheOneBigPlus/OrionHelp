@@ -1,0 +1,10 @@
+Convert the serial number of EasyUO into HEX.<br>
+<hr><br>
+<b>String Orion.SerialToEuo</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of EasyUO<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - serial number HEX.

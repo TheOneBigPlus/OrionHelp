@@ -1,0 +1,17 @@
+Get a character profile.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.GetProfile</b>('serial');<br>
+<b>bool Orion.GetProfile</b>('serial', 'delay');<br>
+<b>bool Orion.GetProfile</b>('serial', 'delay', 'errorTextPattern');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the serial number of the object to request the profile<br>
+    <li><b>delay</b> - string - maximum latency in milliseconds. See <a href="searchend:.wait">Wait</a> for information on string constants<br>
+        <i>Default value</i>: <b>'600'</b><br>
+    <li><b>errorTextPattern</b> - string - error text. When this text is received from the server, the wait is interrupted<br>
+        <i>Default value</i>: <b>'reach that|too far away'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the profile came from the server.

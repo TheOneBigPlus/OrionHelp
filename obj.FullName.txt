@@ -1,0 +1,5 @@
+Get the full name of the object.<br>
+<hr><br>
+<b>String obj.FullName</b>();<br>
+<hr><br>
+<b>Result:</b> string - full name of the object.

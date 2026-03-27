@@ -1,0 +1,5 @@
+Get your character's total Faster Cast Recovery stat.<br>
+<hr><br>
+<b>int Player.FCR</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player Faster Cast Recovery.

@@ -1,0 +1,14 @@
+Read string value from registry.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.RegRead</b>('varName');<br>
+<b>String Orion.RegRead</b>('varName', 'subKey');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>varName</b> - string - variable name<br>
+    <li><b>subKey</b> - string - registry path<br>
+        <i>Default value</i>: <b>'Software\\OrionAssistant\\vars'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - result of reading the registry.

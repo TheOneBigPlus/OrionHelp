@@ -1,0 +1,5 @@
+Using ability Wrestling Disarm.<br>
+<hr><br>
+<b>Orion.UseWrestlingDisarm</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

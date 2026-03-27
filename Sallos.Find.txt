@@ -1,0 +1,5 @@
+Search for the LastTarget using the Sallos client algorithm.<br>
+<hr><br>
+<b>String Sallos.Find</b>();<br>
+<hr><br>
+<b>Result:</b> string - serial number of the found object, or empty string.

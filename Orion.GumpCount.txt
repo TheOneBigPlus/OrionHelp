@@ -1,0 +1,5 @@
+Get the number of unanswered gumps in Orion's memory.<br>
+<hr><br>
+<b>int Orion.GumpCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - the number of unanswered gumps.

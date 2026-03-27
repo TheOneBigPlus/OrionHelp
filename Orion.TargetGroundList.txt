@@ -1,0 +1,17 @@
+Target at an object found by a search of ground tiles.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.TargetGroundList</b>('findListName');<br>
+<b>Orion.TargetGroundList</b>('findListName', 'distance');<br>
+<b>Orion.TargetGroundList</b>('findListName', 'distance', 'flags');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>findListName</b> - string - search list name<br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string - search distance<br>
+        <i>Default value</i>: <b>'finddistance'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string - search flags<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

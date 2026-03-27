@@ -1,0 +1,10 @@
+Identifier (serial) of the menu item<br>
+<hr><br>
+<b>int menu.ItemID</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - menu item index<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - menu item ID (serial)

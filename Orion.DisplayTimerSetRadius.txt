@@ -1,0 +1,11 @@
+Set radius for display timer (only for circular timers).<br>
+<hr><br>
+<b>Orion.DisplayTimerSetRadius</b>('id', radius);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer ID<br>
+    <li><b>radius</b> - integer - new timer radius<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

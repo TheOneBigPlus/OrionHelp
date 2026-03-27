@@ -1,0 +1,15 @@
+Check for characters within a string.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.Contains</b>('text', 'pattern');<br>
+<b>bool Orion.Contains</b>('text', 'pattern', ignoreCase);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - the string of text to check<br>
+    <li><b>pattern</b> - string - text pattern to search. Multiple strings can be separated with a pipe: |<br>
+    <li><b>ignoreCase</b> - boolean - true if you want to ignore case (capital letters) when searching<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the <b>pattern</b> or one of the pattern sets is found.

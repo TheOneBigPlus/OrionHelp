@@ -1,0 +1,5 @@
+Object frozen check.<br>
+<hr><br>
+<b>bool obj.Frozen</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is frozen.

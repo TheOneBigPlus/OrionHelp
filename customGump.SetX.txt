@@ -1,0 +1,10 @@
+Set the X coordinate of the custom gump.<br>
+<hr><br>
+<b>customGump.SetX</b>(x);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - X coordinate<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

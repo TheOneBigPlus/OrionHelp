@@ -1,0 +1,5 @@
+Get your character's strength growth state.<br>
+<hr><br>
+<b>int Player.LockStrState</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player strength growth state.

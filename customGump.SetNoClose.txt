@@ -1,0 +1,10 @@
+Prevent closing the custom gump with the right mouse button.<br>
+<hr><br>
+<b>customGump.SetNoClose</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - state true/false<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

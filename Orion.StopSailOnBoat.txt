@@ -1,0 +1,5 @@
+Stop sailing on a boat (new boat control system).<br>
+<hr><br>
+<b>bool Orion.StopSailOnBoat</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

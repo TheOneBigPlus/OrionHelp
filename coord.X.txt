@@ -1,0 +1,5 @@
+Get the coordinate X.<br>
+<hr><br>
+<b>int coord.X</b>();<br>
+<hr><br>
+<b>Result:</b> integer - X coordinate.

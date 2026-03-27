@@ -1,0 +1,5 @@
+Undress (except arms and shield).<br>
+<hr><br>
+<b>Orion.Undress</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

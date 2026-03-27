@@ -1,0 +1,10 @@
+Remove a type alias.<br>
+<hr><br>
+<b>Orion.RemoveType</b>('typeName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b>typeName</b> - string - the name of the "type" alias to remove from memory.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

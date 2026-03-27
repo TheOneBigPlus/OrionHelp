@@ -1,0 +1,5 @@
+Get your character's graphic ID.<br>
+<hr><br>
+<b>String Player.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - player graphic.

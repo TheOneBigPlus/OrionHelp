@@ -1,0 +1,17 @@
+Add to the queue a target hook for an object found by a search on the ground.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddWaitTargetGroundList</b>('findListName');<br>
+<b>Orion.AddWaitTargetGroundList</b>('findListName', 'distance');<br>
+<b>Orion.AddWaitTargetGroundList</b>('findListName', 'distance', 'flags');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>findListName</b> - string - find list name<br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string - search distance<br>
+        <i>Default value</i>: <b>'finddistance'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string - search flags<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,17 @@
+Toggle a specified script on or off.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.ToggleScript</b>('functionName');<br>
+<b>Orion.ToggleScript</b>('functionName', oneScriptRunning);<br>
+<b>Orion.ToggleScript</b>('functionName', oneScriptRunning, argumentsList);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>functionName</b> - string - script name.<br>
+    <li><b>oneScriptRunning</b> - boolean - 'true' to prevent the script from running more than one instance<br>
+        <i>Default value</i>: <b>false</b><br>
+    <li><b>argumentsList</b> - string list - script parameters to pass in.<br>
+        <i>Default value</i>: <b>empty array</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

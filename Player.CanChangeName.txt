@@ -1,0 +1,5 @@
+Check if your character's name can be changed<br>
+<hr><br>
+<b>bool Player.CanChangeName</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the player can change names.

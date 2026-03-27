@@ -1,0 +1,5 @@
+Get Orion assistant version.<br>
+<hr><br>
+<b>String Orion.OAVersion</b>();<br>
+<hr><br>
+<b>Result:</b> string

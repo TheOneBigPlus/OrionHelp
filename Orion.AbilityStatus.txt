@@ -1,0 +1,11 @@
+Get ability status.<br>
+<hr><br>
+<b>bool Orion.AbilityStatus</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - name or serial number of the ability<br>
+        Can be <b>'Primary'</b> or <b>'Secondary'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the ability is activated.

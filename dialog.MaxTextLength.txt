@@ -1,0 +1,5 @@
+The maximum number of characters in the response (for Mode=1), or the maximum value (for Mode=2).<br>
+<hr><br>
+<b>int dialog.MaxTextLength</b>();<br>
+<hr><br>
+<b>Result:</b> integer - Maximum response length, or maximum response value.

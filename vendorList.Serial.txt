@@ -1,0 +1,5 @@
+Serial number of the vendor.<br>
+<hr><br>
+<b>String vendorList.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - vendor serial number.

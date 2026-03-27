@@ -1,0 +1,24 @@
+<h1>Global Constants</h1>
+<hr>
+Global constants are used as aliases to indicate particular objects (depending on the context of their use).
+<br><br>
+Available global constants:
+<ul style="margin-left: -20px">
+    <li><b>any</b> - string constant, universal identifier of "any" object.
+    <li><b>self</b> - string constant, character serial number.
+    <li><b>backpack</b> - string constant, character backpack.
+    <li><b>ground</b> - string constant, ground.
+    <li><b>lastcorpse</b> - string constant, the last corpse to appear on the screen.
+    <li><b>lasttarget</b> - string constant, last selected target.
+    <li><b>harmtarget</b> - string constant, last selected harmful target (Smart last target option requried).
+    <li><b>helptarget</b> - string constant, last selected beneficial target (Smart last target option requried).
+    <li><b>lasttile</b> - string constant, the last selected tile in the world.
+    <li><b>lastattack</b> - string constant, last attacked.
+    <li><b>laststatus</b> - string constant, the last character to pull off status.
+    <li><b>lastcontainer</b> - string constant, last opened container.
+    <li><b>lastobject</b> - string constant, last used object.
+    <li><b>dressbag</b> - string constant, bag for changing clothes (where to put clothes).
+    <li><b>catchbag</b> - string constant, a container for intercepting objects falling into a backpack (for example, when crafting).
+    <li><b>newtargetsystem</b> - string constant, new target system object serial.
+    <li><b>ScriptName</b> - string constant, name of the currently running script (not executable function, but the script that is visible in the list of running scripts).
+</ul>

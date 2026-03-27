@@ -1,0 +1,11 @@
+Check for a timer in the assistant's memory<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.TimerExists</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - timer name<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if a timer exists.

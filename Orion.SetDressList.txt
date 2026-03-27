@@ -1,0 +1,12 @@
+Set dress list content.<br>
+When setting the contents of the dress list, all specified items must be visible to the character. Inaccessible items will not be added to the list.<br>
+<hr><br>
+<b>Orion.SetDressList</b>('name', serials);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b>name</b> - string - dress list name<br>
+<li><b>serials</b> - string list - dress list content<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

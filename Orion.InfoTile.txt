@@ -1,0 +1,13 @@
+Displaying tile information in a text window.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.InfoTile</b>();<br>
+<b>Orion.InfoTile</b>('tile');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>tile</b> - string - if <b>'lasttile'</b> is specified, display information on the last tile targeted<br>
+        <i>Default value</i>: <b>call target to specify the tile manually</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

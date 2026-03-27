@@ -1,0 +1,26 @@
+Set a target hook for an object found on the ground<br>
+Previous hooks are automatically canceled.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WaitTargetGround</b>('graphic');<br>
+<b>Orion.WaitTargetGround</b>('graphic', 'color');<br>
+<b>Orion.WaitTargetGround</b>('graphic', 'color', 'distance');<br>
+<b>Orion.WaitTargetGround</b>('graphic', 'color', 'distance', 'flags');<br>
+<b>Orion.WaitTargetGround</b>('graphic', 'color', 'distance', 'flags', 'ignoreLists');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        For value <b>'any'</b> - this field is ignored<br>
+    <li><b>color</b> - string - color to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        For value <b>'any'</b> - this field is ignored<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string - search distance<br>
+        <i>Default value</i>: <b>'finddistance'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string - search flags<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>ignoreLists</b> - string - ignore list names. Can be combined with pipes: | such as ('list1|list2')<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

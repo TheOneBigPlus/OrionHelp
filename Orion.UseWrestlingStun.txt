@@ -1,0 +1,5 @@
+Using ability Wrestling Stun.<br>
+<hr><br>
+<b>Orion.UseWrestlingStun</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

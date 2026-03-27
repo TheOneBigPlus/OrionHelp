@@ -1,0 +1,12 @@
+Set the callback function to receive packets for the specified UDP server.<br>
+<hr><br>
+<b>Orion.SetUdpServerCallback</b>('serverName', 'functionName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serverName</b> - string - server name.<br>
+    <li><b>functionName</b> - string - the name of the script function that will be called when the server receives a new package.<br>
+        The function must take 1 argument: function(data) {...}<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

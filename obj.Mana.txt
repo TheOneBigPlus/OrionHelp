@@ -1,0 +1,8 @@
+Get the object's current Mana.<br>
+<br>
+Before calling, you need to make sure that the server sent this information to the client.<br>
+Character status request <b>Orion.GetStatus('serial');</b><br>
+<hr><br>
+<b>int obj.Mana</b>();<br>
+<hr><br>
+<b>Result:</b> integer - object mana amount.

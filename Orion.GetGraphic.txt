@@ -1,0 +1,10 @@
+Get true graphic.<br>
+<hr><br>
+<b>String Orion.GetGraphic</b>(graphic);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b>graphic</b> - string - alias to get the true graphic<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - the true graphic.

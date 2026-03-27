@@ -1,0 +1,5 @@
+Dialog ID.<br>
+<hr><br>
+<b>String dialog.ID</b>();<br>
+<hr><br>
+<b>Result:</b> string - dialog identifier.

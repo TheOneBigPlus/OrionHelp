@@ -1,0 +1,19 @@
+Create and start a UDP server.<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.CreateUdpServer</b>('serverName', port);<br>
+<b>int Orion.CreateUdpServer</b>('serverName', 'host', port);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serverName</b> - string<br>
+    <li><b>host</b> - string - the address of the network adapter on which to start listening or 'broadcast'.<br>
+        <i>Default value</i>: <b>'127.0.0.1'</b><br>
+    <li><b>port</b> - integer<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer<br>
+0 - server successfully created<br>
+-1 if the server name is empty<br>
+-100 - denied by the UO server<br>
+positive value - socket error (google QAbstractSocket::SocketError)

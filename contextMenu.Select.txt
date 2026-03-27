@@ -1,0 +1,10 @@
+Select an item from the context menu.<br>
+<hr><br>
+<b>bool contextMenu.Select</b>(id);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+	<li><b>id</b> - integer - context menu item ID;<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the context menu item is successfully selected.

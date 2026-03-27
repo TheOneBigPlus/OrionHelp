@@ -1,0 +1,10 @@
+Reply to an existing prompt.<br>
+<hr><br>
+<b>Orion.SendPrompt</b>('text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - text to enter<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

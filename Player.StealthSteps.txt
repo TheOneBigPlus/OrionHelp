@@ -1,0 +1,5 @@
+Get the number of steps taken since the player hid<br>
+<hr><br>
+<b>int Player.StealthSteps</b>();<br>
+<hr><br>
+<b>Result:</b> integer

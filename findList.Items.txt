@@ -1,0 +1,5 @@
+List of search list items.<br>
+<hr><br>
+<b>FindListItemList findList.Items</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>FindListItem</b> - list of items in the current search list.

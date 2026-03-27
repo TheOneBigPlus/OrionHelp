@@ -1,0 +1,5 @@
+Get the serial number of the selected tile/object.<br>
+<hr><br>
+<b>String SelectedTile.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - the serial number of the selected tile/object.

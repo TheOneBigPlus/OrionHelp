@@ -1,0 +1,5 @@
+Menu serial number.<br>
+<hr><br>
+<b>String menu.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - menu serial number.

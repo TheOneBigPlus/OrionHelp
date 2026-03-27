@@ -1,0 +1,10 @@
+Change the name of the shop list.<br>
+<hr><br>
+<b>shopList.SetName</b>('value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - string - new list name<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

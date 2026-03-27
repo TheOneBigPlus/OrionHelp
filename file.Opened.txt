@@ -1,0 +1,5 @@
+Validating file opened.<br>
+<hr><br>
+<b>bool file.Opened</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the file is open.

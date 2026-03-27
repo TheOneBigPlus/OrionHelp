@@ -1,0 +1,10 @@
+Refresh search ignore list.<br>
+<hr><br>
+<b>Orion.UpdateIgnoreList</b>(ignoreListObject);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>ignoreListObject</b> - class object <b>IgnoreList</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

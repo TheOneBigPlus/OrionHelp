@@ -1,0 +1,5 @@
+List of gump's TextEntry/TextEntryLimited.<br>
+<hr><br>
+<b>StringList gump.EntriesList</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of gump's TextEntry/TextEntryLimited.

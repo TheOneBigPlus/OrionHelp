@@ -1,0 +1,5 @@
+Get the class fields of an object, and output their values.<br>
+<hr><br>
+<b>String obj.ToString</b>();<br>
+<hr><br>
+<b>Result:</b> string - object class fields.

@@ -1,0 +1,10 @@
+Use ignore list in search.<br>
+<hr><br>
+<b>Orion.UseIgnoreList</b>('listName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - ignore list name<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get the number of journal messages.<br>
+<hr><br>
+<b>int Orion.JournalCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - message count

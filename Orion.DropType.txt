@@ -1,0 +1,33 @@
+Find and drop the item at the specified coordinates.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.DropType</b>('graphic');<br>
+<b>bool Orion.DropType</b>('graphic', 'color');<br>
+<b>bool Orion.DropType</b>('graphic', 'color', 'container');<br>
+<b>bool Orion.DropType</b>('graphic', 'color', 'container', count);<br>
+<b>bool Orion.DropType</b>('graphic', 'color', 'container', count, x, y, z);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic to search. Can be combined with pipes: | such as ('0x0123|0x0456') <br>
+        For value <b>'any'</b> - this field is ignored<br>
+    <li><b>color</b> - string - color to search. Can be combined with pipes: | such as ('0x0123|0x0456') <br>
+        For value <b>'any'</b> - this field is ignored<br>
+        <i>Default value</i>: <b>'any'</b> <br>
+    <li><b>container</b> - string - container in which to look for items <br>
+        <i>Default value</i>: <b>'backpack'</b> <br>
+    <li><b>count</b> - integer - how many items to drop<br>
+        0 - drop all<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>x</b> - integer - X coordinate.<br>
+        -1 - use the X coordinate of the player<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>y</b> - integer - Y coordinate.<br>
+        -1 - use the Y coordinate of the player<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>z</b> - integer - Z coordinate.<br>
+        -1 - use the Z coordinate of the player<br>
+        <i>Default value</i>: <b>-1</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the item is found.

@@ -1,0 +1,5 @@
+Number of menu items.<br>
+<hr><br>
+<b>int menu.ItemsCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - number of menu items.

@@ -1,0 +1,5 @@
+Check if a tile is a Land type<br>
+<hr><br>
+<b>bool SelectedTile.IsLandTile</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the selected tile is land.

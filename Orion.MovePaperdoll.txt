@@ -1,0 +1,12 @@
+Move character's paperdoll gump.<br>
+<hr><br>
+<b>Orion.MovePaperdoll</b>('serial', x, y);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the serial number of the character<br>
+    <li><b>x</b> - integer - X coordinate on screen where to move paperdoll<br>
+    <li><b>y</b> - integer - Y coordinate on screen where to move paperdoll<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

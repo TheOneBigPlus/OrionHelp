@@ -1,0 +1,25 @@
+Checking line of sight (LoS) to an object/point in the world.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.InLOS</b>('serial');<br>
+<b>bool Orion.InLOS</b>(endX, endY);<br>
+<b>bool Orion.InLOS</b>(endX, endY, endZ);<br>
+<b>bool Orion.InLOS</b>(startX, startY, endX, endY);<br>
+<b>bool Orion.InLOS</b>(startX, startY, startZ, endX, endY, endZ);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object to be checked LoS<br>
+    <li><b>startX</b> - integer - X origin in the world, where to check LoS<br>
+    <i>Default value</i>: <b>player X coordinate</b><br>
+    <li><b>startY</b> - integer - Y origin in the world, where to check LoS<br>
+    <i>Default value</i>: <b>player Y coordinate</b><br>
+    <li><b>startZ</b> - integer - Z origin in the world, where to check LoS<br>
+    <i>Default value</i>: <b>65535</b><br>
+    <li><b>endX</b> - integer - the final X coordinate in the world, to where to check LoS<br>
+    <li><b>endY</b> - integer - the final Y coordinate in the world, to where to check LoS<br>
+    <li><b>endZ</b> - integer - the final Z coordinate in the world, to where to check LoS<br>
+    <i>Default value</i>: <b>65535</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the object/point is in direct line of sight and is not blocked by anything.

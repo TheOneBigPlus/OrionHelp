@@ -1,0 +1,10 @@
+Show previously hidden object.<br>
+<hr><br>
+<b>Orion.Unhide</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object to be displayed. Accepts aliases: all, allitems, allmobiles<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

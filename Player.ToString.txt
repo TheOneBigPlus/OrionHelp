@@ -1,0 +1,5 @@
+Get the class fields of the Player, and output their values.<br>
+<hr><br>
+<b>String Player.ToString</b>();<br>
+<hr><br>
+<b>Result:</b> string - Player class fields.

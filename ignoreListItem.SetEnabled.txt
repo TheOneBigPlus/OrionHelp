@@ -1,0 +1,10 @@
+Change the state of the search ignore list item to enabled/disabled.<br>
+<hr><br>
+<b>ignoreListItem.SetEnabled</b>('value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+	<li><b>value</b> - boolean - new state;<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

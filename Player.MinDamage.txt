@@ -1,0 +1,5 @@
+Get your character's minimum damage<br>
+<hr><br>
+<b>int Player.MinDamage</b>();<br>
+<hr><br>
+<b>Result:</b> integer - minimum damage

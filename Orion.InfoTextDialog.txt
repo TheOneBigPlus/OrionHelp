@@ -1,0 +1,14 @@
+Display information about the content of the dialog for entering text from the server into the text window.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.InfoTextDialog</b>();<br>
+<b>Orion.InfoTextDialog</b>('index');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - string - index of the dialog for outputting information.<br>
+        <b>'last'</b> will display information about the last received dialog<br>
+        <i>Default value</i>: <b>'last'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

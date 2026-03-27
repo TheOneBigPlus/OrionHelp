@@ -1,0 +1,5 @@
+Check if an item is being dragged.<br>
+<hr><br>
+<b>bool Orion.Dragging</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the item is being dragged.

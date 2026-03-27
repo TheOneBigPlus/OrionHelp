@@ -1,0 +1,15 @@
+Clear list for custom highlighting.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.ClearHighlightCharacters</b>();<br>
+<b>Orion.ClearHighlightCharacters</b>(priorityHighlight);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>priorityHighlight</b> - boolean - backlight type<br>
+        <b>true</b> - high priority of highlighting and will always highlight the character with this color, regardless of the attacked/poisoned states and others.<br>
+        <b>false</b> - low priority of highlighting (if the character is attacked/poisoned or has other conditions - it will be painted by them).<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get the vendor's current product list object.<br>
+<hr><br>
+<b>VendorListObject Orion.GetCurrentVendorList</b>();<br>
+<hr><br>
+<b>Result:</b> object class <b>VendorListObject</b> or null if the object could not be created.

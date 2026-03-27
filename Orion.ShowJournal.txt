@@ -1,0 +1,13 @@
+Display journal contents in a text window.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.ShowJournal</b>();<br>
+<b>Orion.ShowJournal</b>(linesCount);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>linesCount</b> - integer - number of lines to output.<br>
+        <i>Default value</i>: <b>maximum number of journal lines</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

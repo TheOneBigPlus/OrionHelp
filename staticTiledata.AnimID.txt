@@ -1,0 +1,5 @@
+Get animation graphics for this tile.<br>
+<hr><br>
+<b>String staticTiledata.AnimID</b>();<br>
+<hr><br>
+<b>Result:</b> string - tile animation graphics.

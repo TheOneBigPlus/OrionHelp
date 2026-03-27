@@ -1,0 +1,14 @@
+Launch a third-party application.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Launch</b>('filePath');<br>
+<b>Orion.Launch</b>('filePath', arguments);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>filePath</b> - string - path to the application<br>
+    <li><b>arguments</b> - string list - application start arguments.<br>
+        <i>Default value</i>: <b>empty array</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

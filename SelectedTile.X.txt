@@ -1,0 +1,5 @@
+Get the X coordinate of the selected tile/object.<br>
+<hr><br>
+<b>int SelectedTile.X</b>();<br>
+<hr><br>
+<b>Result:</b> integer - X coordinate of the selected tile/object.

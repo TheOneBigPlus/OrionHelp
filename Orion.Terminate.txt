@@ -1,0 +1,18 @@
+Stop execution of the specified script.<br>
+<b>Attention!</b> The function names are case-sensitive<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Terminate</b>('functionName');<br>
+<b>Orion.Terminate</b>('functionName', 'functionsSave');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>functionName</b> - string - script name to terminate.<br>
+        <b>'all'</b> - will terminate all running scripts (except those specified in <b>functionsSave</b>)<br>
+    <li><b>functionsSave</b> - string - functions to keep executing.<br>
+        Only viable when terminating all scripts (as above).<br>
+        The names of the scripts are a case-sensitive string, delimited by pipes | For example: Orion.Terminate('all', 'Heal|Loot|CheckMana')<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

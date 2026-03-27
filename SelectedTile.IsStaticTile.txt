@@ -1,0 +1,5 @@
+Checking if the tile is a Static type<br>
+<hr><br>
+<b>bool SelectedTile.IsStaticTile</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the selected tile is static.

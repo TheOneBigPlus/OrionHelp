@@ -1,0 +1,11 @@
+Select the current dialogue.<br>
+<hr><br>
+<b>bool dialog.Select</b>('answer');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>answer</b> - string - answer in the dialog.<br>
+        Use <b>cancel</b> or an empty response to close the dialog with the cancel button, if available<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the dialog is selected.

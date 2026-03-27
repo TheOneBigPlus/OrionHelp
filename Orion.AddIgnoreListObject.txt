@@ -1,0 +1,19 @@
+Add item to search ignore list.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddIgnoreListObject</b>();<br>
+<b>Orion.AddIgnoreListObject</b>('listName');<br>
+<b>Orion.AddIgnoreListObject</b>('listName', 'serial');<br>
+<b>Orion.AddIgnoreListObject</b>('listName', 'serial', 'comment');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - list name.<br>
+        <i>Default value</i>: <b>calling the target to specify an object in the world manually, the object will be added to the currently selected list on the lists tab</b><br>
+    <li><b>serial</b> - string - object serial number.<br>
+        <i>Default value</i>: <b>call of the target to indicate an object in the world manually</b><br>
+    <li><b>comment</b> - string - comment on the object.<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+List of pairs for comboboxes from custom gump answer.<br>
+<hr><br>
+<b>PairIntIntList CustomGumpResponse.ComboBoxes</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>PairIntInt</b> - A list of pairs index-selected_line_number of custom gump comboboxes items.

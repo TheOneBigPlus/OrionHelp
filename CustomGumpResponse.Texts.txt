@@ -1,0 +1,5 @@
+List of textentry pairs from custom gump answer.<br>
+<hr><br>
+<b>PairIntStringList CustomGumpResponse.Texts</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>PairIntString</b> - A list of index-text pairs of custom gump textentry elements.

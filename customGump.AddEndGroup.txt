@@ -1,0 +1,5 @@
+Add the end of the radio button group to the custom gump.<br>
+<hr><br>
+<b>customGump.AddEndGroup</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

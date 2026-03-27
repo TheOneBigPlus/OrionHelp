@@ -1,0 +1,5 @@
+Check for a buy or sell list.<br>
+<hr><br>
+<b>bool vendorListItem.IsBuyList</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true for Buy list, false for Sell list

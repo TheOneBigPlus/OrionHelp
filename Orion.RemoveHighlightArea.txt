@@ -1,0 +1,10 @@
+Remove highlighted area.<br>
+<hr><br>
+<b>Orion.RemoveHighlightArea</b>('id');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - area id or 'all' for clear areas list;<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

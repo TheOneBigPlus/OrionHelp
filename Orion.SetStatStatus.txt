@@ -1,0 +1,11 @@
+Set the state of a stat.<br>
+<hr><br>
+<b>Orion.SetStatStatus</b>('name', 'status');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - stat name (str, dex, int);<br>
+    <li><b>status</b> - string - new state, maybe <b>'Up'</b>, <b>'Down'</b>, <b>'Lock'</b>;<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

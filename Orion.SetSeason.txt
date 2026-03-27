@@ -1,0 +1,22 @@
+Set the season and music in the client.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetSeason</b>(state);<br>
+<b>Orion.SetSeason</b>(state, index);<br>
+<b>Orion.SetSeason</b>(state, index, musicIndex);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - true to enable the season filter<br>
+    <li><b>index</b> - integer - season number<br>
+        0 - spring<br>
+        1 - summer<br>
+        2 - fall<br>
+        3 - winter<br>
+        4 - desolation<br>
+        <i>Default value</i>: <b>current value from server</b><br>
+    <li><b>musicIndex</b> - integer - music file number<br>
+        <i>Default value</i>: <b>current value from server</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

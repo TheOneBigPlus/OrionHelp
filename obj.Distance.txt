@@ -1,0 +1,5 @@
+Get the distance to the object.<br>
+<hr><br>
+<b>int obj.Distance</b>();<br>
+<hr><br>
+<b>Result:</b> integer - distance to the object.

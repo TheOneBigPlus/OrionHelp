@@ -1,0 +1,5 @@
+Get your character's state of intelligence growth.<br>
+<hr><br>
+<b>int Player.LockIntState</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player's state of intelligence growth.

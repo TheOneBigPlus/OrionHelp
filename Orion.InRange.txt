@@ -1,0 +1,12 @@
+Checking if the number value is within the specified range.<br>
+<hr><br>
+<b>bool Orion.InRange</b>(value, minValue, maxValue);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - integer<br>
+    <li><b>minValue</b> - integer<br>
+    <li><b>maxValue</b> - integer<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the value is within the specified range.

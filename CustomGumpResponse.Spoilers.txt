@@ -1,0 +1,5 @@
+List of indices by expanded spoiler from custom gump response.<br>
+<hr><br>
+<b>IntList CustomGumpResponse.Spoilers</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>int</b> - list of indices by expanded spoiler.

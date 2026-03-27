@@ -1,0 +1,7 @@
+Check whether your character is alive or dead<br>
+<hr><br>
+<b>bool Player.Dead</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the player is dead.<br>
+<br>
+Tip: Use <i>while (!Player.Dead())</i> to create a loop until/unless the player dies

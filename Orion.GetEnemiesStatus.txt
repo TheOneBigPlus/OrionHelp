@@ -1,0 +1,5 @@
+Request the status of enemies within line-of-sight.<br>
+<hr><br>
+<b>Orion.GetEnemiesStatus</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

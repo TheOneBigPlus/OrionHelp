@@ -1,0 +1,23 @@
+Get a list of multi workspaces in the player's field of vision.<br>
+<hr><br>
+<b>ObjectsArray Orion.GetMultisRect</b>();<br>
+<hr><br>
+<b>Result:</b> list of objects, workspaces multi.<br>
+<hr><br>
+Usage example:
+<pre>
+var list = Orion.GetMultisRect();
+Orion.Print('list size: ' + list.length);
+
+for (var i = 0; i &lt; list.length; i++)
+{
+    var item = list[i];
+    Orion.Print('x: ' + item.x);
+    Orion.Print('y: ' + item .y);
+    Orion.Print('graphic: ' + item.graphic);
+    Orion.Print('minX: ' + item .minX);
+    Orion.Print('maxX: ' + item .maxX);
+    Orion.Print('minY: ' + item .minY);
+    Orion.Print('maxY: ' + item .maxY);
+}
+</pre>

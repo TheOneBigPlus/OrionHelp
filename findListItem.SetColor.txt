@@ -1,0 +1,10 @@
+Change the color of a search list item.<br>
+<hr><br>
+<b>findListItem.SetColor</b>('value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - string - new color<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

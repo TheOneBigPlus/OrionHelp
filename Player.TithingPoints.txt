@@ -1,0 +1,5 @@
+Get your character's amount of tithing points.<br>
+<hr><br>
+<b>int Player.TithingPoints</b>();<br>
+<hr><br>
+<b>Result:</b> integer - your tithing points.

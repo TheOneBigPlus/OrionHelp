@@ -1,0 +1,5 @@
+Get your character's current weight.<br>
+<hr><br>
+<b>int Player.Weight</b>();<br>
+<hr><br>
+<b>Result:</b> integer - current player weight.

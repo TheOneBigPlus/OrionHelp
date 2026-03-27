@@ -1,0 +1,13 @@
+Wait for a text dialog to open<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.WaitForTextDialog</b>();<br>
+<b>bool Orion.WaitForTextDialog</b>(delay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>delay</b> - integer - maximum wait time, in milliseconds<br>
+        <i>Default value</i>: <b>1000</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the text input dialog is received from the server.

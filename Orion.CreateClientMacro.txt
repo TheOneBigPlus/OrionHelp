@@ -1,0 +1,16 @@
+Create a new client macro.<br>
+<hr><br>
+Call variants:<br><br>
+<b>MacroObject Orion.CreateClientMacro</b>();<br>
+<b>MacroObject Orion.CreateClientMacro</b>('action');<br>
+<b>MacroObject Orion.CreateClientMacro</b>('action', 'subAction');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>action</b> - string - action or group of actions<br>
+        <i>Default value</i>: <b>not set</b><br>
+    <li><b>subAction</b> - string - an action (if the first parameter is specified as a group of actions) or text to enter<br>
+        <i>Default value</i>: <b>not set</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>MacroObject</b> or null.

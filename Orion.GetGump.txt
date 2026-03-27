@@ -1,0 +1,14 @@
+Get gump from Orion's memory.<br>
+<hr><br>
+Call variants:<br><br>
+<b>GumpObject Orion.GetGump</b>(index);<br>
+<b>GumpObject Orion.GetGump</b>('serial', 'id');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - gump index. Starts at 0.<br>
+    <li><b>serial</b> - string - gump serial number.<br>
+    <li><b>id</b> - string - gump ID.<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>GumpObject</b> or null if it does not exist

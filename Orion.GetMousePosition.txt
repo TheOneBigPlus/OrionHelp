@@ -1,0 +1,5 @@
+Get mouse coordinates in game window.<br>
+<hr><br>
+<b>PositionObject Orion.GetMousePosition</b>();<br>
+<hr><br>
+<b>Result:</b> class object <b>PositionObject</b> - mouse coordinates in the game window.

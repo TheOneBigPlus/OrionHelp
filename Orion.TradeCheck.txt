@@ -1,0 +1,11 @@
+Change the status of a trade window confirmation checkbox.<br>
+<hr><br>
+<b>Orion.TradeCheck</b>('serialOrIndex', state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serialOrIndex</b> - string - trade window index. Starts from 0, or serial number<br>
+    <li><b>state</b> - boolean - true to check the confirmation checkbox.  False to uncheck<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

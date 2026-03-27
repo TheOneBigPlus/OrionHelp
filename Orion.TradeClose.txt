@@ -1,0 +1,10 @@
+Close a trade window.<br>
+<hr><br>
+<b>Orion.TradeClose</b>('serialOrIndex');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serialOrIndex</b> - string - trade window index. Starts from 0, or serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

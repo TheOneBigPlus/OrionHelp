@@ -1,0 +1,5 @@
+Ignore list item serial number.<br>
+<hr><br>
+<b>String ignoreListItem.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - list item serial number.

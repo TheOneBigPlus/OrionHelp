@@ -1,0 +1,17 @@
+Create a property for a list item.<br>
+<hr><br>
+Call variants:<br><br>
+<b>new FindItemProperty</b>('name');<br>
+<b>new FindItemProperty</b>('name', minValue);<br>
+<b>new FindItemProperty</b>('name', minValue, maxValue);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - property name<br>
+    <li><b>minValue</b> - integer - minimum value.<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>maxValue</b> - integer - maximum value.<br>
+        <i>Default value</i>: <b>100</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>FindItemProperty</b>.

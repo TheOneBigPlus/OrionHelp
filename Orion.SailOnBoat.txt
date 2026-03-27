@@ -1,0 +1,14 @@
+Start sailing on a boat (new boat control system).<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.SailOnBoat</b>('direction');<br>
+<b>bool Orion.SailOnBoat</b>('direction', fast);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:Directions">direction</a></b> - string - direction to move<br>
+    <li><b>fast</b> - boolean - true to move at top speed<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

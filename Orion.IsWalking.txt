@@ -1,0 +1,5 @@
+Check if pathfinding is currently running.<br>
+<hr><br>
+<b>bool Orion.IsWalking</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the pathfinding is in progress

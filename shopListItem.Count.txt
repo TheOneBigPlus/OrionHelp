@@ -1,0 +1,5 @@
+Quantity to buy/sell. 0 - do not use the quantity filter.<br>
+<hr><br>
+<b>int shopListItem.Count</b>();<br>
+<hr><br>
+<b>Result:</b> integer - quantity to buy/sell.

@@ -1,0 +1,5 @@
+Get a list of all running UDP servers.<br>
+<hr><br>
+<b>StringList Orion.UdpServersList</b>();<br>
+<hr><br>
+<b>Result:</b> list of strings - names of all running UDP servers.

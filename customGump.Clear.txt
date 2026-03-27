@@ -1,0 +1,5 @@
+Clear content of custom gump or selected container.<br>
+<hr><br>
+<b>customGump.Clear</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

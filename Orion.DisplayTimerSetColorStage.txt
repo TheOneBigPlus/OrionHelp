@@ -1,0 +1,24 @@
+Add state to change the color of the timer when a specific timer time is reached (in %).<br>
+You can add several states. States with the same % replace each other.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.DisplayTimerSetColorStage</b>('id', percentage, 'textColor');<br>
+<b>Orion.DisplayTimerSetColorStage</b>('id', percentage, 'textColor', 'backgroundColor');<br>
+<b>Orion.DisplayTimerSetColorStage</b>('id', percentage, 'textColor', 'backgroundColor', 'iconColor');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer id<br>
+    <li><b>percentage</b> - integer - % value when you need to activate this stage (from 0 to 100)<br>
+    <li><b>textColor</b> - string - text color at this stage<br>
+        Value <b>'any'</b> - color is ignored. Default timer value is taken<br>
+    <li><b>backgroundColor</b> - string - background color at this stage in the format 
+            0x<font color="red">RR</font><font color="green">GG</font><font color="blue">BB</font><font color="gray">AA</font><br>
+        Value <b>'any'</b> - color is ignored. Default timer value is taken<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>iconColor</b> - string - color icons at this stage<br>
+        Value <b>'any'</b> - color is ignored. Default timer value is taken<br>
+        <i>Default value</i>: <b>'any'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

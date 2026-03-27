@@ -1,0 +1,5 @@
+Get the grid index of an object.<br>
+<hr><br>
+<b>int obj.GridIndex</b>();<br>
+<hr><br>
+<b>Result:</b> integer - grid index of the object in the container.

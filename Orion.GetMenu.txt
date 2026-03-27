@@ -1,0 +1,10 @@
+Get server menu.<br>
+<hr><br>
+<b>MenuObject Orion.GetMenu</b>('nameOrIndex');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>nameOrIndex</b> - string - menu name or index<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>MenuObject</b>, or null if the menu does not exist

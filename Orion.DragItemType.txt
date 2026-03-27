@@ -1,0 +1,26 @@
+Find an item by <i>type</i> and grab it.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.DragItemType</b>('graphic');<br>
+<b>bool Orion.DragItemType</b>('graphic', 'color');<br>
+<b>bool Orion.DragItemType</b>('graphic', 'color', 'container');<br>
+<b>bool Orion.DragItemType</b>('graphic', 'color', 'container', count);<br>
+<b>bool Orion.DragItemType</b>('graphic', 'color', 'container', count, 'ignoreLists');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        For value <b>'any'</b> this field is ignored<br>
+    <li><b>color</b> - string - color to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        For value <b>'any'</b> this field is ignored<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>container</b> - string - the serial or alias of the container to search<br>
+        <i>Default value</i>: <b>'backpack'</b><br>
+    <li><b>count</b> - integer - how many items to take.<br>
+        0 - take all<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>ignoreLists</b> - string - ignore list names. Can be combined with pipes: | such as ('list1|list2')<br>
+        <i>Default value</i>: <b>''</b> (empty string)<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if an item is found.

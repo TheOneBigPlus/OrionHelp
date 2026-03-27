@@ -1,0 +1,5 @@
+Check whether the menu has been "answered"<br>
+<hr><br>
+<b>bool menu.Replayed</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if this menu has already been answered/replayed.

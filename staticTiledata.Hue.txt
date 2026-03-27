@@ -1,0 +1,5 @@
+Get tile hue.<br>
+<hr><br>
+<b>String staticTiledata.Hue</b>();<br>
+<hr><br>
+<b>Result:</b> string - tile hue.

@@ -1,0 +1,5 @@
+Minimum property value.<br>
+<hr><br>
+<b>int findItemProperty.MinValue</b>();<br>
+<hr><br>
+<b>Result:</b> integer - minimum property value.

@@ -1,0 +1,10 @@
+Add page to custom gump.<br>
+<hr><br>
+<b>customGump.AddPage</b>(page);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>page</b> - integer - page number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,22 @@
+Drop an item from the character’s hand at the specified coordinates.<br>
+If x, y are specified as -1, -1 (or not specified) - moving to containers occurs at a random place.
+<hr><br>
+Call variants:<br><br>
+<b>Orion.DropDraggedItem</b>();<br>
+<b>Orion.DropDraggedItem</b>('container');<br>
+<b>Orion.DropDraggedItem</b>('container', x, y, z);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>container</b> - string - drop container serial number<br>
+        If specified <b>'ground'</b> - world coordinates are accepted, otherwise inside the container<br>
+    <i>Default value</i>: <b>'backpack'</b><br>
+    <li><b>x</b> - integer - X coordinate<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>y</b> - integer - Y coordinate<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>z</b> - integer - Z coordinate (only when dropping to the ground)<br>
+        <i>Default value</i>: <b>-256</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

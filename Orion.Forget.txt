@@ -1,0 +1,10 @@
+Remove an object from the Orion's memory.<br>
+<hr><br>
+<b>Orion.Forget</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

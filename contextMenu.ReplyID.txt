@@ -1,0 +1,5 @@
+ID of the selected context menu item.<br>
+<hr><br>
+<b>int contextMenu.ReplyID</b>();<br>
+<hr><br>
+<b>Result:</b> integer - ID of the selected context menu item.

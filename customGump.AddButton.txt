@@ -1,0 +1,22 @@
+Add button to custom gump.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddButton</b>(serial, x, y, 'graphic', 'graphicSelected', 'graphicPressed', 'color');<br>
+<b>customGump.AddButton</b>(serial, x, y, 'graphic', 'graphicSelected', 'graphicPressed', 'color', action, toPage);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - item serial number. Returned in response to the gump as ReturnCode<br>
+    <li><b>x</b> - integer - X coordinate<br>
+    <li><b>y</b> - integer - Y coordinate<br>
+    <li><b>graphic</b> - string - image number in normal state<br>
+    <li><b>graphicSelected</b> - string - number of the image in the selected state (mouse over the element)<br>
+    <li><b>graphicPressed</b> - string - image number in the pressed state<br>
+    <li><b>color</b> - string - button color<br>
+    <li><b>action</b> - integer - action type, 0 - go to the page, 1 - selection in the gump<br>
+        <i>Default value</i>: <b>1</b><br>
+    <li><b>toPage</b> - integer - page number for action=0<br>
+        <i>Default value</i>: <b>-1</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

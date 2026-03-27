@@ -1,0 +1,10 @@
+Update vendor shopping list information.<br>
+<hr><br>
+<b>Orion.UpdateShopList</b>(shopListObject);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>shopListObject</b> - class object <b>ShopListObject</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

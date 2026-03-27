@@ -1,0 +1,28 @@
+Delete the previous alias of an object, open target to specify a new one manually, and wait for the selection (or timeout).<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.WaitForAddObject</b>('objectName');<br>
+<b>int Orion.WaitForAddObject</b>('objectName', 'delay');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>objectName</b> - string - object alias name<br>
+    <li><b>delay</b> - string - maximum wait time. See <a href="searchend:.wait">Wait</a> for information on string constants<br>
+        <i>Default value</i>: <b>'60000'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> integer<br>
+0 - cancel / timeout<br>
+1 - selection of a game object<br>
+2 - selection of a static object 3 - land selection.
+<br>
+<br><br>
+Reserved <b>objectName</b> to change global client/assistant variables:
+<ul style="margin-left: -20px">
+    <li><b>lasttarget</b><br>
+    <li><b>harmtarget</b><br>
+    <li><b>helptarget</b><br>
+    <li><b>lastattack</b><br>
+    <li><b>newtargetsystem</b><br>
+    <li><b>laststatus</b><br>
+</ul>

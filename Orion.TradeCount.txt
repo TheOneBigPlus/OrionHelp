@@ -1,0 +1,5 @@
+Get the number of open trading windows.<br>
+<hr><br>
+<b>int Orion.TradeCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - number of open trade windows.

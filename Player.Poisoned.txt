@@ -1,0 +1,5 @@
+Player poisoned check.<br>
+<hr><br>
+<b>bool Player.Poisoned</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if you are poisoned.

@@ -1,0 +1,5 @@
+Read the file line (before line break \n).<br>
+<hr><br>
+<b>String file.ReadLine</b>();<br>
+<hr><br>
+<b>Result:</b> string - reading result.

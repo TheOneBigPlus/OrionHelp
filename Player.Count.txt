@@ -1,0 +1,6 @@
+Get your character's count.<br>
+This value and path comes from the server. Maybe somewhere it plays a role and someone will need it.<br>
+<hr><br>
+<b>int Player.Count</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player's count.

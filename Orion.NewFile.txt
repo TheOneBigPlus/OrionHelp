@@ -1,0 +1,5 @@
+Create a file object.<br>
+<hr><br>
+<b>FileObject Orion.NewFile</b>();<br>
+<hr><br>
+<b>Result:</b> class object <b>FileObject</b>, or null

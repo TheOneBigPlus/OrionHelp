@@ -1,0 +1,5 @@
+The identifier of the active propmt.<br>
+<hr><br>
+<b>String Orion.PromptID</b>();<br>
+<hr><br>
+<b>Result:</b> string - identifier of the active prompt.

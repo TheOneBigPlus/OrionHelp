@@ -1,0 +1,5 @@
+Get your character's energy resistance.<br>
+<hr><br>
+<b>int Player.EnergyResistance</b>();<br>
+<hr><br>
+<b>Result:</b> integer - energy resistance

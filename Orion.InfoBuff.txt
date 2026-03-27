@@ -1,0 +1,5 @@
+Display information about current buffs and debuffs in a text window.<br>
+<hr><br>
+<b>Orion.InfoBuff</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

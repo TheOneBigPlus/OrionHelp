@@ -1,0 +1,10 @@
+Reset the object name to an empty string.<br>
+<hr><br>
+<b>Orion.ResetName</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number for reset <b>Name</b> and <b>FullName</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

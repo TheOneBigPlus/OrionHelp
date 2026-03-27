@@ -1,0 +1,10 @@
+Write data line and line break (\n).<br>
+<hr><br>
+<b>file.WriteLine</b>('data');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>data</b> - string - text for writing.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

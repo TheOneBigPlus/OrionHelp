@@ -1,0 +1,13 @@
+Open Enhanced Map.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.OpenEnhancedMap</b>();<br>
+<b>Orion.OpenEnhancedMap</b>('filePath');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>filePath</b> - string - full path to the map.<br>
+        <i>Default value</i>: <b>'[UOPath]/Map/EnhancedMap.exe'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

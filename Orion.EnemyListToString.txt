@@ -1,0 +1,13 @@
+Get a list of enemies in one line.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.EnemyListToString</b>();<br>
+<b>String Orion.EnemyListToString</b>('separator');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>separator</b> - string - the delimiter used to split the serial numbers<br>
+        <i>Default value</i>: <b>'|'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - a list of enemies, condensed to one line, and split by the specified separator.

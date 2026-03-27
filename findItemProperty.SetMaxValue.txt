@@ -1,0 +1,10 @@
+Change the maximum value of a property.<br>
+<hr><br>
+<b>findItemProperty.SetMaxValue</b>(value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - integer - new maximum value<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

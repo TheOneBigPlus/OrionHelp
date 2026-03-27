@@ -1,0 +1,11 @@
+Set the color of the item locally (changed only on the client side. The color is not sent to the server!).<br>
+<hr><br>
+<b>Orion.TestItemColor</b>('serial', 'color');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the item<br>
+    <li><b>color</b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

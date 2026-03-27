@@ -1,0 +1,5 @@
+Get the notoriety of an object.<br>
+<hr><br>
+<b>int obj.Notoriety</b>();<br>
+<hr><br>
+<b>Result:</b> integer - <a href="search: Notoriety">notoriety</a> of an object.

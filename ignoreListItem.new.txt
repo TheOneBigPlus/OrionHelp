@@ -1,0 +1,20 @@
+Create a new ignore list item.<br>
+<hr><br>
+Call variants:<br><br>
+<b>new IgnoreListItem</b>('graphic');<br>
+<b>new IgnoreListItem</b>('graphic', 'color');<br>
+<b>new IgnoreListItem</b>('graphic', 'color', 'serial');<br>
+<b>new IgnoreListItem</b>('graphic', 'color', 'serial', 'comment');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - item graphic<br>
+    <li><b>color</b> - string - item color.<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>serial</b> - string - serial number of a list item, to ignore a <i>specific</i> object.<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>comment</b> - string - comment on the item.<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object created <b>IgnoreListItem</b>.

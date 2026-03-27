@@ -1,0 +1,5 @@
+List item properties.<br>
+<hr><br>
+<b>FindItemPropertyList findListItem.Properties</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>FindItemProperty</b> - array of search list item properties.

@@ -1,0 +1,5 @@
+Coordinate X of gump.<br>
+<hr><br>
+<b>int gump.X</b>();<br>
+<hr><br>
+<b>Result:</b> integer - coordinate X of gump.

@@ -1,0 +1,14 @@
+Create or open an existing file for reading or overwriting.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool file.Open</b>('filePath');<br>
+<b>bool file.Open</b>('filePath', checkExists);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>filePath</b> - string - path to file<br>
+    <li><b>checkExists</b> - boolean - check file availability before opening<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the file was successfully created/opened.

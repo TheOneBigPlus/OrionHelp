@@ -1,0 +1,16 @@
+Get pseudo random number.<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.Random</b>();<br>
+<b>int Orion.Random</b>(value);<br>
+<b>int Orion.Random</b>(minValue, maxValue);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - integer - maximum value from which to calculate.  Cannot be larger than the default<br>
+        <i>Default value</i>: <b>2147483647</b><br>
+    <li><b>minValue</b> - integer - minimum output value<br>
+    <li><b>maxValue</b> - integer - maximum output value, result will be a random value from minValue to maxValue-1<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - pseudo random number.

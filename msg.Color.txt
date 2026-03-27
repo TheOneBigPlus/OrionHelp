@@ -1,0 +1,5 @@
+Message color.<br>
+<hr><br>
+<b>String msg.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - message color.

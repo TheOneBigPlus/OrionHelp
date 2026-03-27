@@ -1,0 +1,14 @@
+Get the ping value calculated by the client (only when the ping check option is enabled).<br>
+<hr><br>
+<b>int Orion.GetPing</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - ping mode<br>
+        Options:<br>
+        <b>'min'</b> - minimum ping<br>
+        <b>'max'</b> - maximum ping<br>
+        <b>'average'</b> - average ping value<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - ping value (9999 if the ping was not requested/received).

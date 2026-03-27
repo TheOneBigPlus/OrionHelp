@@ -1,0 +1,43 @@
+Highlight area in the client window.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddHighlightArea</b>('id');<br>
+<b>Orion.AddHighlightArea</b>('id', timer);<br>
+<b>Orion.AddHighlightArea</b>('id', timer, 'snapObject');<br>
+<b>Orion.AddHighlightArea</b>('id', timer, 'snapObject', 'color');<br>
+<b>Orion.AddHighlightArea</b>('id', timer, 'snapObject', 'color', rangeX, rangeY);<br>
+<b>Orion.AddHighlightArea</b>('id', timer, 'snapObject', 'color', rangeX, rangeY, 'highlightMode');<br>
+<b>Orion.AddHighlightArea</b>('id', timer, 'snapObject', 'color', rangeX, rangeY, 'highlightMode', x, y);<br>
+<hr><br>
+Аргументы:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - area id;<br>
+    <li><b>timer</b> - integer - area lifetime, in milliseconds;<br>
+        If specified <b>-1</b> - area does not disappear<br>
+        <i>Default value</i>: <b>-1</b>;<br>
+    <li><b>snapObject</b> - string - serial number of the object to which the area is attached;<br>
+        If specified <b>'mouse'</b> - area follows mouse<br>
+        If specified <b>'pos'</b> - specified coordinates are used<br>
+        <i>Default value</i>: <b>'mouse'</b>;<br>
+    <li><b>color</b> - string - highlight color, number from the UO color palette;<br>
+        <i>Default value</i>: <b>'0x0386'</b>;<br>
+    <li><b>rangeX</b> - integer - area range along the X axis;<br>
+        <i>Default value</i>: <b>3</b>;<br>
+    <li><b>rangeY</b> - integer - area range along the Y axis;<br>
+        <i>Default value</i>: <b>3</b>;<br>
+    <li><b>highlightMode</b> - string - highlight mode, can be combined via |;<br>
+        If specified <b>'all'</b> - highlight everything in the area<br>
+        If specified <b>'mobile'</b> - highlight mobiles<br>
+        If specified <b>'item'</b> - highlight game items<br>
+        If specified <b>'corpse'</b> - highlight corpses<br>
+        If specified <b>'land'</b> - highlight land tiles<br>
+        If specified <b>'static'</b> - highlight static tiles<br>
+        If specified <b>'multi'</b> - highlight player houses, boats and other multi-objects<br>
+        <i>Default value</i>: <b>'all'</b>;<br>
+    <li><b>x</b> - integer - world coordinate of the center of the area along the X axis (for snapObject='pos');<br>
+        <i>Default value</i>: <b>0</b>;<br>
+    <li><b>y</b> - integer - world coordinate of the center of the area along the Y axis (for snapObject='pos');<br>
+        <i>Default value</i>: <b>0</b>;<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

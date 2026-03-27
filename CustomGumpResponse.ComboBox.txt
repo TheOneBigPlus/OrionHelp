@@ -1,0 +1,10 @@
+The selected line number of the specified combobox of the responded custom gump.<br>
+<hr><br>
+<b>int CustomGumpResponse.ComboBox</b>(serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - serial number of the item<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the number of the selected combobox line with the specified serial number.

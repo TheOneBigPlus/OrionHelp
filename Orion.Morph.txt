@@ -1,0 +1,17 @@
+Change character body graphic.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Morph</b>();<br>
+<b>Orion.Morph</b>('graphic');<br>
+<b>Orion.Morph</b>('graphic', 'serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - body graphic<br>
+        If 0 is specified, returns the body to its original state<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>serial</b> - string - character serial number<br>
+        <i>Default value</i>: <b>'self'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

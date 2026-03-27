@@ -1,0 +1,16 @@
+Send packet via UDP.<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.UdpSend</b>(port, 'data');<br>
+<b>int Orion.UdpSend</b>('host', port, 'data');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>host</b> - string - IP address to send data to or 'broadcast'.<br>
+        <i>Default value</i>: <b>'127.0.0.1'</b><br>
+    <li><b>port</b> - integer - port to send data to.<br>
+    <li><b>data</b> - string - data to send.<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - number of bytes sent<br>
+-1 for sending error, -100 if prohibited by the UO server.

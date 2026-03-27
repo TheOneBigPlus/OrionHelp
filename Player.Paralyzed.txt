@@ -1,0 +1,5 @@
+Player paralysis check (debuff 0x755B search).<br>
+<hr><br>
+<b>bool Player.Paralyzed</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if you are paralyzed.

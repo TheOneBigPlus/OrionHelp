@@ -1,0 +1,5 @@
+The serial number of the context menu.<br>
+<hr><br>
+<b>String contextMenu.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - context menu serial number.

@@ -1,0 +1,10 @@
+Menu item color.<br>
+<hr><br>
+<b>String menu.ItemColor</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - menu item index<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - menu item color.

@@ -1,0 +1,5 @@
+Count (only needed for organizer in restock mode).<br>
+<hr><br>
+<b>int findListItem.Count</b>();<br>
+<hr><br>
+<b>Result:</b> integer - count.

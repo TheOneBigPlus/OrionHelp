@@ -1,0 +1,5 @@
+Get your character's notoriety.<br>
+<hr><br>
+<b>int Player.Notoriety</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player <a href="search: Notoriety">notoriety</a>.

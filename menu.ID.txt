@@ -1,0 +1,5 @@
+Menu ID.<br>
+<hr><br>
+<b>String menu.ID</b>();<br>
+<hr><br>
+<b>Result:</b> string - menu ID.

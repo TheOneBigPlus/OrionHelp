@@ -1,0 +1,10 @@
+Change the need to buy/sell a product list item.<br>
+<hr><br>
+<b>shopListItem.SetEnabled</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - new state<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

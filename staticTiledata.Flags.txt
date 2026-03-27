@@ -1,0 +1,5 @@
+Get the flags of the tile. 64-bit value.<br>
+<hr><br>
+<b>int64 staticTiledata.Flags</b>();<br>
+<hr><br>
+<b>Result:</b> integer 64 bit, tile <a href="search:TiledataFlags">flags</a>.

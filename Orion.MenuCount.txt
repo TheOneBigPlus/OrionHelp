@@ -1,0 +1,5 @@
+The number of unreplied menus.<br>
+<hr><br>
+<b>int Orion.MenuCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - number of unreplied menus.

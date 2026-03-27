@@ -1,0 +1,24 @@
+Set a hint for a text entry field (if no text is entered).<br>
+The previous element must be textentry.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.SetTextEntryPlaceholderText</b>('text');<br>
+<b>customGump.SetTextEntryPlaceholderText</b>('text', 'color');<br>
+<b>customGump.SetTextEntryPlaceholderText</b>('text', 'color', width);<br>
+<b>customGump.SetTextEntryPlaceholderText</b>('text', 'color', width, font);<br>
+<b>customGump.SetTextEntryPlaceholderText</b>('text', 'color', width, font, 'align');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - text<br>
+    <li><b>color</b> - string - placeholder text color<br>
+        <i>Default value</i>: <b>same as textentry</b><br>
+    <li><b>width</b> - integer - placeholder text width<br>
+        <i>Default value</i>: <b>same as textentry</b><br>
+    <li><b>font</b> - integer - placeholder font<br>
+        <i>Default value</i>: <b>same as textentry</b><br>
+    <li><b>align</b> - integer - placeholder text align<br>
+        <i>Default value</i>: <b>'left'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

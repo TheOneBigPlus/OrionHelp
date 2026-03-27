@@ -1,0 +1,30 @@
+Search for wands in the specified container.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.FindWand</b>('name');<br>
+<b>String Orion.FindWand</b>('name', 'container');<br>
+<b>String Orion.FindWand</b>('name', 'container', recurse);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - can be:<br>
+    <ul style="margin-left: -20px">
+        <li><b>Clumsy</b><br>
+        <li><b>Identification</b><br>
+        <li><b>Healing</b><br>
+        <li><b>Feeblemind</b><br>
+        <li><b>Weakness</b><br>
+        <li><b>Magic Arrow</b><br>
+        <li><b>Harm</b><br>
+        <li><b>Fireball</b><br>
+        <li><b>Greater Heal</b><br>
+        <li><b>Lightning</b><br>
+        <li><b>Mana Drain</b><br>
+    </ul>
+    <li><b>container</b> - string - the serial of the serial or alias of the container to search<br>
+    <i>Default value</i>: <b>'self'</b><br>
+    <li><b>recurse</b> - boolean - true if you want to search pre-opened subcontainers<br>
+    <i>Default value</i>: <b>The value of the "Recurse containers search" option, found in the Main tab in the Orion Assistant</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - serial number of the found wand.

@@ -1,0 +1,5 @@
+Get the ID of the selected gump.<br>
+<hr><br>
+<b>String SelectedTile.GumpId</b>();<br>
+<hr><br>
+<b>Result:</b> string - the ID of the selected gump.

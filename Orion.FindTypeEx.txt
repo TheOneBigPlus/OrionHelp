@@ -1,0 +1,34 @@
+Search for items by type and color (if necessary) from the specified container, taking into account (if specified) flags, distance, notoriety, etc.<br>
+<hr><br>
+Call variants:<br><br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic');<br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic', 'color');<br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic', 'color', 'container');<br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic', 'color', 'container', 'flags');<br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic', 'color', 'container', 'flags', 'distance');<br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic', 'color', 'container', 'flags', 'distance', 'notoriety');<br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic', 'color', 'container', 'flags', 'distance', 'notoriety', recurse);<br>
+<b>GameObjectList Orion.FindTypeEx</b>('graphic', 'color', 'container', 'flags', 'distance', 'notoriety', recurse, 'ignoreLists');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        Value of <b>'any'</b> - this field is ignored<br>
+    <li><b>color</b> - string - color to search. Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+        Value of <b>'any'</b> - this field is ignored<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>container</b> - string - the serial or alias of the container to search<br>
+        <i>Default value</i>: <b>'backpack'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string<br>
+        <i>Default value</i>: <b>'finddistance'</b><br>
+    <li><b><a href="search: Notoriety">notoriety</a></b> - string<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>recurse</b> - boolean - true if you want to search pre-opened subcontainers<br>
+        <i>Default value</i>: <b>The value of the "Recurse containers search" option, found in the Main tab in the Orion Assistant</b><br>
+    <li><b>ignoreLists</b> - string - ignore list names. Can be combined with pipes: | such as ('list1|list2')<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> an array of found class objects: <i>GameObject</i>

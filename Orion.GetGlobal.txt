@@ -1,0 +1,10 @@
+Get the value of a global variable.<br>
+<hr><br>
+<b>String Orion.GetGlobal</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b>name</b> - string - global variable name<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - the value of the global variable, or if it is not yet declared.

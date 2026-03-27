@@ -1,0 +1,17 @@
+Search a list and use an item by type (graphic), from the ground.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.UseFromGroundList</b>('listName');<br>
+<b>bool Orion.UseFromGroundList</b>('listName', 'distance');<br>
+<b>bool Orion.UseFromGroundList</b>('listName', 'distance', 'flags');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - the name of a list of object types (graphics) to use<br>
+    <li><b><a href="search:FindFlags">distance</a></b> - string - search distance<br>
+        <i>Default value</i>: <b>'useObjectsDistance'</b><br>
+    <li><b><a href="search:FindFlags">flags</a></b> - string - search flags<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the object is found and an attempt to use it was made

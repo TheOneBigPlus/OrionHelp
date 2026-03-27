@@ -1,0 +1,5 @@
+Get your character's race.<br>
+<hr><br>
+<b>int Player.Race</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player race.

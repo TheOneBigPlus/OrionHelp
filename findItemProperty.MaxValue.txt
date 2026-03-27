@@ -1,0 +1,5 @@
+Maximum property value.<br>
+<hr><br>
+<b>int findItemProperty.MaxValue</b>();<br>
+<hr><br>
+<b>Result:</b> integer - maximum property value.

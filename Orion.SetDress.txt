@@ -1,0 +1,10 @@
+Remember a set of clothes (except for weapons and shields).<br>
+<hr><br>
+<b>Orion.SetDress</b>('setName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>setName</b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

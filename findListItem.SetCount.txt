@@ -1,0 +1,10 @@
+Change the count (only needed for the organizer in restock mode).<br>
+<hr><br>
+<b>findListItem.SetCount</b>(value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - integer - new count<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

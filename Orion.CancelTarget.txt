@@ -1,0 +1,5 @@
+Cancel the current target in the client (if any).<br>
+<hr><br>
+<b>Orion.CancelTarget()</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

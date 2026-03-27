@@ -1,0 +1,24 @@
+Set the text and its display parameters for the spoiler.<br>
+The previous element should be spoiler.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.SetSpoilerText</b>('text');<br>
+<b>customGump.SetSpoilerText</b>('text', 'color');<br>
+<b>customGump.SetSpoilerText</b>('text', 'color', 'colorSelected');<br>
+<b>customGump.SetSpoilerText</b>('text', 'color', 'colorSelected', 'colorOpened');<br>
+<b>customGump.SetSpoilerText</b>('text', 'color', 'colorSelected', 'colorOpened', font);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - text<br>
+    <li><b>color</b> - string - text color normal state<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>colorSelected</b> - string - the color of the text in the selected state (mouse over the element)<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>colorOpened</b> - string - opened state text color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>font</b> - integer - font<br>
+        <i>Default value</i>: <b>depends on the emulated client version</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

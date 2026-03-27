@@ -1,0 +1,10 @@
+Save text window contents to file.<br>
+<hr><br>
+<b>TextWindow.SaveToFile</b>('filePath');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>filePath</b> - string - file path to save<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

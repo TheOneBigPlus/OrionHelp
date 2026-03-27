@@ -1,0 +1,10 @@
+Request a context menu from the server.<br>
+<hr><br>
+<b>Orion.RequestContextMenu</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object for which the menu is requested<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

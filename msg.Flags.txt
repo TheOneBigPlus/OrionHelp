@@ -1,0 +1,5 @@
+Message flags.<br>
+<hr><br>
+<b>int msg.Flags</b>();<br>
+<hr><br>
+<b>Result:</b> integer - message <a href="search:JournalFlags">flags</a>.

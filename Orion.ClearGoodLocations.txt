@@ -1,0 +1,5 @@
+Clear the list of passable coordinates.<br>
+<hr><br>
+<b>Orion.ClearGoodLocations</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

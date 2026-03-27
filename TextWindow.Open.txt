@@ -1,0 +1,5 @@
+Open text window.<br>
+<hr><br>
+<b>TextWindow.Open</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

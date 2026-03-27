@@ -1,0 +1,119 @@
+<h1>Assistant Options</h1>
+<hr>
+Manipulate Orion options from your scripts with these keywords:
+
+<ul style="margin-left: -20px">
+
+<li><h3><u>Main tab</u></h3>
+<li><b>CorpsesAutoopen</b>
+<li><b>StealthStepCounter</b>
+<li><b>SoundFilter</b>
+<li><b>FilterLight</b>
+<li><b>FilterWeather</b>
+<li><b>FilterSeason</b>
+<li><b>NoDeathScreen</b>
+<li><b>NoDeathAnswer</b>
+<li><b>Tracker</b>
+<li><b>StayOnTop</b>
+<li><b>FastRotation</b>
+<li><b>RecurseContainersSearch</b>
+<li><b>Autostart</b>
+<li><b>IgnoreStaminaCheck</b>
+<li><b>MinimizeToTray</b>
+<li><b>SoundEcho</b>
+<li><b>AnimationEcho</b>
+<li><b>EffectEcho</b>
+<li><b>FilterSpeech</b>
+<li><b>TextReplace</b>
+<li><b>ObjectInspector</b>
+<li><b>NoGrayScreen</b>
+<li><b>SaveFarObjects</b>
+<li><b>JournalEcho</b>
+<li><b>MessagesLevel</b>
+<li><b>SearchDistance</b>
+<li><b>UseDistance</b>
+<li><b>OpenCorpseDistance</b>
+<li><b>CorpseKeepDelay</b>
+<li><b>WaitTargetsDelay</b>
+<li><b>MoveItemsDelay</b>
+<li><b>UseItemsDelay</b>
+<li><b>WindowsOpacity</b>
+<li><b>AutoReconnect</b>
+<li><b>AutoReconnectTimer</b>
+<li><b>SmartLastTarget</b>
+<li><b>UseMaxTargetDistance</b>
+<li><b>MaxTargetDistance</b>
+<li><b>OpenAndLootOnlyEvilCorpses</b>
+<li><b>PrintColor</b>
+<li><b>ShowChangeTargetNotifications</b>
+<li><b>AutoOpenCorpsesState</b>
+<li><b>RecountContainers</b>
+<li><b>RecountContainerTypes</b>
+<li><b>RecountContainerColors</b>
+<li><b>MaxJournalLinesCount</b>
+<li><b>CountTurnsAsStealthSteps</b>
+<li><b>OverheadStealthStepsNotification</b>
+<li><b>RemainingStealthStepsMessagePart</b>
+<li><b>MoveToOverheadRemainingStealthStepsMessage</b>
+<li><b>MatchNameInFullName</b>
+<li><b>SelectTargetNotificationColor</b>
+<li><b>InterruptNotificationColor</b>
+<li><b>BlockSystemPrints</b>
+<li><b>BlockCharPrints</b>
+<li><b>ShowCharacterStatus</b>
+<li><b>ShowNewTargetName</b>
+
+<li><h3><u>Display tab</u></h3>
+<li><b>DisplayDrawMode</b>
+<li><b>DisplayShowStats</b>
+<li><b>DisplayDoubleImage</b>
+<li><b>DisplayHightFont</b>
+<li><b>DisplayHighlightReagents</b>
+<li><b>DisplayApplyNotorietyColorOnName</b>
+<li><b>DisplayTextColor</b>
+<li><b>DisplayBackgroundColor</b>
+
+<li><h3><u>Lists > Friends tab</u></h3>
+<li><b>FeelPartyMembersAsFriends</b>
+<li><b>FeelFriendlyMobilesAsFriends</b>
+<li><b>FeelGuildTagsAsFriends</b>
+
+<li><h3><u>Lists > Enemies tab</u></h3>
+<li><b>FeelGuildTagsAsEnemies</b>
+
+<li><h3><u>Hotkeys tab</u></h3>
+<li><b>PassHotkeys</b>
+<li><b>CommandPrefix</b>
+
+<li><h3><u>Macros tab</u></h3>
+<li><b>MacroCastSpellsFromBookIfNotScrolls</b>
+
+<li><h3><u>Scripts tab</u></h3>
+<li><b>ScriptsPauseScriptOnDisconnect</b>
+
+<li><h3><u>Agents > Dress tab</u></h3>
+<li><b>DressUndressBeforeDress</b>
+<li><b>DressDoubleClickForEquipment</b>
+<li><b>DressUseNewEquipPackets</b>
+<li><b>DressAlwaysEquip</b>
+<li><b>DressClearHandsBeforeCast</b>
+
+<li><h3><u>Agents > Party tab</u></h3>
+<li><b>PartyAutoAcceptAll</b>
+<li><b>PartyAutoAcceptFriendInvities</b>
+<li><b>PartyAutoDeclineAll</b>
+<li><b>PartyAutoDeclineEnemyInvities</b>
+
+<li><h3><u>Agents > Shop tab</u></h3>
+<li><b>AutoBuyListName</b>
+<li><b>AutoSellListName</b>
+<li><b>AutoBuySelectedList</b>
+<li><b>AutoSellSelectedList</b>
+<li><b>ShowShoppingProgressBar</b>
+<li><b>MaxShopItems</b>
+<li><b>MaxSellPrice</b>
+<li><b>ShopDelay</b>
+<li><b>ShopTimeout</b>
+<li><b>BuyCommand</b>
+<li><b>SellCommand</b>
+</ul>

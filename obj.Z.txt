@@ -1,0 +1,5 @@
+Get the Z coordinate of an object.<br>
+<hr><br>
+<b>int obj.Z</b>();<br>
+<hr><br>
+<b>Result:</b> integer - object coordinate Z.

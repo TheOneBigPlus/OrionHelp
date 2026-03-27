@@ -1,0 +1,14 @@
+Turn off the computer (or try to do it).<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.ShutdownWindows</b>();<br>
+<b>Orion.ShutdownWindows</b>('mode');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>mode</b> - string - shutdown mode<br>
+        Can be <b>'forced'</b><br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

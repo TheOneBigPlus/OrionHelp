@@ -1,0 +1,27 @@
+<h1>Custom Gump Colors</h1>
+<hr><br>
+<b>Available colors for use in custom gump components: GlobalColor, Line, ColoredPolygone, and HTML text</b><br>
+<br>
+Color format: '#AARRGGBB' <br>
+It is allowed to omit the color components on the left if they will not be used. For example: '#GGBB'
+The minimum value for 'AA' is '01'. If it is '00', then 'FF' will be automatically substituted
+<hr>
+List of string constants for colors:
+<ul style="margin-left: -20px">
+<li><b>black</b> - #010101
+<li><b>red</b> - #FF0000
+<li><b>lime</b> - #00FF00
+<li><b>blue</b> - #0000FF
+<li><b>yellow</b> - #FFFF00
+<li><b>magenta</b> or <b>fuchsia</b> - #FF00FF
+<li><b>cyan</b> or <b>aqua</b> - #00FFFF
+<li><b>white</b> - #F6F6F6
+<li><b>darkred</b> or <b>maroon</b> - #7B0000
+<li><b>green</b> - #007B00
+<li><b>darkgreen</b> - #005A41
+<li><b>darkblue</b> or <b>navy</b> - #00007B
+<li><b>darkyellow</b> or <b>olive</b> - #7B7B00
+<li><b>darkmagenta</b> or <b>purple</b> - #7B007B
+<li><b>darkcyan</b> or <b>teal</b> - #007B7B
+<li><b>gray</b> or <b>grey</b> - #7B7B7B
+</ul>

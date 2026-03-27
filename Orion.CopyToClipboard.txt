@@ -1,0 +1,10 @@
+Copy text to clipboard.<br>
+<hr><br>
+<b>Orion.CopyToClipboard</b>('text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - text to copy to clipboard<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

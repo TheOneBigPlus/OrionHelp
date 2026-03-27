@@ -1,0 +1,10 @@
+Close character paperdoll gump.<br>
+<hr><br>
+<b>Orion.ClosePaperdoll</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the serial number of the character whose paperdoll will be closed<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

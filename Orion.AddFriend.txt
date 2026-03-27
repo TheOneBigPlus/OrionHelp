@@ -1,0 +1,14 @@
+Add friend alias.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddFriend</b>('friendName');<br>
+<b>Orion.AddFriend</b>('friendName', 'serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>friendName</b> - string - friend alias name<br>
+    <li><b>serial</b> - string - friend serial number<br>
+        <i>Default value</i>: <b>call of target for manual indication of the object in the client</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

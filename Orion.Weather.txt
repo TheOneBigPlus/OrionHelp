@@ -1,0 +1,13 @@
+Get current weather conditions.<br>
+<hr><br>
+Call variants:<br><br>
+<b>int Orion.Weather</b>();<br>
+<b>int Orion.Weather</b>('type');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>type</b> - string - Can be: 'real' (sent by the server), 'current' (used by the assistant)<br>
+        <i>Default value</i>: <b>'current'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the value of the specified weather conditions type.

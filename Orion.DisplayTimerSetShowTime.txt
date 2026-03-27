@@ -1,0 +1,11 @@
+Show/hide timer counter.<br>
+<hr><br>
+<b>Orion.DisplayTimerSetShowTime</b>('id', show);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer ID<br>
+    <li><b>show</b> - boolean - true if you need to display a counter<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

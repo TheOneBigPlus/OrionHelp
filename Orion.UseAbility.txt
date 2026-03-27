@@ -1,0 +1,15 @@
+Activate an ability.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.UseAbility</b>('abilityName');<br>
+<b>Orion.UseAbility</b>('abilityName', state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>abilityName</b> - string - name or index of the ability<br>
+        Can be <b>'Primary'</b>, <b>'Secondary'</b>, or the real name of the ability<br>
+    <li><b>state</b> - boolean - true to activate ability<br>
+        <i>Default value</i>: <b>switches the current state</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

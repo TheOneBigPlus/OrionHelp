@@ -1,0 +1,18 @@
+Close a text dialog<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.CloseTextDialog</b>('name');<br>
+<b>Orion.CloseTextDialog</b>('serial', 'id', 'name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - the name of the dialog to close<br>
+        Value <b>'all'</b> will close all open dialogs<br>
+        Value <b>'any'</b> or an empty string - this parameter will be ignored<br>
+    <li><b>serial</b> - string - serial number of the dialog to close<br>
+        Value <b>'any'</b> - this parameter will be ignored<br>
+    <li><b>id</b> - string - dialog id to close<br>
+        Value <b>'any'</b> - this parameter will be ignored<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

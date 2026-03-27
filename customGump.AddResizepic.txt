@@ -1,0 +1,21 @@
+Add background to custom gump.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddResizepic</b>(x, y, 'graphic', width, height);<br>
+<b>customGump.AddResizepic</b>(x, y, 'graphic', width, height, serial);<br>
+<b>customGump.AddResizepic</b>(x, y, 'graphic', width, height, serial, callOnMouseUp);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - X coordinate<br>
+    <li><b>y</b> - integer - Y coordinate<br>
+    <li><b>garphic</b> - string - background image number<br>
+    <li><b>width</b> - integer - width<br>
+    <li><b>height</b> - integer - height<br>
+    <li><b>serial</b> - integer - item serial number. If a value other than 0 is specified, the background works like a button<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>callOnMouseUp</b> - integer - mouse release call. If 0 is specified - triggered when the mouse is pressed, if 1 - when released<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

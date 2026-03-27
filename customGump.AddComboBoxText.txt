@@ -1,0 +1,24 @@
+Add an item to the dropdown list in the custom gump.<br>
+The previous item must be a combobox.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddComboBoxText</b>('text');<br>
+<b>customGump.AddComboBoxText</b>('text', 'color');<br>
+<b>customGump.AddComboBoxText</b>('text', 'color', selected);<br>
+<b>customGump.AddComboBoxText</b>('text', 'color', selected, width);<br>
+<b>customGump.AddComboBoxText</b>('text', 'color', selected, width, 'align');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - element text<br>
+    <li><b>color</b> - string - element text color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>selected</b> - integer - 0 - item not selected, 1 - selected<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>width</b> - integer - dropdown width<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>align</b> - integer - alignment of element text<br>
+        <i>Default value</i>: <b>'left'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

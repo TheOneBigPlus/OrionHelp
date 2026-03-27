@@ -1,0 +1,23 @@
+Create a new search list item.<br>
+<hr><br>
+Call variants:<br><br>
+<b>new FindListItem</b>('graphic');<br>
+<b>new FindListItem</b>('graphic', 'color');<br>
+<b>new FindListItem</b>('graphic', 'color', 'comment');<br>
+<b>new FindListItem</b>('graphic', 'color', 'comment', count);<br>
+<b>new FindListItem</b>('graphic', 'color', 'comment', count, findProtertyList);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - item graphics<br>
+    <li><b>color</b> - string - item color<br>
+        <i>Default value</i>: <b>'any'</b><br>
+    <li><b>comment</b> - string - comments on the item<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>count</b> - integer - count (needed only for the organizer in restock mode).<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>findProtertyList</b> - array <b>FindItemProperty</b> - array of element properties.<br>
+        <i>Default value</i>: <b>empty array</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>FindListItem</b>.

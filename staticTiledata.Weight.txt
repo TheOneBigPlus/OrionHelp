@@ -1,0 +1,5 @@
+Get tile weight.<br>
+<hr><br>
+<b>int staticTiledata.Weight</b>();<br>
+<hr><br>
+<b>Result:</b> integer - tile weight.

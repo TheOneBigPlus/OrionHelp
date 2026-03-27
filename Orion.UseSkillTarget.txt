@@ -1,0 +1,12 @@
+Use a skill with the new targeting system.<br>
+For the correct operation, the new targeting system must be supported by the server.<br>
+<hr><br>
+<b>Orion.UseSkillTarget</b>('nameOrIndex', 'serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>nameOrIndex</b> - string - skill name or index<br>
+    <li><b>serial</b> - string - the serial number of the target object<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

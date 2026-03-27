@@ -1,0 +1,66 @@
+<h1>Types of gumps</h1>
+<hr>
+Types of gumps that the assistant can interact with
+<ul style="margin-left: -20px">
+    <li><b>paperdoll</b> - a paperdoll gump
+    <li><b>statusbar</b> - a status bar gump
+    <li><b>dye</b> - the color picker menu
+    <li><b>options</b> - the options menu
+    <li><b>generic</b> - generic server gumps
+    <li><b>menu</b> - server menu gumps
+    <li><b>graymenu</b> - menu gumps (in the form of a list) of the server
+    <li><b>trade</b> - the trade menu
+    <li><b>shop</b> - a vendor shop menu
+    <li><b>radar</b> - the mini-map
+    <li><b>map</b> - treasure maps
+    <li><b>skills</b> - the skills menu
+    <li><b>journal</b> - the journal
+    <li><b>container</b> - containers (including and corpses)
+    <li><b>spellbook</b>
+    <li><b>spell</b> - spell icons
+    <li><b>drag</b> - separation of stacks of objects
+    <li><b>textentrydialog</b> - dialog for entering numbers/single-line text of the server
+    <li><b>question</b> - Example: Logout prompt
+    <li><b>selectcolor</b> - color selector (the Options menu)
+    <li><b>selectfont</b> - font selector
+    <li><b>notify</b> - notifications
+    <li><b>book</b>
+    <li><b>tip</b> - tooltip
+    <li><b>partymanifest</b> - party manifest
+    <li><b>mail</b> - mail (not implemented)
+    <li><b>characterprofile</b> - character profile
+    <li><b>menubar</b>
+    <li><b>buff</b>
+    <li><b>chat</b>
+    <li><b>bulletinboard</b>
+    <li><b>bulletinboarditem</b> - bulletin board message gump
+    <li><b>worldmap</b>
+    <li><b>custom</b> - plugin custom gump (not implemented)
+    <li><b>targetsystem</b> - statusbar of the new targeting system
+    <li><b>contextmenu</b>
+    <li><b>skill</b> - a skill icon
+    <li><b>combatbook</b>
+    <li><b>ability</b> - an ability icon
+    <li><b>racialabilitiesbook</b>
+    <li><b>racialability</b> - a racial ability icon
+    <li><b>customhouse</b> - custom house designer
+    <li><b>property</b>
+    <li><b>propertyicon</b> - property icon
+    <li><b>profiles</b> - Orion profiles
+    <li><b>globalgumpsconfiguration</b> - Orion's global settings gump
+    <li><b>worldmapconfiguration</b> - gump of the Orion world map configuration
+    <li><b>sign</b> - server sign gump
+    <li><b>questarrow</b> - the quest arrow
+    <li><b>counter</b> - counter gump
+    <li><b>editcounteritem</b> - gump for editing counter items
+    <li><b>selectnotoriety</b> - fame selection gump (the Options menu)
+    <li><b>help</b> - Orion help gump
+    <li><b>spellsareaconfiguration</b> - a gump of lighting settings for spell working zones
+    <li><b>partyinvitation</b> - a gump of new party invitation
+    <li><b>scriptslist</b> - a running scripts list gump
+    <li><b>statusbarsgroup</b> - party/frineds/enemies statusbars group gump
+    <li><b>changerace</b> - race changer gump
+    <li><b>controlhotkeys</b> - global control hotkeys gump
+    <li><b>objecthandlesmode</b> - ingame object handles mode gump
+    <li><b>debug</b> - FPS/debug information gump
+</ul>

@@ -1,0 +1,19 @@
+Show/hide the quest arrow<br>
+If the coordinates are specified as -1, then the current location in the world is used.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetTrack</b>();<br>
+<b>Orion.SetTrack</b>(state);<br>
+<b>Orion.SetTrack</b>(state, x, y);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - true to display<br>
+        <i>Default value</i>: <b>false</b><br>
+    <li><b>x</b> - integer - X coordinate to which the arrow points<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>y</b> - integer - Y coordinate to which the arrow points<br>
+        <i>Default value</i>: <b>-1</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

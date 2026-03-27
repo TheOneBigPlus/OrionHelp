@@ -1,0 +1,14 @@
+Add type alias.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddType</b>('typeName');<br>
+<b>Orion.AddType</b>('typeName', 'typeValue');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>typeName</b> - string - alias name type<br>
+    <li><b>typeValue</b> - string - graphic<br>
+        <i>Default value</i>: <b>call of target for manual indication of the object in the client</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

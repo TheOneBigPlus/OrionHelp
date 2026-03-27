@@ -1,0 +1,10 @@
+Change the price for a buy/sell. 0 - any item price is used.<br>
+<hr><br>
+<b>shopListItem.SetPrice</b>(value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - integer - new price<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

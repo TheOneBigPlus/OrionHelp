@@ -1,0 +1,10 @@
+Load assistant profile.<br>
+<hr><br>
+<b>Orion.LoadProfile</b>('name');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - profile name to load<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

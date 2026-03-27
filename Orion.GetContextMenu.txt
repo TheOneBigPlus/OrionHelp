@@ -1,0 +1,5 @@
+Get the context menu object.<br>
+<hr><br>
+<b>ContextMenuObject Orion.GetContextMenu</b>();<br>
+<hr><br>
+<b>Result:</b> class object <b>ContextMenuObject</b> or null, if it was not possible to create an object/there were no context menus for this session.

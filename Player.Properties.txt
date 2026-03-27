@@ -1,0 +1,6 @@
+Get your character's properties.<br>
+<hr><br>
+<b>String Player.Properties</b>();<br>
+<hr><br>
+<b>Result:</b> string - player properties.<br><br>
+<i>This is the same information that pops up in the tool-tip when hovering over your character</i>

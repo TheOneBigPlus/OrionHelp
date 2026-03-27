@@ -1,0 +1,34 @@
+Move the object with the specified quantity into a container at the specified coordinates.<br>
+If x, y are specified as -1, -1 (or not specified), the item is dropped in the container at a random coordinate.
+<hr><br>
+Call variants:<br><br>
+<b>Orion.MoveItem</b>();<br>
+<b>Orion.MoveItem</b>('serial');<br>
+<b>Orion.MoveItem</b>('serial', count);<br>
+<b>Orion.MoveItem</b>('serial', count, 'container');<br>
+<b>Orion.MoveItem</b>('serial', count, 'container', index);<br>
+<b>Orion.MoveItem</b>('serial', count, 'container', x, y);<br>
+<b>Orion.MoveItem</b>('serial', count, 'container', x, y, z);<br>
+<b>Orion.MoveItem</b>('serial', count, 'container', x, y, z, index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object to move<br>
+        <i>Default value</i>: <b>open a cursor target to specify an item manually</b><br>
+    <li><b>count</b> - integer - number of items to move<br>
+        0 - move all<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>container</b> - string - destination container serial number.<br>
+        When <b>'ground'</b> is specified, world coordinates are accepted<br>
+        <i>Default value</i>: <b>'backpack'</b><br>
+    <li><b>index</b> - integer - Index of the object within the container (OSI-like servers only)<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>x</b> - integer - X container coordinate for object drop<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>y</b> - integer - Y container coordinate for object drop<br>
+        <i>Default value</i>: <b>-1</b><br>
+    <li><b>z</b> - integer - Z container coordinate for object drop (only when dropping to the ground)<br>
+        <i>Default value</i>: <b>-1</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

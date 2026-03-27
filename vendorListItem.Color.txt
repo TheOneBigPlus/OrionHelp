@@ -1,0 +1,5 @@
+Vendor product color.<br>
+<hr><br>
+<b>String vendorListItem.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - product color.

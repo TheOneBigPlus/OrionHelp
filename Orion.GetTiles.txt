@@ -1,0 +1,18 @@
+Get a list of tiles in the specified coordinates.<br>
+<hr><br>
+Call variants:<br><br>
+<b>TileObjectList Orion.GetTiles</b>('tileFlags', x, y);<br>
+<b>TileObjectList Orion.GetTiles</b>('tileFlags', x, y, startZ, endZ);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:TileFlags">tileFlags</a></b> - string<br>
+    <li><b>x</b> - integer - X coordinate in the world where to look for tiles<br>
+    <li><b>y</b> - integer - Y coordinate in the world where to look for tiles<br>
+    <li><b>startZ</b> - integer - the initial Z coordinate in the world from which to start searching for tiles<br>
+        <i>Default value</i>: <b>255</b><br>
+    <li><b>endZ</b> - integer - the final Z coordinate in the world to which you want to search for tiles<br>
+        <i>Default value</i>: <b>255</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> array <b>TileObject</b> - list of found tiles.

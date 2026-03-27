@@ -1,0 +1,5 @@
+Get current abilities.<br>
+<hr><br>
+<b>StringList Orion.GetCurrentAbilityNames</b>();<br>
+<hr><br>
+<b>Result:</b> string list with 2 elements - current abilities.

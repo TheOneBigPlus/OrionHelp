@@ -1,0 +1,16 @@
+Force a script to wait (AKA sleep or pause).<br>
+<hr><br>
+<b>Orion.Wait</b>('delay');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>delay</b> - string - how much time to wait, in milliseconds.<br>
+        Available parameters:<br>
+        <b>'moveitemdelay'</b> - delay the movement of objects.<br>
+        <b>'waittargetdelay'</b> - delay to wait for a target.<br>
+        <b>'useitemdelay'</b> - delay the use of items.<br>
+        <b>'keepcorpsedelay'</b> - corpse storage time in memory (for automatic opening).<br>
+        <b>'1h 33m 47s 123'</b> - string literals for hours (h) minutes (m) and seconds (s). The order is not important (except for milliseconds, if any. They should always be at the end of the line).<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

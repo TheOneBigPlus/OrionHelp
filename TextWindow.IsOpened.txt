@@ -1,0 +1,5 @@
+The state of the text window is "open".<br>
+<hr><br>
+<b>bool TextWindow.IsOpened</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the text window is open.

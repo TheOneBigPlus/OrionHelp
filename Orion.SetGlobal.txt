@@ -1,0 +1,11 @@
+Set the value of a global variable.<br>
+<hr><br>
+<b>Orion.SetGlobal</b>('name', 'value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - global variable name.<br>
+    <li><b>value</b> - string - global variable value.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

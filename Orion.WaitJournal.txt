@@ -1,0 +1,24 @@
+Wait for a message to appear in the journal.<br>
+<hr><br>
+Call variants:<br><br>
+<b>JournalMessage Orion.WaitJournal</b>('pattern', startTime, endTime);<br>
+<b>JournalMessage Orion.WaitJournal</b>('pattern', startTime, endTime, 'flags');<br>
+<b>JournalMessage Orion.WaitJournal</b>('pattern', startTime, endTime, 'flags', 'serial');<br>
+<b>JournalMessage Orion.WaitJournal</b>('pattern', startTime, endTime, 'flags', 'serial', 'color');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>pattern</b> - string - text pattern to match.  Example: 'must wait to perform'<br>
+    <li><b>startTime</b> - integer - initial search time, in milliseconds. Try using <b>Orion.Now();</b><br>
+        If 0 is specified, this parameter is ignored<br>
+    <li><b>endTime</b> - integer - the final search time, in milliseconds. Try using <b>Orion.Now();</b><br>
+        If 0 is specified, this parameter is ignored<br>
+    <li><b><a href="search:JournalFlags">flags</a></b> - string - journal filter flags.<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>serial</b> - string - the serial number of the character who made the message. If 0, this is ignored<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>color</b> - string - message color.<br>
+        <i>Default value</i>: <b>'any'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>JournalMessage</b> or null if nothing was found.

@@ -1,0 +1,10 @@
+Add a virtual container for items to a custom gump.<br>
+<hr><br>
+<b>customGump.AddDataBox</b>(serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - item serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

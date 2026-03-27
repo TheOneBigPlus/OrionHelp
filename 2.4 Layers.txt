@@ -1,0 +1,34 @@
+<h1>Layers</h1>
+<hr>
+List of layers on which items can be worn
+<ul style="margin-left: -20px">
+    <li><b>RightHand</b> (1) - right hand (one-handed weapon)
+    <li><b>LeftHand</b> (2) - left hand (two-handed/shield)
+    <li><b>Shoes</b> (3)
+    <li><b>Pants</b> (4)
+    <li><b>Shirt</b> (5)
+    <li><b>Helmet</b> (6)
+    <li><b>Gloves</b> (7)
+    <li><b>Ring</b> (8)
+    <li><b>Talisman</b> (9)
+    <li><b>Necklace</b> (10)
+    <li><b>Hair</b> (11)
+    <li><b>Waist</b> (12)
+    <li><b>InnerTorso</b> (13)
+    <li><b>Bracelet</b> (14)
+    <li><b>Face</b> (15)
+    <li><b>Beard</b> (16)
+    <li><b>MidTorso</b> (17)
+    <li><b>Earrings</b> (18)
+    <li><b>Arms</b> (19)
+    <li><b>Cloak</b> (20)
+    <li><b>Backpack</b> (21)
+    <li><b>Robe</b> (22)
+    <li><b>Eggs</b> (23)
+    <li><b>Legs</b> (24)
+    <li><b>Mount</b> (25)
+    <li><b>Buy</b> (26) - buy container
+    <li><b>Resale</b> (27) - buy container (with restock)
+    <li><b>Sell</b> (28) - sell container
+    <li><b>Bank</b> (29) - bankbox container
+</ul>

@@ -1,0 +1,5 @@
+Check the menu in the form of a list.<br>
+<hr><br>
+<b>bool menu.IsGrayMenu</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if this is a list form menu.

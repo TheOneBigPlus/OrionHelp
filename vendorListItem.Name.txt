@@ -1,0 +1,5 @@
+Vendor product Name.<br>
+<hr><br>
+<b>String vendorListItem.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string - product name.

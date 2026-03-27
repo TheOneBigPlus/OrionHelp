@@ -1,0 +1,10 @@
+Change ignore list item serial number.<br>
+<hr><br>
+<b>ignoreListItem.SetSerial</b>('value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - string - new serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

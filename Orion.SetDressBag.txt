@@ -1,0 +1,13 @@
+Change the bag for clothes.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetDressBag</b>();<br>
+<b>Orion.SetDressBag</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the new clothes bag<br>
+        <i>Default value</i>: <b>open a target to select the bag manually</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

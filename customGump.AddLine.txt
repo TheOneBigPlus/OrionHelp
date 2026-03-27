@@ -1,0 +1,23 @@
+Add a line to a custom gump.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddLine</b>(startX, startY, targetX, targetY);<br>
+<b>customGump.AddLine</b>(startX, startY, targetX, targetY, 'color');<br>
+<b>customGump.AddLine</b>(startX, startY, targetX, targetY, 'color', lineWidth);<br>
+<b>customGump.AddLine</b>(startX, startY, targetX, targetY, 'color', lineWidth, serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>startX</b> - integer - X coordinate start of line<br>
+    <li><b>startY</b> - integer - Y coordinate start of line<br>
+    <li><b>targetX</b> - integer - X coordinate end of line<br>
+    <li><b>targetY</b> - integer - Y coordinate end of line<br>
+    <li><b><a href="search: ColorsForCustomGump">color</a></b> - string - color in format '#AARRGGBB'<br>
+        <i>Default value</i>: <b>'1'</b><br>
+    <li><b>lineWidth</b> - integer - line width in pixels<br>
+        <i>Default value</i>: <b>1</b><br>
+    <li><b>serial</b> - integer - item serial number<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

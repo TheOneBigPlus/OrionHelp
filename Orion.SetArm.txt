@@ -1,0 +1,10 @@
+Add a weapon set to memory.<br>
+<hr><br>
+<b>Orion.SetArm</b>('setName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>setName</b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

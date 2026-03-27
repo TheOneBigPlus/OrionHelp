@@ -1,0 +1,19 @@
+Get the object from the specified equipment layer.<br>
+<hr><br>
+Call variants:<br><br>
+<b>GameObject Orion.ObjAtLayer</b>('layerName');<br>
+<b>GameObject Orion.ObjAtLayer</b>('layerName', 'container');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:Layers">layerName</a></b> - string<br>
+        Alternative: Use the integer ID of the layer for the search, instead of the name<br>
+        Example: <b>2</b> for a shield, bow, or other two-handed weapon<br>
+    <li><b>container</b> - string - character serial to search<br>
+        <i>Default value</i>: <b>'self'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>GameObject</b>, or null if <b>container</b> is not found or the layer is empty (nothing equipped).
+<br><br>
+Tip:  Use Properties() to return the name and other properties of the item:<br>
+<i>Orion.ObjAtLayer('layerName').Properties();</i>

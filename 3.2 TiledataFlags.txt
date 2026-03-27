@@ -1,0 +1,37 @@
+<h1>Flags of tiles from tiledata</h1>
+<hr>
+<ul style="margin-left: -20px">
+    <li><b>0x00000001</b> - background
+    <li><b>0x00000002</b> - weapon
+    <li><b>0x00000004</b> - transparent
+    <li><b>0x00000008</b> - translucent
+    <li><b>0x00000010</b> - wall
+    <li><b>0x00000020</b> - damaging
+    <li><b>0x00000040</b> - impassable
+    <li><b>0x00000080</b> - wet
+    <li><b>0x00000100</b> - unknown1
+    <li><b>0x00000200</b> - surface
+    <li><b>0x00000400</b> - bridge
+    <li><b>0x00000800</b> - stackable
+    <li><b>0x00001000</b> - window
+    <li><b>0x00002000</b> - no shoot
+    <li><b>0x00004000</b> - prefix a
+    <li><b>0x00008000</b> - prefix an
+    <li><b>0x00010000</b> - internal
+    <li><b>0x00020000</b> - foliage
+    <li><b>0x00040000</b> - partial hue
+    <li><b>0x00080000</b> - unknown2
+    <li><b>0x00100000</b> - map
+    <li><b>0x00200000</b> - container
+    <li><b>0x00400000</b> - wearable
+    <li><b>0x00800000</b> - light source
+    <li><b>0x01000000</b> - animated
+    <li><b>0x02000000</b> - no diagonal
+    <li><b>0x04000000</b> - unknown3
+    <li><b>0x08000000</b> - armor
+    <li><b>0x10000000</b> - roof
+    <li><b>0x20000000</b> - door
+    <li><b>0x40000000</b> - stair back
+    <li><b>0x80000000</b> - stair right
+</ul>
+<hr><br>

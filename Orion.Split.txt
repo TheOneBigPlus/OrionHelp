@@ -1,0 +1,17 @@
+Split a sentence into an array (list) of individual words<br>
+<hr><br>
+Call variants:<br><br>
+<b>StringList Orion.Split</b>('text');<br>
+<b>StringList Orion.Split</b>('text', 'separator');<br>
+<b>StringList Orion.Split</b>('text', 'separator', skipEmptyWord);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - the text to split<br>
+    <li><b>separator</b> - string - the delimiter used to split the words<br>
+        <i>Default value</i>: <b>' '</b> (space)<br>
+    <li><b>skipEmptyWord</b> - boolean - true to skip empty words<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string list - the resulting array of words.

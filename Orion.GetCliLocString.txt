@@ -1,0 +1,10 @@
+Get the cliloc String.<br>
+<hr><br>
+<b>String Orion.GetCliLocString</b>(cliLocId);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>cliLocId</b> - integer<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - the value of the cliloc

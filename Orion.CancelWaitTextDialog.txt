@@ -1,0 +1,5 @@
+Remove all set hooks for the text input dialog.<br>
+<hr><br>
+<b>Orion.CancelWaitTextDialog</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

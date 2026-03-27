@@ -1,0 +1,5 @@
+Player locked check.<br>
+<hr><br>
+<b>bool Player.Locked</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the player is locked.

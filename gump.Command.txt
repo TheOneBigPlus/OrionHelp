@@ -1,0 +1,10 @@
+Get the gump command.<br>
+<hr><br>
+<b>String gump.Command</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - command index. From <b>0</b> to <b>gump.Count()-1</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - gump command.

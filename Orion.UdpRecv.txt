@@ -1,0 +1,10 @@
+Attempting to retrieve data from the specified server.<br>
+<hr><br>
+<b>String Orion.UdpRecv</b>('serverName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serverName</b> - string - server name.<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - received data. Empty string if there is no data to receive.

@@ -1,0 +1,10 @@
+Create custom gump.<br>
+<hr><br>
+<b>GumpHookObject Orion.CreateCustomGump</b>(serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - gump serial number.<br>
+</ul>
+<hr><br>
+<b>Result:</b> an object of class CustomGumpObject or null if the object could not be created.

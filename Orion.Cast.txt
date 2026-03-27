@@ -1,0 +1,17 @@
+Cast spell.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Cast</b>('spellNameOrIndex');<br>
+<b>Orion.Cast</b>('spellNameOrIndex', 'targetSerial');<br>
+<b>Orion.Cast</b>('spellNameOrIndex', 'targetSerial', relativeTargetDistance);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>spellNameOrIndex</b> - string - spell name or number<br>
+    <li><b>targetSerial</b> - string - spell target serial number<br>
+        <i>Default value</i>: <b>call the target to specify the target manually</b><br>
+    <li><b>relativeTargetDistance</b> - integer - distance for pointing the target at the tile relative to the specified character, depending on its direction<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

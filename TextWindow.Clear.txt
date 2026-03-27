@@ -1,0 +1,5 @@
+Clear text window.<br>
+<hr><br>
+<b>TextWindow.Clear</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

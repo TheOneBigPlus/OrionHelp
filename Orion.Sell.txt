@@ -1,0 +1,20 @@
+Trigger a Sell event.<br>
+If the sell list appears, but there are no items suitable for sale, the function immediately exits.<br>
+If the sell list does not appear, the function will wait for the specified time.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.Sell</b>('shopListName');<br>
+<b>Orion.Sell</b>('shopListName', 'vendorName');<br>
+<b>Orion.Sell</b>('shopListName', 'vendorName', shopDelay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>shopListName</b> - string - Shop list name.<br>
+    <li><b>vendorName</b> - string - name of the vendor to sell to<br>
+        <i>Default value</i>: <b>the name is not said (ambiguous)</b><br>
+    <li><b>shopDelay</b> - string - The delay to wait while items sell.<br>
+        If 0 is specified, the delay is calculated automatically based on the quantity of goods <i>plus</i> the "Shop delay for 1 stack" field in the Agents->Shop tab<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

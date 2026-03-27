@@ -1,0 +1,5 @@
+Get your character's title.<br>
+<hr><br>
+<b>String Player.Title</b>();<br>
+<hr><br>
+<b>Result:</b> string - player title.

@@ -1,0 +1,5 @@
+Clear the list of global arrays in shared memory.<br>
+<hr><br>
+<b>Shared.ClearArrays</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

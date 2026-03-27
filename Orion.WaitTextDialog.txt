@@ -1,0 +1,17 @@
+Add a hook to the dialog for entering text from the server.<br>
+<hr><br>
+<b>Orion.WaitTextDialog</b>('serial', 'id', 'name', 'answer');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - the name of the dialog<br>
+        For value <b>'any'</b> or an empty string, this parameter is ignored<br>
+    <li><b>serial</b> - string - serial number of the dialog<br>
+        For value <b>'any'</b> this parameter is ignored<br>
+    <li><b>id</b> - string - dialog id<br>
+        For value <b>'any'</b> this parameter is ignored<br>
+    <li><b>answer</b> - line, response text<br>
+        Use <b>'cancel'</b> or an empty string to close the dialog with the cancel button, if available<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get the graphic of the selected tile/object.<br>
+<hr><br>
+<b>String SelectedTile.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - graphics of the selected tile/object.

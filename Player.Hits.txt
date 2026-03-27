@@ -1,0 +1,7 @@
+Get your character's hit points.<br>
+Before calling, you need to make sure that the server sent this information to the client.<br>
+Character status request <b>Orion.GetStatus('serial');</b><br>
+<hr><br>
+<b>int Player.Hits</b>();<br>
+<hr><br>
+<b>Result:</b> integer - amount of player life.

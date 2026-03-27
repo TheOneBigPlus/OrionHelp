@@ -1,0 +1,5 @@
+Check the "gender" of an object.<br>
+<hr><br>
+<b>bool obj.Female</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object is female.

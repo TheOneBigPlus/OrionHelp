@@ -1,0 +1,5 @@
+Get the layer of the object.<br>
+<hr><br>
+<b>int obj.EquipLayer</b>();<br>
+<hr><br>
+<b>Result:</b> integer - <a href="search:Layers">layer</a> of the object.

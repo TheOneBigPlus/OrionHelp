@@ -1,0 +1,5 @@
+Check for the existence of an object.<br>
+<hr><br>
+<b>bool obj.Exists</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object exists and Orion has information about it.

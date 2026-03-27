@@ -1,0 +1,10 @@
+Get the remaining lifetime of the highlighted area.<br>
+<hr><br>
+<b>int Orion.HighlightAreaTimer</b>('id');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - area id;<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the remainder of the area display time (in milliseconds). If 0 is returned, then there is no area in the client.

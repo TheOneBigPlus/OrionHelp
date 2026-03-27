@@ -1,0 +1,15 @@
+Get a string of sexatnt coordinates, from an input of (X, Y) coordinates.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.XYToSextant</b>(x, y);<br>
+<b>String Orion.XYToSextant</b>(x, y, facet);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - integer - X coordinate.<br>
+    <li><b>text</b> - integer - Y coordinate.<br>
+    <li><b>facet</b> - integer - facet (map) number.<br>
+        <i>Default value</i>: <b>current facet</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - sextant coordinate format. Example: <b>79o 0'S, 35o 5'E</b>.

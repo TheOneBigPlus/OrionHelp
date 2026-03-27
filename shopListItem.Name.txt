@@ -1,0 +1,5 @@
+The name of an item in the shop list.<br>
+<hr><br>
+<b>String shopListItem.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string - the name of the item in the shop list.

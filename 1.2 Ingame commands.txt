@@ -1,0 +1,64 @@
+<h1>In-game Commands</h1>
+<hr>
+List of in-game commands.  Within game chat, type the command prefix (like underscore or bracket) plus the command (with arguments, if necessary).<br>
+<br>
+For example: <b>_showjournal 15</b>
+<br>
+<ul style="margin-left: -20px">
+    <li><b>info</b> - Get information about an object.  Possible arguments: <i>serial</i>
+    <li><b>infotile</b> - Get information about a tile.  Possible arguments: <i>lasttile</i>
+    <li><b>saveconfig</b> - Save the assistant profile
+    <li><b>setdressbag</b> - Change target bag for equipment.  Possible arguments: <i>serial</i>
+    <li><b>unsetdressbag</b> - Discard a bag for clothes
+    <li><b>getstatus</b> - Get the status of an object from the server.  Possible arguments: <i>serial</i>
+    <li><b>click</b> - Click on an object.  Possible arguments: <i>serial</i>
+    <li><b>useobject</b> - Use an object.  Possible arguments: <i>serial</i>
+    <li><b>attack</b> - Attack an object.  Possible arguments: <i>serial</i>
+    <li><b>usetype</b> - Use an object by type within a container.  Possible arguments: <i>graphic color container recurse</i>
+    <li><b>usefromground</b> - Use an object by type, on the ground.  Possible arguments: <i>graphic color distance</i>
+    <li><b>textopen</b> - Open a text window
+    <li><b>textclose</b> - Close the text window
+    <li><b>textclear</b> - Clear the text window
+    <li><b>textprint</b> - Display text in a text box.  Possible arguments: <i>text</i>
+    <li><b>terminate</b> - Stop the specified script.  Argument: <i>scriptName</i>
+    <li><b>setlight</b> - Turn on / off lighting.  Possible arguments: <i>state value</i>
+    <li><b>setweather</b> - Change the weather.  Possible arguments: <i>state index effectsCount temperature</i>
+    <li><b>setseason</b> - Change the season.  Possible arguments: <i>state index musicIndex</i>
+    <li><b>cast</b> - Cast a spell.  Possible arguments: <i>spellIndexOrName</i>
+    <li><b>useskill</b> - Activate a skill.  Possible arguments: <i>skillIndexOrName</i>
+    <li><b>helpgump</b> - Request the 'help' gump from the server
+    <li><b>closeuo</b> - Close the game client
+    <li><b>warmode</b> - Change the battle mode.  Possible arguments: <i>state</i>
+    <li><b>morph</b> - Change the character’s body.  Possible arguments: <i>graphic</i>
+    <li><b>resend</b> - Request for synchronization with the server
+    <li><b>sound</b> - Play a sound.  Possible arguments: <i>index</i>
+    <li><b>emoteaction</b> - Trigger an emote.  Possible arguments: <i>actionName</i>
+    <li><b>hide</b> - Hide an object.  Possible arguments: <i>serial</i>
+    <li><b>blockmoving</b> - Prohibit character movement.  Possible arguments: <i>state</i>
+    <li><b>drop</b> - Discard an item.  Possible arguments: <i>serial count X Y Z</i>
+    <li><b>drophere</b> - Drop an object at your feet.  Possible arguments: <i>serial count</i>
+    <li><b>moveitem</b> - Move an item.  Possible arguments: <i>serial count container X Y Z</i>
+    <li><b>setarm</b> - Remember a set of weapons.  Possible arguments: <i>setName</i>
+    <li><b>unsetarm</b> - Forget the weapon set.  Possible arguments: <i>setName</i>
+    <li><b>setdress</b> - Remember a set of clothes.  Possible arguments: <i>setName</i>
+    <li><b>unsetdress</b> - Forget the set of clothes.  Possible arguments: <i>setName</i>
+    <li><b>savehotkeys</b> - Save hotkeys to a file.  Possible arguments: <i>fileName</i>
+    <li><b>loadhotkeys</b> - Load hotkeys from a file.  Possible arguments: <i>fileName</i>
+    <li><b>track</b> - Show / hide the quest arrow.  Possible arguments: <i>state X Y</i>
+    <li><b>infomenu</b> - Display information about a menu
+    <li><b>showjournal</b> - Show information about the journal.  Possible arguments: <i>linesCount</i>
+    <li><b>clearjournal</b> - Clear the journal.  Possible arguments: <i>pattern serial color type</i>
+    <li><b>journalignorecase</b> - Change the ignore case flag for searching the journal.  Possible arguments: <i>state</i>
+    <li><b>ignorereset</b> - Reset the ignore flag from all objects in the world
+    <li><b>infogump</b> - Display information about all active gumps
+    <li><b>infobuff</b> - Display information about buffs
+    <li><b>infocontextmenu</b> - Display information about context menus
+    <li><b>setcatchbag</b> - Set the loot container for new items.  Possible arguments: <i>serial</i>
+    <li><b>unsetcatchbag</b> - Forget the loot container
+    <li><b>massmove</b> - Move all of a single item type, unless a maximum is specified.  Possible arguments: <i>maxitems color</i>
+    <li><b>emptycontainer</b> - Move all items from a container
+    <li><b>addobject</b> - Add an object alias.  Possible arguments: <i>name serial</i>
+    <li><b>addtype</b> - Add a type alias.  Possible arguments: <i>name graphic</i>
+    <li><b>addfriend</b> - Add a friend alias.  Possible arguments: <i>name serial</i>
+    <li><b>addenemy</b> - Add enemy alias.  Possible arguments: <i>name serial</i>
+</ul>

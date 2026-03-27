@@ -1,0 +1,16 @@
+Get/change the value of the global client variable <b>lastattack</b>.<br>
+<hr><br>
+Get value:<br><br>
+<b>String Orion.ClientLastAttack</b>();<br>
+<hr><br>
+<b>Result:</b> string - client global serial number of the <b>lastattack</b> variable.<br>
+<hr><br>
+Change value:<br><br>
+<b>Orion.ClientLastAttack</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

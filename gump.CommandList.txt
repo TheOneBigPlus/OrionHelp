@@ -1,0 +1,5 @@
+List of all gump commands.<br>
+<hr><br>
+<b>StringList gump.CommandList</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of all gump commands.

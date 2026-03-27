@@ -1,0 +1,17 @@
+Add character to list for custom highlighting.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddHighlightCharacter</b>('serial', 'color');<br>
+<b>Orion.AddHighlightCharacter</b>('serial', 'color', priorityHighlight);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - character serial number<br>
+    <li><b>color</b> - string - highlight color<br>
+    <li><b>priorityHighlight</b> - boolean - highlight type<br>
+        <b>true</b> - high priority of highlighting and will always highlight the character with this color, regardless of the attacked / poisoned state and others.<br>
+        <b>false</b> - low priority of highlighting (if the character is attacked / poisoned or has other conditions - it will be painted by them).<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

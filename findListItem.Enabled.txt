@@ -1,0 +1,5 @@
+The search list item when searching is enabled/disabled.<br>
+<hr><br>
+<b>bool findListItem.Enabled</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - the state of the list item.

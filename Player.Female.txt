@@ -1,0 +1,5 @@
+Check your gender<br>
+<hr><br>
+<b>bool Player.Female</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if your character is female

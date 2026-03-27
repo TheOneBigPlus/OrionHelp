@@ -1,0 +1,5 @@
+Get the serial ID of the object.<br>
+<hr><br>
+<b>String obj.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - object serial.

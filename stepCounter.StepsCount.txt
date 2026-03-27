@@ -1,0 +1,5 @@
+Get the number of steps to the tile with the specified coordinates.<br>
+<hr><br>
+<b>int stepCounter.StepsCount</b>();<br>
+<hr><br>
+<b>Result:</b> integer - the number of steps to be taken to the tile with the specified coordinates. -1 if the tile cannot be entered.

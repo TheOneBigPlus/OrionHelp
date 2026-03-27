@@ -1,0 +1,5 @@
+Vendor product graphic.<br>
+<hr><br>
+<b>String vendorListItem.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - product graphic.

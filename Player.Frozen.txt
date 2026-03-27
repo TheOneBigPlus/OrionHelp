@@ -1,0 +1,5 @@
+Check if your character is frozen<br>
+<hr><br>
+<b>bool Player.Frozen</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the player is frozen.

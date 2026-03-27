@@ -1,0 +1,5 @@
+Get text replacement <i>colors</i> for other objects in the world.<br>
+<hr><br>
+<b>String Orion.GetCharactersFontColorValue</b>();<br>
+<hr><br>
+<b>Result:</b> string - text color replacement.

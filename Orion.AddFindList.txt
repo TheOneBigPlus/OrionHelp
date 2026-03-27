@@ -1,0 +1,21 @@
+Add item to search list.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddFindList</b>();<br>
+<b>Orion.AddFindList</b>('listName');<br>
+<b>Orion.AddFindList</b>('listName', 'graphic', 'color');<br>
+<b>Orion.AddFindList</b>('listName', 'graphic', 'color', 'comment');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string - list name.<br>
+        <i>Default value</i>: <b>calling the target to specify the object in the world manually, the object will be added to the currently selected list on the tab of the search lists</b><br>
+    <li><b>graphic</b> - string - object graphic.<br>
+        <i>Default value</i>: <b>call of the target to indicate an object in the world manually</b><br>
+    <li><b>color</b> - string - object color.<br>
+        <i>Default value</i>: <b>call of the target to indicate an object in the world manually</b><br>
+    <li><b>comment</b> - string - comment on the object.<br>
+        <i>Default value</i>: <b>''</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

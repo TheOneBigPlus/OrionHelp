@@ -1,0 +1,5 @@
+Get your character's Lower Reagent Cost stat.<br>
+<hr><br>
+<b>int Player.LRC</b>();<br>
+<hr><br>
+<b>Result:</b> integer - player Lower Reagent Cost.

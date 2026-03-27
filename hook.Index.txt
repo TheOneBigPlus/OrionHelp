@@ -1,0 +1,5 @@
+Get the index of the button you want to select in gump.<br>
+<hr><br>
+<b>int hook.Index</b>();<br>
+<hr><br>
+<b>Result:</b> integer - button index.

@@ -1,0 +1,10 @@
+Say a phrase in Whisper chat (AKA semi-colon + space).<br>
+<hr><br>
+<b>Orion.SayWhisper</b>('text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - message text to send.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

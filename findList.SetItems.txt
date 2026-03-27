@@ -1,0 +1,10 @@
+Change the list of items.<br>
+<hr><br>
+<b>findList.SetItems</b>(findListItemList);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>findListItemList</b> - array <b>FindListItem</b> - list of items in a "Find" list<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

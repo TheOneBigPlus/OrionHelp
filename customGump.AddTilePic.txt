@@ -1,0 +1,25 @@
+Add static picture to custom gump.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.AddTilePic</b>(x, y);<br>
+<b>customGump.AddTilePic</b>(x, y, 'graphic', 'color');<br>
+<b>customGump.AddTilePic</b>(x, y, 'graphic', 'color', serial);<br>
+<b>customGump.AddTilePic</b>(x, y, 'graphic', 'color', serial, 'colorSelected');<br>
+<b>customGump.AddTilePic</b>(x, y, 'graphic', 'color', serial, 'colorSelected', doubleDraw);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - X coordinate<br>
+    <li><b>y</b> - integer - Y coordinate<br>
+    <li><b>graphic</b> - string - image number<br>
+    <li><b>color</b> - string - color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>serial</b> - integer - item serial number. If a value other than 0 is specified, the picture works as a button<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>colorSelected</b> - string - color in the selected state, works only if serial is not equal to zero<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>doubleDraw</b> - integer - 0 - draw one picture, 1 - draw a picture as if an item is on a stack<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

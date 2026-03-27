@@ -1,0 +1,10 @@
+Get a land tiledata for the specified tile.<br>
+<hr><br>
+<b>LandTiledataObject Orion.GetLandTiledata</b>('graphic');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - tile graphic<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>LandTiledataObject</b>, or null if there is no land tiledata for this tile.

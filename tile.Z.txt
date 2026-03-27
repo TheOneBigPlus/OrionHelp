@@ -1,0 +1,5 @@
+Get a tile's Z coordinate.<br>
+<hr><br>
+<b>int tile.Z</b>();<br>
+<hr><br>
+<b>Result:</b> integer - Z coordinate.

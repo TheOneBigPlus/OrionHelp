@@ -1,0 +1,22 @@
+Clear journal.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.ClearJournal</b>();<br>
+<b>Orion.ClearJournal</b>('pattern');<br>
+<b>Orion.ClearJournal</b>('pattern', 'flags');<br>
+<b>Orion.ClearJournal</b>('pattern', 'flags', 'serial');<br>
+<b>Orion.ClearJournal</b>('pattern', 'flags', 'serial', 'color');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>pattern</b> - string - clearing pattern.<br>
+        <i>Default value</i>: <b>clears everything</b><br>
+    <li><b><a href="search:JournalFlags">flags</a></b> - string - journal filter flags.<br>
+        <i>Default value</i>: <b>''</b><br>
+    <li><b>serial</b> - string - character serial number of the speaker.<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>color</b> - string - message color.<br>
+        <i>Default value</i>: <b>'any'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

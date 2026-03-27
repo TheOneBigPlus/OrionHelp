@@ -1,0 +1,5 @@
+Serial number of the active prompt.<br>
+<hr><br>
+<b>String Orion.PromptSerial</b>();<br>
+<hr><br>
+<b>Result:</b> string - serial number of the active prompt.

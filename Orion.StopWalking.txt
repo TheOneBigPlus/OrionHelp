@@ -1,0 +1,7 @@
+Stop the search path.<br>
+For example: During pathfinding or Orion.WalkTo();<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.StopWalking</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

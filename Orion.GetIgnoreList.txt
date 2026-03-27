@@ -1,0 +1,10 @@
+Get/create an ignore list object when searching.<br>
+<hr><br>
+<b>IgnoreList Orion.GetIgnoreList</b>('listName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>listName</b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>IgnoreList</b>

@@ -1,0 +1,5 @@
+Dialogue dialog response text.<br>
+<hr><br>
+<b>String dialog.ReplyText</b>();<br>
+<hr><br>
+<b>Result:</b> string - response text.

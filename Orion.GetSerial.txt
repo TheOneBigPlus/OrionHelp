@@ -1,0 +1,25 @@
+Get a real serial number.<br>
+<hr><br>
+<b>String Orion.GetSerial</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - the alias of the object to obtain a true serial number<br>
+</ul>
+<br><br>
+Try these!  Reserved <b>serials</b> for client/assistant global variables:
+<ul style="margin-left: -20px">
+    <li><b>self</b><br>
+    <li><b>lasttarget</b><br>
+    <li><b>harmtarget</b><br>
+    <li><b>helptarget</b><br>
+    <li><b>lastattack</b><br>
+    <li><b>lastcorpse</b><br>
+    <li><b>lastcontainer</b><br>
+    <li><b>laststatus</b><br>
+    <li><b>lastobject</b><br>
+    <li><b>backpack</b><br>
+    <li><b>ground</b><br>
+</ul><br>
+<hr><br>
+<b>Result:</b> string - true serial number.

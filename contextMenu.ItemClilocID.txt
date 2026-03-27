@@ -1,0 +1,10 @@
+Number of context menu item cliloc.<br>
+<hr><br>
+<b>int contextMenu.ClilocID</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+	<li><b>index</b> - integer - context menu item index;<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the cliloc number of the context menu element's.

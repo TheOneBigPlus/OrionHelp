@@ -1,0 +1,5 @@
+List of vendor list items.<br>
+<hr><br>
+<b>VendorListItemList vendorList.Items</b>();<br>
+<hr><br>
+<b>Result:</b> array <b>VendorListItem</b> - list of elements of the current list of vendor products.

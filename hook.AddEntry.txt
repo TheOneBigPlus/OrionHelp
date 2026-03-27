@@ -1,0 +1,11 @@
+Add hook to replace text in input field.<br>
+<hr><br>
+<b>hook.AddEntry</b>(index, 'text');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - input field index<br>
+    <li><b>text</b> - string - new text<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

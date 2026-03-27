@@ -1,0 +1,10 @@
+Check for the existence of an object.<br>
+<hr><br>
+<b>bool Orion.ObjectExists</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the object is in Orion’s memory.

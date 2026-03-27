@@ -1,0 +1,10 @@
+Change the state of the search list item enabled/disabled.<br>
+<hr><br>
+<b>findListItem.SetEnabled</b>(value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+	<li><b>value</b> - boolean - new state;<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,20 @@
+Checking the possibility of passage to the specified range of coordinates by distance relative to the position of the character in the world.<br>
+<hr><br>
+Call variants:<br><br>
+<b>StepsCounterObjectList Orion.GetStepsCountArrayByDistance</b>(maxDistance);<br>
+<b>StepsCounterObjectList Orion.GetStepsCountArrayByDistance</b>(minDistance, maxDistance);<br>
+<b>StepsCounterObjectList Orion.GetStepsCountArrayByDistance</b>(minDistance, maxDistance, openDoor);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>maxDistance</b> - integer - maximum distance from the character<br>
+    <li><b>minDistance</b> - integer - minimum distance from the character<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>openDoor</b> - integer - door opening mode<br>
+        <b>0</b> - do not open<br>
+        <b>1</b> - always open<br>
+        <b>2</b> - only depending on client Auto Open Doors option<br>
+        <i>Default value</i>: <b>2</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> array of objects <b>StepsCounterObject</b>, for each tile for which a route was attempted.

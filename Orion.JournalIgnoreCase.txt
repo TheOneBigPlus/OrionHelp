@@ -1,0 +1,10 @@
+Option to control case sensitivity when searching a journal.<br>
+<hr><br>
+<b>Orion.JournalIgnoreCase</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - new option state.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

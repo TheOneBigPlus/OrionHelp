@@ -1,0 +1,15 @@
+Check the status of the specified agent.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.CheckAgent</b>('agentType', 'name');<br>
+<b>bool Orion.CheckAgent</b>('agentType', 'name', 'mode');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>agentType</b> - string - agent type, can be 'autoloot', 'scavenger', 'organizer'<br>
+    <li><b>name</b> - string - name of the agent element to check<br>
+    <li><b>mode</b> - string - list get mode, can be 'started', 'stopped', 'exists'<br>
+        <i>Default value</i>: <b>'started'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - agent state.

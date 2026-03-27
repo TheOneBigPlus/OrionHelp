@@ -1,0 +1,10 @@
+The text of the specified entry of the responded custom gump.<br>
+<hr><br>
+<b>String CustomGumpResponse.Text</b>(serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - serial number of the item<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - text with the specified serial number.

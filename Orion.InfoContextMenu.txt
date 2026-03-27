@@ -1,0 +1,5 @@
+Display information on the last context menu in the text window.<br>
+<hr><br>
+<b>Orion.InfoContextMenu</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

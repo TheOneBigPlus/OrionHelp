@@ -1,0 +1,16 @@
+Validate whether a tile can be targetted.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.ValidateTargetTile</b>('tileFlags', x, y);<br>
+<b>bool Orion.ValidateTargetTile</b>('tileFlags', x, y, z);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:TileFlags">tileFlags</a></b> - string - Can be combined with pipes: | such as ('0x0123|0x0456')<br>
+    <li><b>x</b> - integer - X coordinate in the world<br>
+    <li><b>y</b> - integer - Y coordinate in the world<br>
+    <li><b>z</b> - integer - Z coordinate in the world relative to the character<br>
+        <i>Default value</i>: <b>255</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if you can target with the specified flags.

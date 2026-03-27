@@ -1,0 +1,16 @@
+Switch war mode state<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WarMode</b>();<br>
+<b>Orion.WarMode</b>(state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean<br>
+        0 - switch off<br>
+        1 - switch on<br>
+        2 - flip the current state<br>
+        <i>Default value</i>: <b>2</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

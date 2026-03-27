@@ -1,0 +1,5 @@
+Check whether a tile is Land.<br>
+<hr><br>
+<b>bool tile.Land</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if it is a land tile.

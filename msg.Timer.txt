@@ -1,0 +1,5 @@
+Message timestamp.<br>
+<hr><br>
+<b>int msg.Timer</b>();<br>
+<hr><br>
+<b>Result:</b> integer - millisecond timestamp.

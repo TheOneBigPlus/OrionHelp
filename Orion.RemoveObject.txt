@@ -1,0 +1,10 @@
+Remove object alias.<br>
+<hr><br>
+<b>Orion.RemoveObject</b>('objectName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>objectName</b> - string - alias name of the object to remove from memory.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

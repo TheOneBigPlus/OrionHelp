@@ -1,0 +1,11 @@
+Move text window position.<br>
+<hr><br>
+<b>TextWindow.SetPos</b>(x, y);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - X coordinate destination<br>
+    <li><b>y</b> - integer - Y coordinate destination<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

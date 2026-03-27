@@ -1,0 +1,35 @@
+Attempt to move to the target coordinates<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.WalkTo</b>(x, y, z);<br>
+<b>bool Orion.WalkTo</b>(x, y, z, distanceXY);<br>
+<b>bool Orion.WalkTo</b>(x, y, z, distanceXY, distanceZ);<br>
+<b>bool Orion.WalkTo</b>(x, y, z, distanceXY, distanceZ, run);<br>
+<b>bool Orion.WalkTo</b>(x, y, z, distanceXY, distanceZ, run, openDoor);<br>
+<b>bool Orion.WalkTo</b>(x, y, z, distanceXY, distanceZ, run, openDoor, maxWalkingTime);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - target X coordinate<br>
+    <li><b>y</b> - integer - target Y coordinate<br>
+    <li><b>z</b> - integer - target Z coordinate<br>
+    <li><b>distanceXY</b> - integer - variation allowed along the X and Y axes at the end point<br>
+        Example: For a value of '0' the player must be standing on the exact X/Y coordinate when the function ends<br>
+        <i>Default value</i>: <b>1</b><br>
+    <li><b>distanceZ</b> - integer - variation allowed along the Z axis at the end point<br>
+        <i>Default value</i>: <b>255</b><br>
+    <li><b>run</b> - integer - running mode<br>
+        <b>0</b> - only walking<br>
+        <b>1</b> - only runnung<br>
+        <b>2</b> - only depending on the Always Run client option<br>
+        <i>Default value</i>: <b>2</b><br>
+    <li><b>openDoor</b> - integer<br>
+        <b>0</b> - do not open doors<br>
+        <b>1</b> - always open<br>
+        <b>2</b> - depends on the client Auto Open Doors option<br>
+        <i>Default value</i>: <b>2</b><br>
+    <li><b>maxWalkingTime</b> - integer - maximum walking time (ms)<br>
+        <i>Default value</i>: <b>300000</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if you move to the coordinates

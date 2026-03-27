@@ -1,0 +1,16 @@
+Get/change the value of the global client variable <b>View Range</b>.<br>
+<hr><br>
+Getting value:<br><br>
+<b>int Orion.ClientViewRange</b>();<br>
+<hr><br>
+<b>Result:</b> integer - client global variable value <b>View Range</b>.<br>
+<hr><br>
+Change value:<br><br>
+<b>Orion.ClientViewRange</b>(range);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>range</b> - integer - new value (minimum 5, maximum 24)<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

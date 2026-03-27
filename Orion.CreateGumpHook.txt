@@ -1,0 +1,11 @@
+Create a gump hook.<br>
+<hr><br>
+<b>GumpHookObject Orion.CreateGumpHook</b>('index');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - string - gump response code.<br>
+        Value <b>'cancel'</b> will create a gump cancel request<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object GumpHookObject or null, if could not create the object.

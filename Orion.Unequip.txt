@@ -1,0 +1,10 @@
+Remove item from specified layer.<br>
+<hr><br>
+<b>Orion.Unequip</b>('layerName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+<li><b><a href="search:Layers">layerName</a></b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

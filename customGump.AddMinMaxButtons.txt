@@ -1,0 +1,17 @@
+Add min/max buttons to custom gump.<br>
+<hr><br>
+<b>customGump.AddMinMaxButtons</b>(serial, x, y, 'graphic', textOffsetY, minValue, maxValue, value);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - item serial number<br>
+    <li><b>x</b> - integer - X coordinate<br>
+    <li><b>y</b> - integer - Y coordinate<br>
+    <li><b>graphic</b> - string - button image number<br>
+    <li><b>textOffsetY</b> - integer - text offset<br>
+    <li><b>minValue</b> - integer - minimum value<br>
+    <li><b>maxValue</b> - integer - maximum value<br>
+    <li><b>value</b> - integer - starting value<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

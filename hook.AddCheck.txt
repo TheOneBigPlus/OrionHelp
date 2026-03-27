@@ -1,0 +1,11 @@
+Add the state of a checkbox to a hook<br>
+<hr><br>
+<b>hook.AddCheck</b>(index, state);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - checkbox index<br>
+    <li><b>state</b> - boolean - new state<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

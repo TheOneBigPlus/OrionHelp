@@ -1,0 +1,10 @@
+Change the list of ignore list items.<br>
+<hr><br>
+<b>ignoreList.SetItems</b>(ignoreListItemList);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>ignoreListItemList</b> - array <b>IgnoreListItem</b> - list of ignore list items<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

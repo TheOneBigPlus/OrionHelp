@@ -1,0 +1,14 @@
+<h1>Timer Shapes</h1>
+<hr>
+Specify the shape of your displayed timers.<br>
+<br>
+<ul style="margin-left: -20px">
+    <li><b>Circle</b>
+    <li><b>Rectangle</b>
+    <li><b>Line</b>
+    <li><b>Bar</b> - The timer will be animated and change as time passes.
+    <li><b>Vertical</b> - Change the orientation.  Only for <b>Rectangle</b> or <b>Line</b> timers.
+</ul>
+<hr>
+Shapes can be combined.<br>
+For example: 'Rectangle|Bar|Vertical' or 'Circle|Bar'.

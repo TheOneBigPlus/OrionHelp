@@ -1,0 +1,13 @@
+Waiting for the delivery of packets to the server and receiving a response (by clicking on the backpack).<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.CheckLag</b>();<br>
+<b>Orion.CheckLag</b>(delay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>delay</b> - integer - maximum delay (milliseconds)<br>
+        <i>Default value</i>: <b>1000</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

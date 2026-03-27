@@ -1,0 +1,29 @@
+Add a shop list item.<br>
+<hr><br>
+Call variants:<br><br>
+<b>new ShopListItem</b>('graphic');<br>
+<b>new ShopListItem</b>('graphic', 'color');<br>
+<b>new ShopListItem</b>('graphic', 'color', 'name');<br>
+<b>new ShopListItem</b>('graphic', 'color', 'name', count);<br>
+<b>new ShopListItem</b>('graphic', 'color', 'name', count, price);<br>
+<b>new ShopListItem</b>('graphic', 'color', 'name', count, price, 'comment');<br>
+<b>new ShopListItem</b>('graphic', 'color', 'name', count, price, 'comment', enabled);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>graphic</b> - string - graphic<br>
+    <li><b>color</b> - string - color.<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>name</b> - string - name.<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>count</b> - integer - quantity for buy/sale. 0 - buy/sell everything.<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>price</b> - integer - price for buying/selling. 0 - do not use the price filter.<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>comment</b> - string - comment.<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>enabled</b> - boolean - accounting for an item when buying/selling .<br>
+        <i>Default value</i>: <b>true</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object created <b>ShopListItem</b>.

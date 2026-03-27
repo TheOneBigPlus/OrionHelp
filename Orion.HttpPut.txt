@@ -1,0 +1,11 @@
+Send PUT request HTTP(S).<br>
+<hr><br>
+<b>String Orion.HttpPut</b>('request', 'data');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>request</b> - string - PUT request.<br>
+    <li><b>data</b> - string - data for PUT request.<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - response text.

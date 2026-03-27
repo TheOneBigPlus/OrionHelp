@@ -1,0 +1,10 @@
+Get the value of the specified client option.<br>
+<hr><br>
+<b>int Orion.ClientOptionGet</b>('option');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search: ClientOptions">option</a></b> - string - option name<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - option value.

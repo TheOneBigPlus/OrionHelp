@@ -1,0 +1,24 @@
+Set weather conditions.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.SetWeather</b>(state);<br>
+<b>Orion.SetWeather</b>(state, index);<br>
+<b>Orion.SetWeather</b>(state, index, effectsCount);<br>
+<b>Orion.SetWeather</b>(state, index, effectsCount, temperature);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>state</b> - boolean - true to enable weather<br>
+    <li><b>index</b> - integer - weather ID<br>
+        0 - rain<br>
+        1 - fierce storm<br>
+        2 - snow<br>
+        3 - storm<br>
+        <i>Default value</i>: <b>current value from server</b><br>
+    <li><b>effectsCount</b> - integer - number of effects (70 maximum)<br>
+        <i>Default value</i>: <b>current value from server</b><br>
+    <li><b>temperature</b> - integer - temperature (not used)<br>
+        <i>Default value</i>: <b>current value from server</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Dialog response description.<br>
+<hr><br>
+<b>String dialog.Desciption</b>();<br>
+<hr><br>
+<b>Result:</b> string - description of the dialogue response.

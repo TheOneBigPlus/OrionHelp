@@ -1,0 +1,5 @@
+Get selected shard name.<br>
+<hr><br>
+<b>String Orion.ShardName</b>();<br>
+<hr><br>
+<b>Result:</b> string - selected shard name.

@@ -1,0 +1,15 @@
+Request an object name.<br>
+If the object already has a name, immediately returns it without an additional request.<br>
+<hr><br>
+Call variants:<br><br>
+<b>String Orion.RequestName</b>('serial');<br>
+<b>String Orion.RequestName</b>('serial', 'delay');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - object serial number<br>
+    <li><b>delay</b> - string - maximum latency in milliseconds. See <a href="searchend:.wait">Wait</a> for information on string constants<br>
+    <i>Default value</i>: <b>'200'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> string - the received/existing name of the object.

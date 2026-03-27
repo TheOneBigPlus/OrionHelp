@@ -1,0 +1,5 @@
+Get your character's serial number.<br>
+<hr><br>
+<b>String Player.Serial</b>();<br>
+<hr><br>
+<b>Result:</b> string - player serial number.

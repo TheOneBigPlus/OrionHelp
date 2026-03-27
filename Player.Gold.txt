@@ -1,0 +1,5 @@
+Get your character's amount of gold.<br>
+<hr><br>
+<b>int Player.Gold</b>();<br>
+<hr><br>
+<b>Result:</b> integer - amount of player gold.

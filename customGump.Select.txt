@@ -1,0 +1,17 @@
+Select a custom gump item.<br>
+<hr><br>
+Call variants:<br><br>
+<b>customGump.Select</b>('name');<br>
+<b>customGump.Select</b>('name', serial);<br>
+<b>customGump.Select</b>('name', serial, front);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - item name. If 'gump' is specified, gump is selected<br>
+    <li><b>serial</b> - integer - item serial number for selection<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>front</b> - boolean - selection of the first element of the container (when selecting the container)<br>
+        <i>Default value</i>: <b>false</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

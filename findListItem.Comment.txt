@@ -1,0 +1,5 @@
+Comment on a search list item.<br>
+<hr><br>
+<b>String findListItem.Comment</b>();<br>
+<hr><br>
+<b>Result:</b> string - comment on search list item.

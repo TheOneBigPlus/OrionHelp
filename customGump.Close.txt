@@ -1,0 +1,5 @@
+Close the custom gump in the client.<br>
+<hr><br>
+<b>customGump.Close</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

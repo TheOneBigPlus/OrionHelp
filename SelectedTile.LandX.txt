@@ -1,0 +1,5 @@
+Get the X coordinate of the selected land tile.<br>
+<hr><br>
+<b>int SelectedTile.LandX</b>();<br>
+<hr><br>
+<b>Result:</b> integer - the X coordinate of the selected land tile.

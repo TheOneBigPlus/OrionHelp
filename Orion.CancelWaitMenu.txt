@@ -1,0 +1,5 @@
+Delete all installed hooks on the menu.<br>
+<hr><br>
+<b>Orion.CancelWaitMenu</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

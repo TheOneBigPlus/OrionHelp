@@ -1,0 +1,15 @@
+Write string value to registry.<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.RegWrite</b>('varName', 'value');<br>
+<b>bool Orion.RegWrite</b>('varName', 'value', 'subKey');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>varName</b> - string - variable name<br>
+    <li><b>value</b> - string - variable value<br>
+    <li><b>subKey</b> - string - registry path<br>
+        <i>Default value</i>: <b>'Software\\OrionAssistant\\vars'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the value is successfully written.

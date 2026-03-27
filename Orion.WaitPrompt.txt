@@ -1,0 +1,22 @@
+Add a hook for prompt.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.WaitPrompt</b>('text');<br>
+<b>Orion.WaitPrompt</b>('text', 'serial');<br>
+<b>Orion.WaitPrompt</b>('text', 'serial', 'type');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - text to enter<br>
+    <li><b>serial</b> - string - prompt serial number<br>
+        For value <b>'0'</b> the serial number check is ignored<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>type</b> - string - check file availability before opening<br>
+        Available values:<br>
+        <b>'all'</b> - all types<br>
+        <b>ASCII</b> - only ASCII prompts<br>
+        <b>unicode</b> - only unicode prompts.<br>
+        <i>Default value</i>: <b>'all'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+List of gump's button/ButtonTileArt.<br>
+<hr><br>
+<b>StringList gump.ButtonList</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of gump's button/ButtonTileArt.

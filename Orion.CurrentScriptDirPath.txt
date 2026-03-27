@@ -1,0 +1,5 @@
+Get the path to the directory where the current file loaded on the scripts tab is located.<br>
+<hr><br>
+<b>String Orion.CurrentScriptDirPath</b>();<br>
+<hr><br>
+<b>Result:</b> string - path to the directory with the currently loaded script.<br>

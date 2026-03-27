@@ -1,0 +1,10 @@
+Change list name.<br>
+<hr><br>
+<b>findList.SetName</b>('value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - string - new list name<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

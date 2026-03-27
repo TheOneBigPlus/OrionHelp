@@ -1,0 +1,15 @@
+Get the (X, Y) coordinates from the sexatnt coordinates string.<br>
+<hr><br>
+Call variants:<br><br>
+<b>PositionObject Orion.SextantToXY</b>('text');<br>
+<b>PositionObject Orion.SextantToXY</b>('text', facet);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>text</b> - string - text to parse.<br>
+        For example: <b>"79o 0'S 35o 5'E"</b> or <b>"danger of collapsing near 79o 0'S, 35o 5'E at a location in the wilderness!"</b><br>
+    <li><b>facet</b> - integer - facet (map) number.<br>
+        <i>Default value</i>: <b>current facet</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>PositionObject</b>, coordinates or null if the text could not be parsed.

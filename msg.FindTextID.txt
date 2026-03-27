@@ -1,0 +1,5 @@
+Index of the message found in the search query (starts at 0).<br>
+<hr><br>
+<b>int msg.FindTextID</b>();<br>
+<hr><br>
+<b>Result:</b> integer - search message post index.

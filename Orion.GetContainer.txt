@@ -1,0 +1,10 @@
+Get the serial number of the container that the specified object is in<br>
+<hr><br>
+<b>String Orion.GetContainer</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - The object serial ID<br>
+</ul>
+<hr><br>
+<b>Result:</b> string - the serial number of the object's container.

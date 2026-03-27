@@ -1,0 +1,13 @@
+Wait for a vendor shopping list to open/refresh<br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Orion.WaitForShop</b>();<br>
+<b>bool Orion.WaitForShop</b>(delay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>delay</b> - integer - max wait time, in milliseconds<br>
+        <i>Default value</i>: <b>1000</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the list of goods was received from the server.

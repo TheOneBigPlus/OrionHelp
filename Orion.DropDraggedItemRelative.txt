@@ -1,0 +1,15 @@
+Drop a grabbed object to the ground relative to the character.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.DropDraggedItemRelative</b>(x, y);<br>
+<b>Orion.DropDraggedItemRelative</b>(x, y, z);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - X coordinate relative to the character<br>
+    <li><b>y</b> - integer - Y coordinate relative to the character<br>
+    <li><b>z</b> - integer - Z coordinate relative to the character<br>
+        <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

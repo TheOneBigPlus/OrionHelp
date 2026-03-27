@@ -1,0 +1,5 @@
+Cancel all hooks on the context menu.<br>
+<hr><br>
+<b>Orion.CancelContextMenu</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

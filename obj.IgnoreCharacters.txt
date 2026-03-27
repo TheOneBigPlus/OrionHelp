@@ -1,0 +1,5 @@
+Check if ignoring other characters when moving an object.<br>
+<hr><br>
+<b>bool obj.IgnoreCharacters</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the object ignores other characters.

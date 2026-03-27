@@ -1,0 +1,5 @@
+Get object color.<br>
+<hr><br>
+<b>String obj.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - object color.

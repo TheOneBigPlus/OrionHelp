@@ -1,0 +1,5 @@
+Get tile layer (if it is an object that can be worn on the character).<br>
+<hr><br>
+<b>int staticTiledata.Layer</b>();<br>
+<hr><br>
+<b>Result:</b> integer - tile layer.

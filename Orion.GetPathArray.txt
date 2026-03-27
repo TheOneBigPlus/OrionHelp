@@ -1,0 +1,33 @@
+Building a path to a specified point in the world.<br>
+<hr><br>
+Call variants:<br><br>
+<b>PositionObjectList Orion.GetPathArray</b>(endX, endY);<br>
+<b>PositionObjectList Orion.GetPathArray</b>(endX, endY, endZ);<br>
+<b>PositionObjectList Orion.GetPathArray</b>(endX, endY, endZ, distanceXY);<br>
+<b>PositionObjectList Orion.GetPathArray</b>(endX, endY, endZ, distanceXY, distanceZ);<br>
+<b>PositionObjectList Orion.GetPathArray</b>(endX, endY, endZ, distanceXY, distanceZ, run);<br>
+<b>PositionObjectList Orion.GetPathArray</b>(endX, endY, endZ, distanceXY, distanceZ, run, openDoor);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>endX</b> - integer - target X coordinate<br>
+    <li><b>endY</b> - integer - target Y coordinate<br>
+    <li><b>endZ</b> - integer - target Z coordinate<br>
+        <i>Default value</i>: <b>256</b><br>
+    <li><b>distanceXY</b> - integer - maximum distance along the X and Y axis to the end point<br>
+        <i>Default value</i>: <b>1</b><br>
+    <li><b>distanceZ</b> - integer - maximum distance along the Z axis to the end point<br>
+        <i>Default value</i>: <b>255</b><br>
+    <li><b>run</b> - integer - running mode<br>
+        <b>0</b> - only walking<br>
+        <b>1</b> - only runnung<br>
+        <b>2</b> - only depending on the Always Run client option<br>
+        <i>Default value</i>: <b>2</b><br>
+    <li><b>openDoor</b> - integer - door opening mode<br>
+        <b>0</b> - do not open<br>
+        <b>1</b> - always open<br>
+        <b>2</b> - only depending on client Auto Open Doors option<br>
+        <i>Default value</i>: <b>2</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> array of objects <b>PositionObject</b>, with waypoints to the destination point.

@@ -1,0 +1,10 @@
+Close the gump status bar in the client.<br>
+<hr><br>
+<b>Orion.CloseStatusbar</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object to which the gump status bar is attached, or 'all'<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,10 @@
+Save the current set of hotkeys (in the Hotkeys folder in the root of the assistant).<br>
+<hr><br>
+<b>bool Orion.SaveHotkeys</b>('fileName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>fileName</b> - string - the path to the file<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the file is saved.

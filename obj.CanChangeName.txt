@@ -1,0 +1,5 @@
+Check if the object can change names.<br>
+<hr><br>
+<b>bool obj.CanChangeName</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the name can be changed.

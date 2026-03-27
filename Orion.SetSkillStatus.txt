@@ -1,0 +1,11 @@
+Set skill state (up, down, or locked).<br>
+<hr><br>
+<b>Orion.SetSkillStatus</b>('name', 'status');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - skill name or index<br>
+    <li><b>status</b> - string - can be <b>'Up'</b>, <b>'Down'</b>, <b>'Lock'</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

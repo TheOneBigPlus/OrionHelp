@@ -1,0 +1,10 @@
+Change the list of items in a shop list.<br>
+<hr><br>
+<b>shopList.SetItems</b>(shopListItemObjectList);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>shopListItemObjectList</b> - array <b>ShopListItem</b> - list of items<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,17 @@
+Run an assistant macro.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.PlayMacro</b>('name');<br>
+<b>Orion.PlayMacro</b>('name', waitForFinished);<br>
+<b>Orion.PlayMacro</b>('name', waitForFinished, maxDelay);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>name</b> - string - macro name (case sensitive)<br>
+    <li><b>waitForFinished</b> - boolean - wait for the completion of the macro<br>
+        <i>Default value</i>: <b>false</b><br>
+    <li><b>maxDelay</b> - integer - maximum wait delay (ms)<br>
+        <i>Default value</i>: <b>5000</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Cancel current target hooks.<br>
+<hr><br>
+<b>Orion.CancelWaitTarget</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

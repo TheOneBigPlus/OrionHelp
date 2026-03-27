@@ -1,0 +1,5 @@
+List of gump's tilepic/tilepichue.<br>
+<hr><br>
+<b>StringList gump.TilepicList</b>();<br>
+<hr><br>
+<b>Result:</b> string list - list of gump's tilepic/tilepichue.

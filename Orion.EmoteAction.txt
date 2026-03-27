@@ -1,0 +1,10 @@
+Request for call emotes.<br>
+<hr><br>
+<b>Orion.EmoteAction</b>('actionName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>actionName</b> - string - name of emote (for example: <b>bow</b>, <b>salute</b>)<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,11 @@
+Add a gump hook.<br>
+When adding hooks, previous hooks are not overwritten, and a new one is added to the hook queue.<br>
+<hr><br>
+<b>Orion.WaitGump</b>(hook);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>hook</b> - class object <b>GumpHookObject</b>. Created using function <b>CreateGumpHook</b>.<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

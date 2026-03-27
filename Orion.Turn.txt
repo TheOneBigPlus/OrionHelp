@@ -1,0 +1,10 @@
+Character turn request.<br>
+<hr><br>
+<b>Orion.Turn</b>('direction');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b><a href="search:Directions">direction</a></b> - string<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

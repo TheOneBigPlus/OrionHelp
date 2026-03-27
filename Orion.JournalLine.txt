@@ -1,0 +1,10 @@
+Get the journal message at a specified line number<br>
+<hr><br>
+<b>JournalMessage Orion.JournalLine</b>(index);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>index</b> - integer - message index starts at 0<br>
+</ul>
+<hr><br>
+<b>Result:</b> class object <b>JournalMessage</b> or null if there is no such message.

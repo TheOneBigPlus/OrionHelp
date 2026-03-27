@@ -1,0 +1,30 @@
+Add object icon to a timer.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.DisplayTimerSetIcon</b>('id', 'position', 'iconGraphic');<br>
+<b>Orion.DisplayTimerSetIcon</b>('id', 'position', 'iconGraphic', iconColor);<br>
+<b>Orion.DisplayTimerSetIcon</b>('id', 'position', 'iconGraphic', iconColor, iconX, iconY);<br>
+<b>Orion.DisplayTimerSetIcon</b>('id', 'position', 'iconGraphic', iconColor, iconX, iconY, iconWidth, iconHeight);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>id</b> - string - display timer ID<br>
+    <li><b><a href="search:DisplayTimerPosition">position</a></b> - string - icon position, valid relative to timer<br>
+        <b>AboveChar</b> and <b>UnderChar</b> not used<br>
+        For <b>Custom</b> used timer center<br>
+    <li><b>iconGraphic</b> - string - graphic timer icon<br>
+    <li><b>iconColor</b> - string - timer icon color<br>
+        <i>Default value</i>: <b>'0'</b><br>
+    <li><b>iconX</b> - integer - X coordinate of timer icon<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>iconY</b> - integer - Y coordinate of timer icon<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>iconWidth</b> - integer - timer icon width<br>
+        If 0 is specified, the standard icon width is taken<br>
+        <i>Default value</i>: <b>0</b><br>
+    <li><b>iconHeight</b> - integer - timer icon height<br>
+        If 0 is specified, the standard icon height is taken<br>
+    <i>Default value</i>: <b>0</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

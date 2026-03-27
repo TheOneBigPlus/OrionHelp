@@ -1,0 +1,14 @@
+Add enemy alias.<br>
+<hr><br>
+Call variants:<br><br>
+<b>Orion.AddEnemy</b>('enemyName');<br>
+<b>Orion.AddEnemy</b>('enemyName', 'serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>enemyName</b> - string - enemy alias name<br>
+    <li><b>serial</b> - string - enemy serial number<br>
+        <i>Default value</i>: <b>call of target for manual indication of the object in the client</b><br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Get an object's name.<br>
+<hr><br>
+<b>String obj.Name</b>();<br>
+<hr><br>
+<b>Result:</b> string - the object name.

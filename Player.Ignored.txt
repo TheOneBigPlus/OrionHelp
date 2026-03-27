@@ -1,0 +1,5 @@
+Check if your character is in the ignore list.<br>
+<hr><br>
+<b>bool Player.Ignored</b>();<br>
+<hr><br>
+<b>Result:</b> boolean - true if the player is on Orion's ignore list.

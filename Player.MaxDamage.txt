@@ -1,0 +1,5 @@
+Get your character's maximum damage.<br>
+<hr><br>
+<b>int Player.MaxDamage</b>();<br>
+<hr><br>
+<b>Result:</b> integer - maximum player damage.

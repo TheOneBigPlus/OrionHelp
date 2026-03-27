@@ -1,0 +1,14 @@
+Click with the mouse at the specified coordinates.<br>
+<hr><br>
+<b>Orion.MouseClick</b>(x, y, 'button');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>x</b> - integer - X coordinate in the window to click<br>
+    <li><b>y</b> - integer - Y coordinate in the window to click<br>
+    <li><b>button</b> - string - ID of the button to click (left/right/mid/x1/x2, can be combined with 'double' for doubleclick. For example: 'left|double')<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.
+<br><br>
+Tip: Use "Orion.GetMousePosition()" to get coordinates 

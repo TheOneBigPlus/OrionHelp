@@ -1,0 +1,10 @@
+Put on a set.<br>
+<hr><br>
+<b>Orion.Arm</b>('setName');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>setName</b> - string - set name<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

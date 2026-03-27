@@ -1,0 +1,10 @@
+The value of the specified minmaxbuttons of the answered custom gump.<br>
+<hr><br>
+<b>int CustomGumpResponse.MinMaxButton</b>(serial);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - integer - serial number of the item<br>
+</ul>
+<hr><br>
+<b>Result:</b> integer - the minmaxbuttons value with the specified serial number.

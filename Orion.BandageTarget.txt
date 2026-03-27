@@ -1,0 +1,11 @@
+Apply bandage with the new targeting system.<br>
+For the correct operation, the new targeting system must be supported by the server.<br>
+<hr><br>
+<b>Orion.BandageTarget</b>('serial');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serial</b> - string - serial number of the object for using bandages<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

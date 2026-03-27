@@ -1,0 +1,6 @@
+Reset limits on search by Z coordinate to default values.<br>
+minZ = -128, maxZ = 127<br>
+<hr><br>
+<b>Orion.ResetSearchRangeZ</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,5 @@
+Tile graphic.<br>
+<hr><br>
+<b>String tile.Graphic</b>();<br>
+<hr><br>
+<b>Result:</b> string - tile graphic.

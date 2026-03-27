@@ -1,0 +1,5 @@
+Set the LastTarget in the context of the Sallos client functions.<br>
+<hr><br>
+<b>Sallos.SetTarget</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

@@ -1,0 +1,13 @@
+Get the status of a trade window confirmation checkbox.<br>
+<hr><br>
+<b>bool Orion.TradeCheckState</b>('serialOrIndex', 'container');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>serialOrIndex</b> - string - trade window index. Starts from 0, or serial number<br>
+    <li><b>container</b> - string - window ID<br>
+        <b>'right'</b> or <b>'1'</b> - for the right window.<br>
+        <b>'left'</b> or <b>'0'</b> - for the left window.<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if checked.

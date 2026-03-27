@@ -1,0 +1,10 @@
+Modify a comment on a shop list item.<br>
+<hr><br>
+<b>shopListItem.SetComment</b>('value');<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>value</b> - string - new comment<br>
+</ul>
+<hr><br>
+<b>Result:</b> does not return a value.

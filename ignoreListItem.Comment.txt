@@ -1,0 +1,5 @@
+Comment on ignore list item.<br>
+<hr><br>
+<b>String ignoreListItem.Comment</b>();<br>
+<hr><br>
+<b>Result:</b> string - comment on the list item.

@@ -1,0 +1,5 @@
+Search list item color.<br>
+<hr><br>
+<b>String findListItem.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - search list item color.

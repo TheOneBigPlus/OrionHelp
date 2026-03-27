@@ -1,0 +1,5 @@
+The color of the item in the shop list.<br>
+<hr><br>
+<b>String shopListItem.Color</b>();<br>
+<hr><br>
+<b>Result:</b> string - the color of the item in the shop list.

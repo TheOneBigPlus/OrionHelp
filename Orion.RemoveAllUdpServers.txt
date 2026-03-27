@@ -1,0 +1,5 @@
+Stop and remove all UDP servers.<br>
+<hr><br>
+<b>Orion.RemoveAllUdpServers</b>();<br>
+<hr><br>
+<b>Result:</b> does not return a value.

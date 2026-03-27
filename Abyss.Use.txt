@@ -1,0 +1,21 @@
+Use an item with the specified type of ability if it exists.<br>
+<i>For The Abyss server only.</i><br>
+<hr><br>
+Call variants:<br><br>
+<b>bool Abyss.Use</b>('abilityType');<br>
+<b>bool Abyss.Use</b>('abilityType', 'graphic');<br>
+<b>bool Abyss.Use</b>('abilityType', 'graphic', 'container');<br>
+<b>bool Abyss.Use</b>('abilityType', 'graphic', 'container', recurse);<br>
+<hr><br>
+Arguments:
+<ul style="margin-left: -20px">
+    <li><b>abilityType</b> - string - the name of the spell (or its serial number), for which ability we look at the charges;<br>
+    <li><b>graphic</b> - string - The type of object(s) to look for.<br>
+        <i>Default value</i>: <b>'0x1515|0x1F03'</b>;<br>
+    <li><b>container</b> - string - serial of the container to search.<br>
+        <i>Default value</i>: <b>'self'</b>;<br>
+    <li><b>recurse</b> - boolean - search open subcontainers contained within the parent container.<br>
+        <i>Default value</i>: <b>true</b>;<br>
+</ul>
+<hr><br>
+<b>Result:</b> boolean - true if the item was found and a request for use was sent.
